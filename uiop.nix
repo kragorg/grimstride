@@ -123,7 +123,7 @@ rec {
 
   mkIndexEntries =
     pages:
-    concatMapStringsSep "\n" (page: "- [${page.title}](${page.prefix}${page.name}.html)") (
+    concatMapStringsSep "\n" (page: "- [${page.title}](${page.prefix}--${page.name}.html)") (
       flatten pages
     );
 
@@ -132,14 +132,14 @@ rec {
       css ? "main.css",
       homelink ? true,
       name,
-      prefix ? "",
+      prefix ? null,
       site ? "",
       source,
       title,
       uplink ? false,
     }:
     let
-      prefixedName = "${prefix}${name}";
+      prefixedName = if prefix == null then name else "${prefix}--${name}";
       include = pkgs.writeText "header" ''
         <nav class="nav">
           ${

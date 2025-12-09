@@ -6,7 +6,7 @@ let
   inherit (pkgs.lib) flatten;
   config = {
     css = "wyrmlings.css";
-    prefix = "wyr-";
+    prefix = "wyr";
     site = "Wyrmlings";
     uplink = "wyrmlings.html";
   };

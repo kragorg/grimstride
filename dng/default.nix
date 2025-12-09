@@ -4,7 +4,7 @@
 }:
 let
   config = {
-    prefix = "dng-";
+    prefix = "dng";
     site = "Dungeons & Gardens";
     uplink = "dungeons-and-gardens.html";
     css = "dng.css";
