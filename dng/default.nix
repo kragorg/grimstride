@@ -7,6 +7,7 @@ let
     prefix = "dng-";
     site = "Dungeons & Gardens";
     uplink = "dungeons-and-gardens.html";
+    css = "dng.css";
   };
   chapterPrefix = uiop.titleCondPrefix (i: "Chapter ${toString i}: ");
   chapters = uiop.mkPages chapterPrefix config ./chapters;

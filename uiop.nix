@@ -7,6 +7,7 @@ let
     flatten
     imap0
     isString
+    optionalAttrs
     pipe
     sort
     toLower
@@ -75,19 +76,24 @@ rec {
 
   sources2pages =
     {
+      css ? null,
       prefix,
       site,
       uplink,
       ...
     }:
-    map (source: rec {
-      inherit
-        prefix
-        site
-        source
-        uplink
-        ;
-    });
+    map (
+      source:
+      rec {
+        inherit
+          prefix
+          site
+          source
+          uplink
+          ;
+      }
+      // optionalAttrs (css != null) { inherit css; }
+    );
 
   readTitles = map (page: page // { title = readTitle page.source; });
 
