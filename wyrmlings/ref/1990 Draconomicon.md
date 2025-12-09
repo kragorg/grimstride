@@ -1,4 +1,4 @@
-# Draconomicon (1990) {#main .plain .wyrmlings}
+# Draconomicon (1990)
 
 > Nigel Findley et al., *Draconomicon* (Lake Geneva, WI: TSR, Inc., 1990).
 

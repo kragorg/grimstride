@@ -1,4 +1,4 @@
-# Explorer’s Guide to Wildemount (2020) {#main .plain .wyrmlings}
+# Explorer’s Guide to Wildemount (2020)
 
 > Mercer, Matthew, James Haeck, James Introcaso, and Chris Lockey. _Explorer’s Guide to Wildemount_ (Renton, WA: Wizards of the Coast, 2020).
 

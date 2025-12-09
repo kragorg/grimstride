@@ -1,4 +1,4 @@
-# AD&D Monstrous Manual (1993) {#main .plain .wyrmlings}
+# AD&D Monstrous Manual (1993)
 
 White dragons, the smallest and weakest of the evil dragons, are slow witted but efficient hunters. They are impulsive, vicious, and animalistic, tending to consider only the needs and emotions of the moment and having no foresight or regret. Despite their low intelligence, they are as greedy and evil as the other evil dragons.
 

@@ -1,4 +1,4 @@
-# The Tutoring Plan {#main .plain}
+# The Tutoring Plan
 
 **Goal:** Using magically enhanced techniques of [Total Physical Response](https://en.wikipedia.org/wiki/Total_physical_response), Kragor will teach the wyrmling Orcish and learn Draconic in return.
 

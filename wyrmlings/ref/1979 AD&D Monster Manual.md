@@ -1,4 +1,4 @@
-# AD&D Monster Manual (1979) {#main .plain .wyrmlings}
+# AD&D Monster Manual (1979)
 
 > Gary Gygax, _Advanced Dungeons & Dragons Monster Manual, 4th ed._ (Lake Geneva, WI: TSR, Inc., 1979).
 

@@ -1,4 +1,4 @@
-# Fizban’s Treasury of Dragons (2021) {#main .plain .wyrmlings}
+# Fizban’s Treasury of Dragons (2021)
 
 > Wizards of the Coast, _Fizban’s Treasury of Dragons_ (Renton, WA: Wizards of the Coast, 2021).
 

@@ -5,6 +5,7 @@
 let
   inherit (pkgs.lib) flatten;
   config = {
+    css = "wyrmlings.css";
     prefix = "wyr-";
     site = "Wyrmlings";
     uplink = "wyrmlings.html";
@@ -26,6 +27,7 @@ flatten [
   }
   rec {
     inherit (config) prefix site uplink;
+    css = "dng.css";
     name = "kragor-and-rime-flake";
     source = builtins.path {
       path = ./. + "/Kragor and Rime-flake.md";

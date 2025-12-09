@@ -1,4 +1,4 @@
-# Draconomicon: The Book of Dragons (2003) {#main .plain .wyrmlings}
+# Draconomicon: The Book of Dragons (2003)
 
 > Andy Collins et al., *Draconomicon: The Book of Dragons* (Renton, WA: Wizards of the Coast, Inc., 2003).
 

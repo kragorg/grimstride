@@ -1,4 +1,4 @@
-# Monsters & Treasure (1974) {#main .plain .wyrmlings}
+# Monsters & Treasure (1974)
 
 > Gary Gygax and Dave Arneson, _Monsters & Treasure, vol. 2 of Dungeons & Dragons_ (Lake Geneva, WI: Tactical Studies Rules, 1974).
 

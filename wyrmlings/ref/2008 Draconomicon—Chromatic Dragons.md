@@ -1,4 +1,4 @@
-# Draconomicon: Chromatic Dragons (2008) {#main .plain .wyrmlings}
+# Draconomicon: Chromatic Dragons (2008)
 
 > Bruce R. Cordell et al., _Draconomicon: Chromatic Dragons_ (Renton, WA: Wizards of the Coast, 2008).
 
