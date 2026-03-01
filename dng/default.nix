@@ -5,7 +5,7 @@
 let
   config = {
     prefix = "dng";
-    site = "Dungeons & Gardens";
+    site = "Dungeons & Gardens I";
     uplink = "dungeons-and-gardens.html";
     css = "dng.css";
   };
@@ -21,7 +21,7 @@ let
   index = pkgs.writeText (uiop.replaceExtension config.uplink "md") ''
     # ${config.site}
 
-    - [Synopsis](${config.prefix}synopsis.html)
+    - [Synopsis](${config.prefix}--synopsis.html)
 
     ## Individual Chapters
 
@@ -33,7 +33,7 @@ in
     css = "index.css";
     name = "dungeons-and-gardens";
     source = index;
-    title = "Dungeons & Gardens";
+    title = "Dungeons & Gardens I";
   }
   {
     inherit (config) prefix site uplink;

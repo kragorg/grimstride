@@ -1,4 +1,4 @@
-# Dungeons & Gardens — Synopsis
+# Dungeons & Gardens I — Synopsis
 
 <span class="dropcap">The adventure began within</span>
 the salt-scoured winds of the far north,
