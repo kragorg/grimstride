@@ -2,7 +2,7 @@
 @import url("variables.css");
 @import url("nav.css");
 @import url("fonts.css");
-@import url("figures.css")
+@import url("figures.css");
 html {
   background-color: var(--HB_Color_Background);
   background-image: var(--background-image);
