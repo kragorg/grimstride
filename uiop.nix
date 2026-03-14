@@ -1,207 +1,406 @@
-{
-  pkgs,
-}:
+# uiop.nix - Utility functions for the static site generator.
+# Usage: import ./uiop.nix { inherit pkgs; }
+{ pkgs }:
 let
-  inherit (pkgs.lib)
-    concatMapStringsSep
-    flatten
-    imap0
-    isString
-    optionalAttrs
-    pipe
-    sort
-    toLower
-    trim
-    ;
-  inherit (pkgs.lib.strings) sanitizeDerivationName;
-  src = ./.;
-  env = pkgs.symlinkJoin {
-    name = "grimstride-buildpage-env";
-    paths = [
-      pkgs.coreutils
-      pkgs.pandoc
-      pkgs.zsh
-    ];
-  };
-in
-rec {
+  lib = pkgs.lib;
+  uiop = rec {
+    # -- Path utilities --
+    filterExtensions =
+      extensions: paths:
+      let
+        suffixes = map (ext: ".${lib.toLower ext}") extensions;
+        match =
+          path:
+          let
+            s = lib.toLower (builtins.toString path);
+          in
+          builtins.any (suffix: lib.hasSuffix suffix s);
+      in
+      builtins.filter match paths;
+    # -- String utilities --
+    # Shell-quote a string with single quotes.
+    shellQuote =
+      s:
+      let
+        str = toString s;
+      in
+      "'" + builtins.replaceStrings [ "'" ] [ "'\\''" ] str + "'";
 
-  readTitle =
-    path:
-    let
-      template = builtins.toFile "title-template.txt" "$title$";
-      result = pkgs.runCommand "readTitle" { } ''
-        ${pkgs.pandoc}/bin/pandoc \
-          --template=${template} \
-          --shift-heading-level-by=-1 \
-          --from=markdown \
-          --to=plain \
-          "${path}" > "$out"
-      '';
-    in
-    trim (builtins.readFile result);
+    # Escape dollar signs for ninja syntax.
+    ninjaEscapeDollar = s: builtins.replaceStrings [ "$" ] [ "$$" ] s;
 
-  title2name =
-    title:
-    pipe title [
-      toLower
-      sanitizeDerivationName
-    ];
+    # Escape a path for ninja build statements.
+    ninjaEscapePath = s: builtins.replaceStrings [ "$" " " ":" ] [ "$$" "$ " "$:" ] s;
 
-  replaceExtension =
-    filename: ext:
-    let
-      m = builtins.match "(.*)\\..*" filename;
-      base = if m == null then filename else builtins.head m;
-    in
-    "${base}.${ext}";
+    # Prepare a value for a ninja variable assignment: shell-quote then ninja-escape.
+    ninjaVarValue = s: ninjaEscapeDollar (shellQuote s);
 
-  listFiles =
-    dir:
-    pipe dir [
-      builtins.readDir
-      builtins.attrNames
-      (ls: sort (a: b: a < b) ls)
-      (map (fname: "${dir}/${fname}"))
-    ];
+    # -- Page normalization --
 
-  listMarkdown =
-    dir:
-    pipe dir [
-      listFiles
-      (builtins.filter (fname: builtins.match ".*\\.md$" fname != null))
-    ];
+    # Derive base name from source path: ./index.md -> "index"
+    mkPageName = source: lib.removeSuffix ".md" (builtins.baseNameOf (toString source));
 
-  skipIndexMarkdown = builtins.filter (fname: builtins.baseNameOf fname != "index.md");
+    # Construct output filename from prefix and name, all lowercase.
+    mkOutputFilename =
+      {
+        prefix ? null,
+        name,
+        ...
+      }:
+      lib.toLower (if prefix != null then "${prefix}--${name}.html" else "${name}.html");
 
-  sources2pages =
-    {
-      css ? null,
-      prefix,
-      site,
-      uplink,
-      ...
-    }:
-    map (
-      source:
-      rec {
+    # Normalize a page attrset: fill in name, output, uplink, homelink, include.
+    normalizePage =
+      page:
+      let
+        name = page.name or (mkPageName page.source);
+        prefix = page.prefix or null;
+        base = page // {
+          inherit name;
+        };
+        withPrefix = if prefix != null then base // { inherit prefix; } else removeAttrs base [ "prefix" ];
+        output = mkOutputFilename (withPrefix // { inherit prefix; });
+
+        # Auto-computed nav links; explicit page attrs override via `or`.
+        computedUplink =
+          if prefix == null then
+            false # home area: nowhere to go up to
+          else if name == "index" then
+            false # area index: already at the top
+          else
+            mkOutputFilename {
+              inherit prefix;
+              name = "index";
+            };
+        computedHomelink =
+          if prefix == null then
+            false # home area: you are home
+          else
+            "index.html";
+
+        uplink = withPrefix.uplink or computedUplink;
+        homelink = withPrefix.homelink or computedHomelink;
+        include = mkNavInclude { inherit uplink homelink; };
+      in
+      withPrefix
+      // {
         inherit
-          prefix
-          site
-          source
+          output
           uplink
+          homelink
+          include
           ;
-      }
-      // optionalAttrs (css != null) { inherit css; }
-    );
+      };
 
-  readTitles = map (page: page // { title = readTitle page.source; });
-
-  xformTitles = xform: imap0 (i: page: page // { title = xform i page.title; });
-
-  titles2names = map (page: page // { name = title2name page.title; });
-
-  titleCondPrefix =
-    fn: i: title:
-    if i > 0 then "${fn i}${title}" else title;
-
-  titleIdentity = _: title: title;
-
-  mkPages =
-    title-xform: attrs: directory:
-    let
-      retitle = i: page: page // { title = title-xform i page.title; };
-    in
-    pipe directory [
-      listMarkdown
-      skipIndexMarkdown
-      (sources2pages attrs)
-      readTitles
-      (imap0 retitle)
-      titles2names
-    ];
-
-  mkIndexEntries =
-    pages:
-    concatMapStringsSep "\n" (page: "- [${page.title}](${page.prefix}--${page.name}.html)") (
-      flatten pages
-    );
-
-  buildPage =
-    {
-      css ? "main.css",
-      homelink ? true,
-      name,
-      prefix ? null,
-      site ? "",
-      source,
-      title,
-      uplink ? false,
-    }:
-    let
-      prefixedName = if prefix == null then name else "${prefix}--${name}";
-      include = pkgs.writeText "header" ''
+    # Generate a nav HTML fragment and return its store path.
+    # uplink / homelink: a URL string to show the link, or false/null to omit it.
+    mkNavInclude =
+      { uplink, homelink }:
+      pkgs.writeText "nav-include" ''
         <nav class="nav">
           ${
-            if (isString uplink) then
-              ''
-                <a class="up" data-tooltip="Up" href="${uplink}"></a>
-              ''
-            else
-              ""
+            if builtins.isString uplink then ''<a class="up" data-tooltip="Up" href="${uplink}"></a>'' else ""
           }
           ${
-            if homelink then
-              ''
-                <a class="home" data-tooltip="Home" href="index.html"></a>
-              ''
+            if builtins.isString homelink then
+              ''<a class="home" data-tooltip="Home" href="${homelink}"></a>''
             else
               ""
           }
         </nav>
       '';
-    in
-    derivation {
-      inherit
-        css
-        include
-        site
-        source
-        title
-        ;
-      name = prefixedName;
-      filename = "${prefixedName}.html";
 
-      PATH = "${env}/bin";
-      LC_ALL = "C.UTF-8";
-      LANG = "C.UTF-8";
+    # -- Content utilities --
 
-      args = [
-        "--no_global_rcs"
-        "--no_rcs"
-        ./buildPage.zsh
-        source
-      ];
-      builder = "${pkgs.zsh}/bin/zsh";
-      system = pkgs.stdenv.hostPlatform.system;
-    };
+    # Strip a trailing newline (and any preceding carriage return).
+    trim = s: lib.removeSuffix "\r" (lib.removeSuffix "\n" s);
 
-  buildSite =
-    {
-      name,
-      pages ? [ ],
-    }:
-    let
-      env = pkgs.symlinkJoin {
-        name = "${name}-env";
-        paths = map buildPage (flatten pages);
+    # Extract the document title from a Markdown file using pure Nix string parsing.
+    # Handles ATX headings (# through ######), YAML front matter, and pandoc attribute blocks.
+    extractTitle =
+      source:
+      let
+        lines = lib.splitString "\n" (builtins.readFile source);
+
+        # Strip YAML front matter (--- … ---/...) if present at the top.
+        withoutFM =
+          let
+            hasFM = lines != [ ] && lib.removeSuffix "\r" (builtins.head lines) == "---";
+            skipUntilEnd =
+              ls:
+              if ls == [ ] then
+                [ ]
+              else
+                let
+                  h = lib.removeSuffix "\r" (builtins.head ls);
+                in
+                if h == "---" || h == "..." then builtins.tail ls else skipUntilEnd (builtins.tail ls);
+          in
+          if hasFM then skipUntilEnd (builtins.tail lines) else lines;
+
+        # Find the first heading line (any level: # through ######).
+        isHeading = line: builtins.match "#{1,6} .*" line != null;
+        headingLine = lib.findFirst isHeading null withoutFM;
+
+        # Strip leading hashes + space(s); right-trim trailing whitespace.
+        rawTitle =
+          if headingLine == null then
+            ""
+          else
+            let
+              m = builtins.match "#{1,6} +(.*[^ \t]|[^ \t])" headingLine;
+            in
+            if m != null then builtins.head m else "";
+
+        # Strip trailing pandoc attribute block {#id .class …}.
+        title =
+          let
+            m = builtins.match "(.*[^ ]) *[{][^}]*[}]$" rawTitle;
+          in
+          if m != null then builtins.head m else rawTitle;
+      in
+      title;
+
+    # Lowercase a string and replace non-alphanumeric runs with a single dash.
+    slugify =
+      s:
+      let
+        lower = lib.toLower s;
+        chars = lib.stringToCharacters lower;
+        isAlnum = c: builtins.match "[a-z0-9]" c != null;
+        step =
+          acc: c:
+          if isAlnum c then
+            {
+              str = acc.str + (if acc.sep && acc.str != "" then "-" else "") + c;
+              sep = false;
+            }
+          else
+            acc // { sep = true; };
+        result = builtins.foldl' step {
+          str = "";
+          sep = false;
+        } chars;
+      in
+      result.str;
+
+    # Build a page attrset from a source file and an already-computed title.
+    # extraAttrs (e.g. { css = "foo.css"; }) are merged into the result.
+    mkPageWithTitle =
+      extraAttrs: source: title:
+      let
+        name = slugify title;
+        srcAbsPath = toString source;
+        safeSource = builtins.path {
+          path = source;
+          name = "${name}.md";
+        };
+      in
+      extraAttrs
+      // {
+        inherit name title srcAbsPath;
+        source = safeSource;
       };
-    in
-    pkgs.runCommand name { } ''
-      mkdir -p $out
-      cp -RH ${env}/* $out
-      cd ${src}
-      ${pkgs.fd}/bin/fd -e css -e jpg -e png -e woff2 -e zip -X cp {} $out
-    '';
 
-}
+    # Build a page attrset from a source file, extracting the title automatically.
+    mkPage = extraAttrs: source: mkPageWithTitle extraAttrs source (extractTitle source);
+
+    # Read all .md files from dir as pages, sorted by filename.
+    # builtins.attrNames returns keys in lexicographic order.
+    readPages =
+      extraAttrs: dir:
+      let
+        mdNames = builtins.filter (n: lib.hasSuffix ".md" n) (builtins.attrNames (builtins.readDir dir));
+      in
+      map (n: mkPage extraAttrs (dir + "/${n}")) mdNames;
+
+    # Read .md files from dir as chapters: the first keeps its title as-is;
+    # subsequent entries are titled "Chapter N — <original title>" (N from 1).
+    readPagesWithPrefix =
+      prefix: extraAttrs: dir:
+      let
+        mdNames = builtins.filter (n: lib.hasSuffix ".md" n) (builtins.attrNames (builtins.readDir dir));
+        sources = map (n: dir + "/${n}") mdNames;
+        mkChapter =
+          i: source:
+          let
+            rawTitle = extractTitle source;
+            title = if i == 0 then rawTitle else "${prefix} ${toString i} — ${rawTitle}";
+          in
+          mkPageWithTitle extraAttrs source title;
+      in
+      lib.imap0 mkChapter sources;
+
+    # Generate a Markdown index body for a list of { heading, pages } sections.
+    mkIndexBody =
+      { prefix, sections }:
+      let
+        mkLink =
+          page:
+          "- [${page.title}](${
+            mkOutputFilename {
+              inherit prefix;
+              name = page.name;
+            }
+          })";
+        mkSection =
+          {
+            heading ? null,
+            pages,
+          }:
+          "## ${heading}\n\n" + ":::index\n" + lib.concatStringsSep "\n" (map mkLink pages) + "\n:::\n";
+      in
+      lib.concatStringsSep "\n\n" (map mkSection sections);
+
+    # Build an index page from a Markdown template.
+    # Supports two placeholder styles (may be mixed in one template):
+    #   <!-- INDEX:key --> replaced with only the page links for the matching section.
+    #     key is section.key if present, otherwise slugify section.heading.
+    #   <!-- INDEX --> replaced with all sections (headings + links) bundled.
+    # sections: [ { heading = "..."; pages = [...]; } ]
+    # extraAttrs (e.g. { css = "..."; }) are merged into the page attrset.
+    mkIndexPage =
+      {
+        prefix,
+        template,
+        sections,
+        extraAttrs ? { },
+      }:
+      let
+        mkLink =
+          page:
+          "- [${page.title}](${
+            mkOutputFilename {
+              inherit prefix;
+              name = page.name;
+            }
+          })";
+        sectionKey = section: section.key or (slugify (section.heading or ""));
+        mkSectionLinks =
+          section: ":::index\n" + (lib.concatStringsSep "\n" (map mkLink section.pages)) + "\n:::\n";
+        templateContent = builtins.readFile template;
+        withNamed = builtins.foldl' (
+          content: section:
+          builtins.replaceStrings [ "<!-- INDEX:${sectionKey section} -->" ] [ (mkSectionLinks section) ]
+            content
+        ) templateContent sections;
+        body = mkIndexBody { inherit prefix sections; };
+        content = builtins.replaceStrings [ "<!-- INDEX -->" ] [ body ] withNamed;
+        source = pkgs.writeText "${prefix}-index.md" content;
+        title = extractTitle template;
+      in
+      extraAttrs
+      // {
+        name = "index";
+        inherit source title;
+      };
+
+    # -- Area loading --
+
+    # Load a site area directory.
+    # "home" gets no prefix; other areas get their dirname as prefix.
+    loadArea =
+      projectRoot: areaPath:
+      let
+        rawPages = import areaPath { inherit lib uiop; };
+        dirName = builtins.baseNameOf (toString areaPath);
+        prefix = if dirName == "home" then null else dirName;
+        normPages = map (page: normalizePage ({ inherit prefix; } // page)) rawPages;
+        addSrcRelPath =
+          page:
+          let
+            absPath =
+              if page ? srcAbsPath then
+                page.srcAbsPath
+              else if builtins.isPath page.source then
+                toString page.source
+              else
+                null;
+            relPath = if absPath != null then lib.removePrefix (projectRoot + "/") absPath else null;
+          in
+          if relPath != null && relPath != absPath then page // { srcRelPath = relPath; } else page;
+      in
+      map addSrcRelPath normPages;
+
+    # Load and flatten all site areas into one list.
+    flattenAreas = projectRoot: areaPaths: lib.concatMap (loadArea projectRoot) areaPaths;
+
+    # -- Ninja file generation --
+
+    # Structural keys: not passed as environment variables.
+    structuralKeys = [
+      "source"
+      "output"
+      "uplink"
+      "homelink"
+      "srcAbsPath"
+      "srcRelPath"
+    ];
+
+    # Collect the union of all env-var names across all pages.
+    collectEnvVarNames =
+      pages:
+      let
+        perPage = map (p: builtins.attrNames (removeAttrs p structuralKeys)) pages;
+      in
+      lib.unique (lib.concatLists perPage);
+
+    # Generate the ninja rule definition.
+    mkNinjaRule =
+      {
+        envVarNames,
+        buildScript,
+        shell,
+      }:
+      let
+        dollar = "$";
+        mkEnvPart = k: "${k}=${dollar}{${k}}";
+        envParts = map mkEnvPart envVarNames;
+        envString = lib.concatStringsSep " " envParts;
+      in
+      "rule buildpage\n"
+      + "  command = env ${envString} ${shell} ${buildScript} $in $out\n"
+      + "  description = Building $out\n";
+
+    # Generate a ninja build statement for one page.
+    pageToNinjaBuild =
+      page:
+      let
+        dollar = "$";
+        sourceRef =
+          if page ? srcRelPath then
+            "${dollar}{src}/${ninjaEscapePath page.srcRelPath}"
+          else
+            ninjaEscapePath "${page.source}";
+        outputRef = "${dollar}{out}/${ninjaEscapePath page.output}";
+        envAttrs = lib.filterAttrs (_: v: v != null) (removeAttrs page structuralKeys);
+        varLines = lib.mapAttrsToList (k: v: "  ${k} = ${ninjaVarValue v}") envAttrs;
+        allLines = [
+          "build ${outputRef}: buildpage ${sourceRef}"
+        ]
+        ++ varLines;
+      in
+      lib.concatStringsSep "\n" allLines;
+
+    # Generate the complete build.ninja file content.
+    mkNinjaBuildFile =
+      {
+        buildScript,
+        shell,
+        pages,
+      }:
+      let
+        envVarNames = collectEnvVarNames pages;
+        rule = mkNinjaRule { inherit envVarNames buildScript shell; };
+        builds = map pageToNinjaBuild pages;
+      in
+      lib.concatStringsSep "\n\n" (
+        [
+          rule
+        ]
+        ++ builds
+        ++ [ "" ]
+      );
+  };
+in
+uiop

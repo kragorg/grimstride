@@ -1,10 +1,10 @@
-# Kragor and Rime-flake
+# Kragor and Rimeflake
 
 The wind howling down from the jagged teeth of Foren’s frozen peaks did not merely bite; it chewed. It was a gnawing, insistent beast that sought to strip the warmth from bone and marrow, a fitting companion for the pair huddled in the lee of a wind-scoured rock formation, a few miles shy of the shivering outpost of Syrinlya.
 
 Kragor sat cross-legged on a patch of permafrost he had diligently cleared of snow. He was a long, ropey figure of an orc, possessing little of the chaotic bulk common to his kin. His frame was all wire and leverage, draped in furs that smelled of ozone and old smoke. His face, lean and sharp-tusked, held the weary patience of a man who had spent his youth dodging the heavy boots of city guards in back alleys far warmer than this frozen hell.
 
-Before him, curled like a glistening, thorny shrimp, lay Rime-flake. The white dragon wyrmling was five feet of absolute, crystalline malice, currently dormant. Their scales were the color of a clouded mirror, and their breath puffed out in little rhythmic clouds that turned instantly to ice crystals on the air.
+Before him, curled like a glistening, thorny shrimp, lay Rimeflake. The white dragon wyrmling was five feet of absolute, crystalline malice, currently dormant. Their scales were the color of a clouded mirror, and their breath puffed out in little rhythmic clouds that turned instantly to ice crystals on the air.
 
 “Wake up, you frost-bitten lizard,” Kragor murmured, though the tone was affectionate. “School is in session.”
 

@@ -1,13 +1,13 @@
 {
-  description = "Grimstride.org web site";
+  description = "Markdown to HTML static site generator";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs =
-    inputs@{
+    {
       self,
       nixpkgs,
       flake-utils,
@@ -15,11 +15,25 @@
     flake-utils.lib.eachDefaultSystem (
       system:
       let
-        inherit (nixpkgs.legacyPackages.${system}) callPackage;
+        pkgs = nixpkgs.legacyPackages.${system};
+        site = pkgs.callPackage ./package.nix { };
       in
       {
-        packages = {
-          default = callPackage ./package.nix { };
+        packages.default = site;
+
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            ninja
+            pandoc
+            zsh
+          ];
+          buildInputs = [ site.env ];
+          shellHook = ''
+            mkdir -p "$out"
+            ${site.copyAssets ./.}
+            { printf 'src = %s\nout = %s\n' "$PWD" "$out"; cat ${site.env}/build.ninja; } > build.ninja
+            export PROMPTPREFIX=grimstride
+          '';
         };
       }
     );

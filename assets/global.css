@@ -209,6 +209,11 @@ p + dl {
 dt {
   margin-right: 5px;
   margin-left: -1em;
+  margin-top: 0.6em;
+  font-weight: bold;
+}
+dt:first-child {
+  margin-top: 0;
 }
 blockquote {
   background-color: var(--HB_Color_Accent);

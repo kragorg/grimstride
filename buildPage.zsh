@@ -1,35 +1,31 @@
-#! /bin/zsh
+#!/usr/bin/env zsh
 
 setopt errexit pipefail
-: ${css:?} ${filename:?} ${out:?} ${title:?}
+: ${title:?} ${css:?} ${include:?}
 
-(( ${#argv} == 1 )) || exit 2
+(( ${#argv} == 2 )) || exit 2
 
-mkdir -p ${out}
+mkdir -p ${2:h}
 
 function run {
-    # q: Quote arguments.
-    # @: Expand into separate words.
     print -Pru2 -- "%F{cyan}${(q-@)argv}%f"
     ${argv} || {
-	print -Pru2 -- "%F{red}${argv[1]} failed with exit status ${rc::=$?}%f"
-	return ${rc}
+        print -Pru2 -- "%F{red}${argv[1]} failed with exit status ${rc::=$?}%f"
+        return ${rc}
     }
     print -Pru2 -- '%F{green}'$'\u2714'" ${argv[1]}%f"$'\n'
 }
-site=( ${site} )
-include=( ${include} )
 
 cmd=(
     pandoc
-    --css=${css}
     --from=markdown
-    --include-before-body=${^include}
     --metadata pagetitle=${title}
-    --output=${out}/${filename}
+    --output=${2}
     --section-divs
     --standalone
-    --title-prefix=${^site}
+    --css=${css}
+    --include-before-body=${include}
     --to=html
 )
+
 run ${cmd} ${1}
