@@ -30,8 +30,11 @@
           buildInputs = [ site.env ];
           shellHook = ''
             mkdir -p "$out"
-            ${site.copyAssets ./.}
-            { printf 'src = %s\nout = %s\n' "$PWD" "$out"; cat ${site.env}/build.ninja; } > build.ninja
+            ${site.mkBuildNinja {
+              inherit (site) env;
+              src = "$PWD";
+              out = "$out";
+            }}
             export PROMPTPREFIX=grimstride
           '';
         };

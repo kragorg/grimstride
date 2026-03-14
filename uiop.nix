@@ -17,6 +17,35 @@ let
           builtins.any (suffix: lib.hasSuffix suffix s);
       in
       builtins.filter match paths;
+
+    # Recursively collect all asset files from a list of directories.
+    # Returns a list of { source, srcRelPath, outputName } attrsets.
+    # source is a Nix path; srcRelPath is relative to projectRoot; outputName is the basename.
+    collectAssets =
+      extensions: projectRoot: dirs:
+      let
+        suffixes = map (ext: ".${lib.toLower ext}") extensions;
+        isAsset = name: builtins.any (suffix: lib.hasSuffix suffix (lib.toLower name)) suffixes;
+        collectDir =
+          dir:
+          let
+            entries = builtins.readDir dir;
+            process =
+              name: type:
+              if type == "directory" then
+                collectDir (dir + "/${name}")
+              else if type == "regular" && isAsset name then
+                let
+                  srcPath = dir + "/${name}";
+                  relPath = lib.removePrefix (projectRoot + "/") (toString srcPath);
+                in
+                [ { source = srcPath; srcRelPath = relPath; outputName = name; } ]
+              else
+                [ ];
+          in
+          lib.concatLists (lib.mapAttrsToList process entries);
+      in
+      lib.concatMap collectDir dirs;
     # -- String utilities --
     # Shell-quote a string with single quotes.
     shellQuote =
@@ -382,23 +411,61 @@ let
       in
       lib.concatStringsSep "\n" allLines;
 
+    # Ninja rule definition for copying a file verbatim.
+    mkNinjaCopyRule =
+      "rule copyfile\n"
+      + "  command = cp $in $out\n"
+      + "  description = Copying $out\n";
+
+    # Generate a ninja build statement to copy one asset.
+    assetToNinjaBuild =
+      asset:
+      let
+        dollar = "$";
+        sourceRef = "${dollar}{src}/${ninjaEscapePath asset.srcRelPath}";
+        outputRef = "${dollar}{out}/${ninjaEscapePath asset.outputName}";
+      in
+      "build ${outputRef}: copyfile ${sourceRef}";
+
+    # Generate a shell snippet that prepends ninja variable assignments and writes the result.
+    # output: destination path for the assembled file, defaults to "build.ninja".
+    # env: the build link farm, where `build.ninja` can be found.
+    # All remaining attributes are treated as varname = shell-token pairs.
+    # Values may be Nix-expanded store paths or shell variable references (e.g. "$out", "$PWD").
+    # Variables are emitted in alphabetical order (builtins.attrNames).
+    mkBuildNinja =
+      attrs:
+      let
+        output = if attrs ? output then attrs.output else "build.ninja";
+        ninjaFile = "${attrs.env}/build.ninja";
+        vars = removeAttrs attrs [ "env" "output" ];
+        names = builtins.attrNames vars;
+        format = lib.concatMapStringsSep "" (name: ''${name} = %s\n'') names;
+        args = lib.concatStringsSep " " (map (name: vars.${name}) names);
+      in
+      ''{ printf '${format}' ${args}; cat ${ninjaFile}; } > ${output}'';
+
     # Generate the complete build.ninja file content.
     mkNinjaBuildFile =
       {
         buildScript,
         shell,
         pages,
+        assets ? [ ],
       }:
       let
         envVarNames = collectEnvVarNames pages;
-        rule = mkNinjaRule { inherit envVarNames buildScript shell; };
-        builds = map pageToNinjaBuild pages;
+        pageRule = mkNinjaRule { inherit envVarNames buildScript shell; };
+        pageBuilds = map pageToNinjaBuild pages;
+        assetBuilds = map assetToNinjaBuild assets;
       in
       lib.concatStringsSep "\n\n" (
         [
-          rule
+          pageRule
+          mkNinjaCopyRule
         ]
-        ++ builds
+        ++ pageBuilds
+        ++ assetBuilds
         ++ [ "" ]
       );
   };
