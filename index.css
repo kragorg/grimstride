@@ -2,6 +2,7 @@
 @import url("variables.css");
 @import url("nav.css");
 @import url("fonts.css");
+@import url("figures.css")
 html {
   background-color: var(--HB_Color_Background);
   background-image: var(--background-image);
@@ -47,14 +48,14 @@ a:hover {
     text-decoration: underline;
 }
 
-section > ul:first-of-type {
+div.index > ul {
   padding: 0;
   justify-content: center;
   list-style: none;
   gap: 0.25rem;
 }
 
-section > ul:first-of-type li a, section > ul:first-of-type li a:visited {
+div.index > ul li a, div.index > ul li a:visited {
   margin-top: 0.25rem;
   display: inline-block;
   padding: 0.25rem 0.5rem;
@@ -66,12 +67,12 @@ section > ul:first-of-type li a, section > ul:first-of-type li a:visited {
   cursor: pointer;
 }
 
-section.level1 > ul:first-of-type {
+section.level1 > div.index ul {
     margin: 0;
     display: flex;
   }
 
-section.level2 > ul:first-of-type {
+section.level2 > div.index ul {
     column-width: 25rem;
     column-gap: 2rem;
     li {

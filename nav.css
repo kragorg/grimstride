@@ -16,7 +16,7 @@
   display: block;
   padding: 0.25rem 0.5rem;
   cursor: pointer;
-  background: center/cover no-repeat;
+  background: center/contain no-repeat;
   position: relative;
 }
 
