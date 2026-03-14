@@ -6,7 +6,7 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 - **27 Unndilar,** _Day 57_. The party arrives at Uthodurn.
 - **26 Unndilar,** _Day 56_. The party discovers a divine altar to Kord. Kragor receives a blessing.
-- **25 Unndilar,** _Day 55_. The caravan is attacked by the Kryn Dynasty and the artifact is taken.
+- **25 Unndilar,** _Day 55_. The caravan is ambushed in the foothills of the Flotket Alps and the artifact is taken.
 - **19 Unndilar,** _Day 49_. The party departs with a caravan to Uthodurn, protecting the transport of a powerful Aeorian artifact.
 - **17 Unndilar,** _Day 47_. Rimeflake departs for the mountains to hunt on their own.
 - **14 Unndilar,** _Day 44_. The white dragon egg hatches. Kragor names the wyrmling “Rimeflake”.
