@@ -30,24 +30,7 @@ let
     inherit pages assets;
   };
 
-  ninjaFile = writeText "build.ninja" ninjaContent;
-
-  env =
-    let
-      pageLink = p:
-        if p ? srcRelPath then
-          { name = p.srcRelPath; path = "${p.source}"; }
-        else
-          {
-            name = builtins.unsafeDiscardStringContext "generated/${builtins.baseNameOf "${p.source}"}";
-            path = "${p.source}";
-          };
-      assetLink = a: { name = a.srcRelPath; path = "${a.source}"; };
-      links = (map pageLink pages) ++ (map assetLink assets) ++ [
-        { name = "build.ninja"; path = ninjaFile; }
-      ];
-    in
-    linkFarm "site-env" links;
+  buildNinja = writeText "build.ninja" ninjaContent;
 
 in
 stdenvNoCC.mkDerivation rec {
@@ -68,15 +51,14 @@ stdenvNoCC.mkDerivation rec {
   buildPhase = ''
     mkdir -p "$out"
     ${uiop.mkBuildNinja {
-      inherit env;
+      inherit buildNinja src;
       builddir = "$PWD";
-      src = "${env}";
       out = "$out";
     }}
-    ninja -C ${env} -f "$PWD/build.ninja" -v
+    ninja -C "${src}" -f "$PWD/build.ninja" -v
   '';
 
   dontInstall = true;
 
-  passthru = { inherit env; mkBuildNinja = uiop.mkBuildNinja; };
+  passthru = { inherit buildNinja; mkBuildNinja = uiop.mkBuildNinja; };
 }

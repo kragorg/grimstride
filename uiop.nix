@@ -437,13 +437,12 @@ let
       attrs:
       let
         output = if attrs ? output then attrs.output else "build.ninja";
-        ninjaFile = "${attrs.env}/build.ninja";
-        vars = removeAttrs attrs [ "env" "output" ];
+        vars = removeAttrs attrs [ "buildNinja" "output" ];
         names = builtins.attrNames vars;
         format = lib.concatMapStringsSep "" (name: ''${name} = %s\n'') names;
         args = lib.concatStringsSep " " (map (name: vars.${name}) names);
       in
-      ''{ printf '${format}' ${args}; cat ${ninjaFile}; } > ${output}'';
+      ''{ printf '${format}' ${args}; cat ${attrs.buildNinja}; } > ${output}'';
 
     # Generate the complete build.ninja file content.
     mkNinjaBuildFile =

@@ -27,11 +27,10 @@
             pandoc
             zsh
           ];
-          buildInputs = [ site.env ];
           shellHook = ''
             mkdir -p "$out"
             ${site.mkBuildNinja {
-              inherit (site) env;
+              inherit (site) buildNinja;
               src = "$PWD";
               out = "$out";
             }}
