@@ -1,4 +1,4 @@
-h1:not(.plain) + p::first-letter {
+h1:not(.plain) ~ p:first-of-type::first-letter {
   font-family: var(--font-family-dropcaps);
   font-style: italic;
   font-weight: 1000;
@@ -15,6 +15,6 @@ h1:not(.plain) + p::first-letter {
   -webkit-background-clip: text;
   background-clip: text;
 }
-h1:not(.plain) + p::first-line {
+h1:not(.plain) ~ p:first-of-type::first-line {
   font-variant: small-caps;
 }
