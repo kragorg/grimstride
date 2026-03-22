@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 setopt errexit pipefail
-: ${title:?} ${css:?} ${include:?}
+: ${title:?} ${css:?} ${include:?} ${filter:?}
 
 (( ${#argv} == 2 )) || exit 2
 
@@ -19,6 +19,7 @@ function run {
 cmd=(
     pandoc
     --from=markdown
+    --lua-filter=${filter}
     --metadata pagetitle=${title}
     --output=${2}
     --section-divs

@@ -4,6 +4,9 @@
 let
   lib = pkgs.lib;
   uiop = rec {
+    # Pandoc Lua filter applied to every page.
+    pandocFilter = builtins.path { path = ./assets/filter.lua; name = "filter.lua"; };
+
     # -- Path utilities --
     filterExtensions =
       extensions: paths:
@@ -110,6 +113,7 @@ let
         uplink = withPrefix.uplink or computedUplink;
         homelink = withPrefix.homelink or computedHomelink;
         include = mkNavInclude { inherit uplink homelink; };
+        filter = pandocFilter;
       in
       withPrefix
       // {
@@ -118,6 +122,7 @@ let
           uplink
           homelink
           include
+          filter
           ;
       };
 
