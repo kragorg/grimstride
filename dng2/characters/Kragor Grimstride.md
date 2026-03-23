@@ -224,6 +224,14 @@ He bitterly holds on to what little memory of his parents he has.
 He treasures the only keepsake left to him:
 a chipped amulet featuring the symbol of Kord.
 
+## Flaws
+
+**Rash Impatience:** Despite his background in stealth and his silver tongue, Kragor’s newly awakened power has eroded his tolerance for delays. When faced with tedious planning, a stalled negotiation, or a stubborn physical obstacle, his patience snaps. His pragmatic demand for immediate “results” often overrides his common sense, leading him to make reckless decisions like smashing his war hammer through a locked door or charging headlong into a room. He trusts his eldritch might to handle the fallout of his impatience.
+
+**Unsettling Pragmatism:** While Kragor cares for and trusts his companions, his moral compass remains deeply skewed by a lifetime of brutal survival. He operates on a fiercely “results-oriented” philosophy. This means he frequently suggests ruthlessly pragmatic, legally dubious, or downright macabre solutions to the party’s problems, genuinely struggling to understand why his friends hesitate to use blackmail, shameless deception, or dark magic if it’s the most efficient path to success.
+
+**Morbid Fixation:** The whispers in his mind and the alien geometry he used to ink have instilled a dangerous curiosity in him. When confronted with bizarre, eldritch, or unnerving phenomena, his normally razor-sharp street instincts vanish. He is dangerously compelled to investigate, touch, or decipher alien artifacts and strange magic that any sane person would immediately flee from.
+
 ## Ideals
 
 For Kragor Grimstride, faith is not a whispered prayer in a sanctioned temple; it is a pragmatic code forged in the shadow of his parents’ dual legacies and hammered into shape on the unforgiving anvil of the streets. Having been orphaned and left to fend for himself after their mysterious end, Kragor is a survivor first and foremost. He views the divine not as beings demanding worship, but as philosophies to be utilized— a collection of tools for navigating a broken world. His True Neutral alignment is born from this harsh education, for his life has taught him the equal utility of both law and chaos. He doesn’t believe in gods; he believes in results.
@@ -244,5 +252,6 @@ His warlock pact is the ultimate and most logical expression of this philosophy.
 | **View of Personal Code** | “a pragmatic code forged... on the unforgiving anvil of the streets,” a “solemn vow to memory of his parents”                  | Strongly **Lawful**. He adheres to an unwavering, internally consistent code inherited from his family. This is the definition of a personal code superseding societal law.         | **Neutral**. The code is about “results” and “crushing bullies.” This lacks the compassionate, merciful element of a truly Good philosophy, focusing instead on a rigid, retributive form of justice. |
 | **Methodology**           | “He made a deal,” acquiring “tangible tools” (pact magic) to achieve his goals. He views philosophies as tools to be “utilized.” | **Neutral**. He sees the “equal utility of both law and chaos,” using whatever works. This is the hallmark of ethical neutrality, lacking ideological commitment to either side. | **Neutral**. The approach is transactional and results-oriented. It is not driven by altruism (Good) or malice (Evil), but by pragmatic necessity.                                                     |
 | **Source of Strength**    | Mother's legacy of “personal might” and “self-reliance” from Kord; Father's legacy of “noble purpose” from Bahamut.            | A synthesis of **Chaos** (personal might, self-reliance) and **Law** (noble purpose, acting with honor).                                                                                    | A synthesis of **Good** (noble purpose, protecting the vulnerable) and **Neutral** (personal might as a tool for survival).                                                                              |
+
 
 
