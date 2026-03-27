@@ -219,12 +219,14 @@ blockquote {
   background-color: var(--HB_Color_Accent);
   padding: 1em;
 }
-details.summary {
+details.summary,
+details.details {
   padding: 1em;
   margin: 1em;
   font-size: clamp(0.875rem, 2vw, 1.5rem);
 }
-details.summary > summary {
+details.summary > summary,
+details.details > summary {
   font-family: var(--font-family-headers);
   color: var(--HB_Color_HeaderText);
   cursor: pointer;
@@ -234,7 +236,8 @@ details.summary > summary {
 details.summary > :not(summary) {
   font-style: italic;
 }
-details.summary[open] > summary {
+details.summary[open] > summary,
+details.details[open] > summary {
   margin-bottom: 0.75em;
 }
 body::after {
