@@ -34,6 +34,9 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 - **21 Dualahei,** _Day -12_. The _Frostwind_ set sail from Icehaven.
 - **18 Dualahei,** _Day -15_. Kragor arrived in Icehaven.
+
+### Misuthar 835 PD
+
 - **12 Misuthar,** _Day -51_. Kragor left Bladegarden.
 
 ### Horisal 835 PD
