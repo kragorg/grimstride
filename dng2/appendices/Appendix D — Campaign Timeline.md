@@ -3,7 +3,7 @@
 ::: {.details summary="Exandrian Calendar"}
 
 +-------------+------+--------------------------------------------+
-|Month        | Days | Holidays                                   |
+| Month       | Days | Holidays                                   |
 +=============+======+============================================+
 | Horisal     |  29  | - New Dawn (1st)                           |
 |             |      | - Hillsgold (27th)                         |
@@ -38,13 +38,15 @@
 |             |      | - Day of Heart and Hearth (16th)           |
 |             |      | - Winter’s Crest (20th)                    |
 +-------------+------+--------------------------------------------+
+
 :::
 
 The adventure began in 835 Post-Divergence (PD). This timeline refers to the day the party initially arrived in Palebank Village as “Day 1”.
 
 ### Unndilar 835 PD
 
-- **27 Unndilar,** _Day 57_. The party arrives at Uthodurn.
+- **28 Unndilar,** _Day 58_. The party explores Uthodurn and shops on the Deliberation Disk. They meet Minister Ërethyn Galewing, who reveals that the Kryn Dynasty potentially orchestrated the ambush—though the use of undead is inconsistent with Kryn practices. The party is paid, named Friends of the Court, and asked not to pursue the stolen artifact.
+- **27 Unndilar,** _Day 57_. The party arrives at Uthodurn late at night. Commander Tormund Ironfell sends them to the Broken Stool while he consults the palace.
 - **26 Unndilar,** _Day 56_. The party discovers a divine altar to Kord. Kragor receives a blessing.
 - **25 Unndilar,** _Day 55_. The caravan is ambushed in the foothills of the Flotket Alps and the artifact is taken.
 - **19 Unndilar,** _Day 49_. The party departs with a caravan to Uthodurn, protecting the transport of a powerful Aeorian artifact.
