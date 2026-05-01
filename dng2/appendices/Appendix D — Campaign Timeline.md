@@ -43,9 +43,13 @@
 
 The adventure began in 835 Post-Divergence (PD). This timeline refers to the day the party initially arrived in Palebank Village as “Day 1”.
 
+### Brussendar 835 PD
+
+- **1 Brussendar,** _Day 59_. The party is debriefed at the Vellum Steeple, gets invited to the palace to meet a Kryn Ambassador, and is assigned a quest to investigate the hijacking of a purple worm.
+
 ### Unndilar 835 PD
 
-- **28 Unndilar,** _Day 58_. The party explores Uthodurn and shops on the Deliberation Disk. They meet Minister Ërethyn Galewing, who reveals that the Kryn Dynasty potentially orchestrated the ambush—though the use of undead is inconsistent with Kryn practices. The party is paid, named Friends of the Court, and asked not to pursue the stolen artifact.
+- **28 Unndilar,** _Day 58_. The party explores Uthodurn, shops, become Friends of the Court, and re-unite briefly with Halite and Whisper before encountering a demon and a lich.
 - **27 Unndilar,** _Day 57_. The party arrives at Uthodurn late at night. Commander Tormund Ironfell sends them to the Broken Stool while he consults the palace.
 - **26 Unndilar,** _Day 56_. The party discovers a divine altar to Kord. Kragor receives a blessing.
 - **25 Unndilar,** _Day 55_. The caravan is ambushed in the foothills of the Flotket Alps and the artifact is taken.
