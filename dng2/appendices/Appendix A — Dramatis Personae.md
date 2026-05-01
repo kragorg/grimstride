@@ -72,6 +72,11 @@ Deilin
 at the Anvil of Smeltborne.
 She is mute but hears and understands everything said around her.
 
+Demen Sunlatch
+: A diminutive dwarven scholar visiting from the Cobalt Soul,
+invited to sit in on the Vellum Steeple's debriefing
+of the party following their discovery of Kaspien's laboratory.
+
 Dolgrim Ashward
 : Sergeant of the Palebank caravan escort
 and mentor to the young recruit Brennik Coalvein.
@@ -146,11 +151,21 @@ earthy and mineral on the outside,
 matcha cream within—
 provoked contemplative silence from several members of the party.
 
+Hilda Brackmar
+: Commander of the Glassblade reinforcements
+dispatched to the Luddenbrock mines.
+A stern female dwarf.
+She confiscated arcane artifacts from the laboratory
+on behalf of the Vellum Steeple
+and noted that the subterranean discovery had revealed
+a previously unknown, unmonitored passage
+deep into Uthodurn's bedrock.
+
 Hildra Bronzebuckle
 : A teamster with the Palebank caravan.
 Killed during the ambush in the Crystalsands Tundra.
 
-The Homunculus
+The Homunculus (Flea)
 : A bat-like creature roughly the size of a large cat,
 bound to the wizard Kaspien.
 It speaks only Abyssal
@@ -164,6 +179,11 @@ Once the daemon was dispatched,
 it proved willing enough to answer questions—
 waiting, it seemed,
 for someone to ask the right one.
+The daemon had called it Flea; it hated him for it.
+When Kragor accidentally shattered the crystal vial
+containing Kaspien’s trapped essence,
+the homunculus’s tether to the mortal plane snapped
+and the creature ceased to exist.
 
 Honor and Magic Liel-Tethwick
 : Twin tiefling daughters of the Liel-Tethwick family.
@@ -183,6 +203,11 @@ arrived unread:
 the ritual cracked the crystal vial meant to contain the soul,
 leaving Kaspien suspended in agonizing stasis—
 dead in body, not yet free in spirit.
+When Kragor accidentally shattered the vial during the party's visit,
+Kaspien's body crumbled instantly to ash
+and the trapped spark of green light flared and vanished.
+The Scribewarden of the Vellum Steeple later suggested
+the warlock had likely killed a lich.
 
 Kord, The Stormlord
 : God of battle, roaring tempests, and unyielding strength.
@@ -223,6 +248,16 @@ A stoic attalwen (an elf with a thin beard).
 Killed during the devastating caravan ambush
 in the Crystalsands Tundra.
 
+Oltgar
+: Proprietor of Oltgar's Chest on the Liber Disk.
+A bald, broad-shouldered dwarf who was whittling a duck
+when the party visited.
+His shop's interior is decorated
+with an intricate array of unpainted, moving wooden gears.
+He does not sell or make magical instruments
+but offered to craft Elara a masterwork mundane one
+that a spellcaster could later enchant.
+
 Oryn Hammerglass
 : A veteran Glassblade killed during the caravan ambush.
 
@@ -255,6 +290,19 @@ She is responsible for the profusion of flowers
 decorating Umagorn’s forge.
 Described by Umagorn as having a heart of gold
 but very serious in temperament.
+Doctor Pepe briefly encountered her at the Tumbling Tankards;
+she departed almost immediately,
+transforming into a giant eagle and soaring into the city’s heights.
+
+Ressia Vubessick
+: Scribewarden of the Vellum Steeple.
+A tall elven librarian with bright blue eyes
+and a striking platinum pompadour.
+She debriefed the party on their findings
+in Kaspien’s laboratory,
+accepted the heavy tome on lichdom that Kragor surrendered,
+and—when Elara pressed for more than the flattering mirror—
+offered a discount on research fees as a further concession.
 
 Rimeflake
 : A white dragon hatched
@@ -285,6 +333,24 @@ Sparky
 Talindra Snowveil
 : A veteran Glassblade killed during the caravan ambush.
 
+The Taskhand
+: A male drow serving as ambassador
+from the Kryn Dynasty to Uthodurn,
+flanked by soldiers in jagged, chitinous armor.
+He initially bristled at Diarchy accusations
+regarding the caravan ambush,
+but the presence of undead among the attackers
+cleared the Dynasty of involvement—
+the Kryn vehemently despise necromancy.
+He confirmed that a squad of elite Kryn scouts
+had recently traveled north of the Dunrock Mountains
+via purple worm tunnel,
+and went silent shortly after;
+Kryn forces who followed found the scouts slaughtered
+and the worm gone.
+He agreed to accompany the party south
+to investigate the site.
+
 Thilda
 : A perpetually exhausted dwarven pelt-sharer
 in Palebank Village,
@@ -297,12 +363,15 @@ Killed instantly when the purple worm
 destroyed the lead wagon.
 
 Tormund Ironfell
-: Commander of the Uthodurn gate garrison.
+: Commander of the Uthodurn gate garrison
+and Minister of the Privy Purse.
 A broad dwarf of late middle age
 with an iron-grey beard trimmed short and deep-set eyes.
 He received the battered caravan survivors at the gate
 and sent the party to the Broken Stool
 while he consulted with the palace.
+He later represented the Diarchy alongside Minister Ërethyn
+at the tense diplomatic meeting with the Kryn ambassador.
 
 Torvin Coalvein
 : Brennik’s father and a miner at the Luddenbrock mines.
