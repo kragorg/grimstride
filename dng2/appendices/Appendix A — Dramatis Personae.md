@@ -72,7 +72,7 @@ Deilin
 at the Anvil of Smeltborne.
 She is mute but hears and understands everything said around her.
 
-Demen Sunlatch
+Demid Sunlash
 : A diminutive dwarven scholar visiting from the Cobalt Soul,
 invited to sit in on the Vellum Steeple's debriefing
 of the party following their discovery of Kaspien's laboratory.
@@ -248,7 +248,7 @@ A stoic attalwen (an elf with a thin beard).
 Killed during the devastating caravan ambush
 in the Crystalsands Tundra.
 
-Oltgar
+Oltgar Dradegon
 : Proprietor of Oltgar's Chest on the Liber Disk.
 A bald, broad-shouldered dwarf who was whittling a duck
 when the party visited.
@@ -290,11 +290,11 @@ She is responsible for the profusion of flowers
 decorating Umagorn’s forge.
 Described by Umagorn as having a heart of gold
 but very serious in temperament.
-Doctor Pepe briefly encountered her at the Tumbling Tankards;
+Doctor Pepe briefly encountered her at the Tumbled Tankards;
 she departed almost immediately,
 transforming into a giant eagle and soaring into the city’s heights.
 
-Ressia Vubessick
+Ressia Uvesic
 : Scribewarden of the Vellum Steeple.
 A tall elven librarian with bright blue eyes
 and a striking platinum pompadour.
