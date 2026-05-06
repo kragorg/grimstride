@@ -5,6 +5,7 @@
   stdenvNoCC,
   writeText,
   linkFarm,
+  gnused,
   ninja,
   pandoc,
   runCommand,
@@ -43,6 +44,7 @@ stdenvNoCC.mkDerivation rec {
   LANG = "C.UTF-8";
 
   nativeBuildInputs = [
+    gnused
     ninja
     pandoc
     zsh

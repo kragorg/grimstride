@@ -5,7 +5,10 @@ let
   lib = pkgs.lib;
   uiop = rec {
     # Pandoc Lua filter applied to every page.
-    pandocFilter = builtins.path { path = ./assets/filter.lua; name = "filter.lua"; };
+    pandocFilter = builtins.path {
+      path = ./assets/filter.lua;
+      name = "filter.lua";
+    };
 
     # -- Path utilities --
     filterExtensions =
@@ -42,7 +45,13 @@ let
                   srcPath = dir + "/${name}";
                   relPath = lib.removePrefix (projectRoot + "/") (toString srcPath);
                 in
-                [ { source = srcPath; srcRelPath = relPath; outputName = name; } ]
+                [
+                  {
+                    source = srcPath;
+                    srcRelPath = relPath;
+                    outputName = name;
+                  }
+                ]
               else
                 [ ];
           in
@@ -418,9 +427,7 @@ let
 
     # Ninja rule definition for copying a file verbatim.
     mkNinjaCopyRule =
-      "rule copyfile\n"
-      + "  command = cp $in $out\n"
-      + "  description = Copying $out\n";
+      "rule copyfile\n" + "  command = cp $in $out\n" + "  description = Copying $out\n";
 
     # Generate a ninja build statement to copy one asset.
     assetToNinjaBuild =
@@ -442,12 +449,20 @@ let
       attrs:
       let
         output = if attrs ? output then attrs.output else "build.ninja";
-        vars = removeAttrs attrs [ "buildNinja" "output" ];
+        vars = removeAttrs attrs [
+          "buildNinja"
+          "output"
+        ];
         names = builtins.attrNames vars;
-        format = lib.concatMapStringsSep ''\n'' (name: ''${name} = %s'') names;
-        args = lib.concatStringsSep " " (map (name: vars.${name}) names);
+        format = lib.concatMapStringsSep ''\n'' (name: "${name}=%s") names;
+        args = lib.concatStringsSep " " (map (name: ''"'' + vars.${name} + ''"'') names);
       in
-      ''{ printf '${format}\n' ${args}; cat ${attrs.buildNinja}; } > ${output}'';
+      ''
+        {
+          printf '${format}\n' ${args} | sed -E -e 's/ /$ /g'
+          cat ${attrs.buildNinja}
+        } > ${output}
+      '';
 
     # Generate the complete build.ninja file content.
     mkNinjaBuildFile =
