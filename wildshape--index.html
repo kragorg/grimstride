@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Wild Shape Forms</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="wildshape.css" />
+</head>
+<body>
+<nav class="nav">
+  
+  <a class="home" data-tooltip="Home" href="index.html"></a>
+</nav>
+<section id="wild-shape-forms-for-level-3-circle-of-the-moon-druid"
+class="level1">
+<h1>Wild Shape Forms for Level 3 Circle of the Moon Druid</h1>
+<blockquote>
+<p>The power of nature allows you to assume the form of an animal. As a
+Bonus Action, you shape-shift into a Beast form that you have learned
+for this feature. You stay in that form for a number of hours equal to
+half your Druid level or until you use Wild Shape again, have the
+Incapacitated condition, or die. You can also leave the form early as a
+Bonus Action.</p>
+<ul>
+<li><strong>Number of Uses.</strong> You can use Wild Shape twice. You
+regain one expended use when you finish a Short Rest, and you regain all
+expended uses when you finish a Long Rest. You gain additional uses at
+higher levels.</li>
+<li><strong>Known Forms.</strong> You know four Beast forms for this
+feature, chosen from among Beast stat blocks that have a maximum
+Challenge Rating of 1/4 and that lack a Fly Speed. Whenever you finish a
+Long Rest, you can replace one of your known forms with another eligible
+form.</li>
+<li><strong>Rules While Shape-Shifted.</strong> While in a form, you
+retain your personality, memories, and ability to speak, and the
+following rules apply:
+<ul>
+<li><strong>Temporary Hit Points.</strong> You gain a number of
+Temporary Hit Points equal to your Druid level.</li>
+<li><strong>Game Statistics.</strong> Your game statistics are replaced
+by the Beast’s stat block, but you retain your creature type; Hit
+Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class
+features; languages; and feats. You also retain your skill and saving
+throw proficiencies and use your Proficiency Bonus for them.</li>
+<li><strong>No Spellcasting.</strong> You can’t cast spells, but
+shape-shifting doesn’t break your Concentration or otherwise interfere
+with a spell you’ve already cast.</li>
+<li><strong>Objects.</strong> Your ability to handle objects is
+determined by the form’s limbs rather than your own. You choose whether
+your equipment falls in your space, merges into your new form, or is
+worn by it.</li>
+</ul></li>
+</ul>
+<p>— Excerpt from <em>Player’s Handbook</em>, “Wild Shape”</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><strong>Challenge Rating.</strong> The maximum Challenge Rating for
+the form equals your Druid level divided by 3 (round down).</li>
+<li><strong>Armor Class.</strong> Your AC equals 13 plus your Wisdom
+modifier if that total is higher than the Beast’s AC.</li>
+<li><strong>Temporary Hit Points.</strong> You gain Temporary Hit Points
+equal to three times your Druid level.</li>
+</ul>
+<p>— Excerpt from <em>Player’s Handbook</em>, “Circle Forms”</p>
+</blockquote>
+<section id="eligible-forms-55-beasts" class="level2">
+<h2>Eligible forms (55 beasts)</h2>
+<section id="cr-1-9-beasts" class="level3">
+<h3>CR 1 (9 beasts)</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Speeds</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775806-brown-bear">Brown
+Bear</a></td>
+<td>40 ft; climb 30 ft</td>
+<td><strong>Multiattack</strong>: <em>Bite</em> (+5, 1d8+3) and
+<em>Claw</em> (+5, 1d4+3, knocks Large-or-smaller <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>).
+Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a href="https://www.dndbeyond.com/monsters/4775812-dire-wolf">Dire
+Wolf</a></td>
+<td>50 ft</td>
+<td><em>Bite</em> (+5, 1d10+3, knocks Large-or-smaller <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>).
+Darkvision 60 ft. <strong>Pack Tactics</strong>: Advantage when ally
+adjacent.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195021-giant-hyena">Giant
+Hyena</a></td>
+<td>50 ft</td>
+<td><em>Bite</em> (+5, 2d6+3). Darkvision 60 ft. <strong>Rampage
+(1/Day)</strong>: after damaging a <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#Bloodied">Bloodied</a>
+target, move half-Speed + <em>Bite</em> as Bonus Action.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195023-giant-octopus">Giant
+Octopus</a></td>
+<td>10 ft; swim 60 ft</td>
+<td><em>Tentacles</em> (+5, 2d6+3, 10 ft reach, <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grapples</a>
++ <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition">Restrains</a>
+Medium-or-smaller). Darkvision 60 ft. <em>Water Breathing</em>; <em>Ink
+Cloud</em> reaction (1/Day) underwater.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775821-giant-spider">Giant
+Spider</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+5, 1d8+3 + 2d6 poison). <strong>Web
+(recharges)</strong>: <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition">Restrains</a>
+at 60 ft (DC 13 Dex save). Darkvision 60 ft. Spider Climb + Web
+Walker.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195029-giant-toad">Giant
+Toad</a></td>
+<td>30 ft; swim 30 ft</td>
+<td><em>Bite</em> (+4, 1d6+2 + 2d4 poison + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grapple</a>
+Medium-or-smaller). <strong>Swallow</strong>: <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grappled</a>
+target (<a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BlindedCondition">Blinded</a>
++ <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition">Restrained</a>,
+3d6 acid/turn). Darkvision 60 ft. Amphibious.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775826-lion">Lion</a></td>
+<td>50 ft</td>
+<td><strong>Multiattack</strong>: 2× <em>Rend</em> (+5, 1d8+3). Swap one
+attack for <em>Roar</em> (15 ft Cone, DC 11 Wis Save, <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#FrightenedCondition">Frightened</a>).
+Darkvision 60 ft. <strong>Pack Tactics.</strong> 25-ft running
+leap.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/744323-moorbounder">Moorbounder</a></td>
+<td>70 ft</td>
+<td><em>Claws</em> (+6, 4d4+4). Darkvision 60 ft. <strong>Standing
+Leap</strong>: 40-ft long / 20-ft high jump with or without a running
+start.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775846-tiger">Tiger</a></td>
+<td>40 ft</td>
+<td><em>Rend</em> (+5, 2d6+3, knocks Large-or-smaller <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>).
+Darkvision 60 ft. <strong>Nimble Escape</strong>: Bonus Action Disengage
+or Hide.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cr-12-7-beasts" class="level3">
+<h3>CR 1/2 (7 beasts)</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Speeds</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775801-ape">Ape</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><strong>Multiattack</strong>: 2× <em>Fist</em> (+5, 1d4+3).
+<strong>Rock (recharges)</strong>: Ranged +5 (25/50 ft), 2d6+3
+bludgeoning.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775804-black-bear">Black
+Bear</a></td>
+<td>30 ft; swim 30 ft; climb 30 ft</td>
+<td><strong>Multiattack</strong>: 2× <em>Rend</em> (+4, 1d6+2).
+Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775811-crocodile">Crocodile</a></td>
+<td>20 ft; swim 30 ft</td>
+<td><em>Bite</em> (+4, 1d8+2 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grapple</a>
+→ <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition">Restrained</a>
+on Medium-or-smaller). Hold Breath 1 hr.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775819-giant-goat">Giant
+Goat</a></td>
+<td>40 ft; climb 30 ft</td>
+<td><em>Ram</em> (+5, 1d6+3, extra 2d4 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>
+if charged 20+ ft). Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775820-giant-seahorse">Giant
+Seahorse</a></td>
+<td>5 ft; swim 40 ft</td>
+<td><em>Ram</em> (+4, 2d6+2, or 2d8+2 if charged 20+ ft). <strong>Bubble
+Dash</strong>: Bonus Action half Swim Speed without OAs. Water
+Breathing.</td>
+</tr>
+<tr>
+<td><a href="https://www.dndbeyond.com/monsters/4775838-reef-shark">Reef
+Shark</a></td>
+<td>5 ft; swim 30 ft</td>
+<td><em>Bite</em> (+4, 2d4+2). <strong>Blindsight 30 ft.</strong>
+<strong>Pack Tactics</strong>. Water Breathing.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775848-warhorse">Warhorse</a></td>
+<td>60 ft</td>
+<td><em>Hooves</em> (+6, 2d4+4, extra 2d4 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>
+on Large-or-smaller if charged 20+ ft).</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cr-14-13-beasts" class="level3">
+<h3>CR 1/4 (13 beasts)</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Speeds</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775805-boar">Boar</a></td>
+<td>40 ft</td>
+<td><em>Gore</em> (+3, 1d6+1, extra 1d6 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>
+on Medium-or-smaller if charged 20+ ft). <strong>Bloodied Fury</strong>:
+Advantage on attacks while Bloodied.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775809-constrictor-snake">Constrictor
+Snake</a></td>
+<td>30 ft; swim 30 ft</td>
+<td><em>Bite</em> (+4, 1d8+2). <strong>Constrict</strong>: DC 12 Str
+save (3d4 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grappled</a>).
+<strong>Blindsight 10 ft.</strong></td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775813-draft-horse">Draft
+Horse</a></td>
+<td>40 ft</td>
+<td><em>Hooves</em> (+6, 1d4+4).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775815-elk">Elk</a></td>
+<td>50 ft</td>
+<td><em>Ram</em> (+5, 1d6+3, extra 1d6 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>
+on Large-or-smaller if charged 20+ ft). Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775817-giant-badger">Giant
+Badger</a></td>
+<td>30 ft; burrow 10 ft</td>
+<td><em>Bite</em> (+3, 2d4+1). Darkvision 30 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195014-giant-centipede">Giant
+Centipede</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+4, 1d4+2 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#PoisonedCondition">Poisoned</a>
+condition until start of centipede’s next turn). <strong>Blindsight 30
+ft.</strong></td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195020-giant-frog">Giant
+Frog</a></td>
+<td>30 ft; swim 30 ft</td>
+<td><em>Bite</em> (+3, 1d6+2 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grapple</a>
+Medium-or-smaller). <strong>Swallow</strong>: <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grappled</a>
+Small-or-smaller target (<a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#BlindedCondition">Blinded</a>
++ <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#RestrainedCondition">Restrained</a>,
+2d4 acid/turn). Darkvision 30 ft. Amphibious, 20-ft long jump.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195022-giant-lizard">Giant
+Lizard</a></td>
+<td>40 ft; climb 40 ft</td>
+<td><em>Bite</em> (+4, 1d8+2). Darkvision 30 ft. <strong>Spider
+Climb</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake">Giant
+Venomous Snake</a></td>
+<td>40 ft; swim 40 ft</td>
+<td><em>Bite</em> (+6, 10 ft reach, 1d4+4 + 1d8 poison).
+<strong>Blindsight 10 ft.</strong></td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider">Giant
+Wolf Spider</a></td>
+<td>40 ft; climb 40 ft</td>
+<td><em>Bite</em> (+5, 1d4+3 + 2d4 poison). <strong>Blindsight 10
+ft.</strong>, Darkvision 60 ft. <strong>Spider Climb</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775832-panther">Panther</a></td>
+<td>50 ft; climb 40 ft</td>
+<td><em>Rend</em> (+5, 1d6+3). Darkvision 60 ft. <strong>Nimble
+Escape</strong>: Bonus Action Disengage or Hide.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775839-riding-horse">Riding
+Horse</a></td>
+<td>60 ft</td>
+<td><em>Hooves</em> (+5, 1d8+3).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775850-wolf">Wolf</a></td>
+<td>40 ft</td>
+<td><em>Bite</em> (+4, 1d6+2, knocks Medium-or-smaller <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>).
+Darkvision 60 ft. <strong>Pack Tactics</strong>.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cr-18-8-beasts" class="level3">
+<h3>CR 1/8 (8 beasts)</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Speeds</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775807-camel">Camel</a></td>
+<td>50 ft</td>
+<td><em>Bite</em> (+4, 1d4+2). Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775818-giant-crab">Giant
+Crab</a></td>
+<td>30 ft; swim 30 ft</td>
+<td><em>Claw</em> (+3, 1d6+1 + <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#GrappledCondition">Grapple</a>
+Medium-or-smaller). <strong>Blindsight 30 ft.</strong> Amphibious.</td>
+</tr>
+<tr>
+<td><a href="https://www.dndbeyond.com/monsters/5195025-giant-rat">Giant
+Rat</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+5, 1d4+3). Darkvision 60 ft. <strong>Pack
+Tactics</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775822-giant-weasel">Giant
+Weasel</a></td>
+<td>40 ft; climb 30 ft</td>
+<td><em>Bite</em> (+5, 1d4+3). Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775828-mastiff">Mastiff</a></td>
+<td>40 ft</td>
+<td><em>Bite</em> (+3, 1d6+1, knocks Medium-or-smaller <a
+href="https://www.dndbeyond.com/sources/dnd/free-rules/rules-glossary#ProneCondition">Prone</a>).
+Darkvision 60 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775829-mule">Mule</a></td>
+<td>40 ft</td>
+<td><em>Hooves</em> (+4, 1d4+2). <strong>Beast of Burden</strong>
+(counts as one size larger for carrying).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775833-pony">Pony</a></td>
+<td>40 ft</td>
+<td><em>Hooves</em> (+4, 1d4+2).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775847-venomous-snake">Venomous
+Snake</a></td>
+<td>30 ft; swim 30 ft</td>
+<td><em>Bite</em> (+4, 1d4+2 plus 1d6 poison). <strong>Blindsight 10
+ft.</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cr-0-18-beasts" class="level3">
+<h3>CR 0 (18 beasts)</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 56%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Speeds</th>
+<th>Notable features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5194910-baboon">Baboon</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+1, 1d4 - 1). <strong>Pack Tactics</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775802-badger">Badger</a></td>
+<td>20 ft; burrow 5 ft</td>
+<td><em>Bite</em> (+2, 1). Darkvision 30 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775808-cat">Cat</a></td>
+<td>40 ft; climb 40 ft</td>
+<td><em>Scratch</em> (+4, 1). Darkvision 60 ft. <strong>Jumper</strong>
+(uses Dex for jump distance).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775810-crab">Crab</a></td>
+<td>20 ft; swim 20 ft</td>
+<td><em>Claw</em> (+2, 1). <strong>Blindsight 30 ft.</strong>
+Amphibious.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5194966-deer">Deer</a></td>
+<td>50 ft</td>
+<td><em>Ram</em> (+2, 1d4). Darkvision 60 ft. <strong>Agile</strong> (no
+OA when leaving reach).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775816-frog">Frog</a></td>
+<td>20 ft; swim 20 ft</td>
+<td><em>Bite</em> (+3, 1). Darkvision 30 ft. Amphibious, 10-ft long
+jump.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195019-giant-fire-beetle">Giant
+Fire Beetle</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+1, 1 fire). <strong>Blindsight 30 ft.</strong>
+<strong>Illumination</strong>: bright light 10 ft + dim 10 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775823-goat">Goat</a></td>
+<td>40 ft; climb 30 ft</td>
+<td><em>Ram</em> (+2, 1, or 1d4 if charged 20+ ft). Darkvision 60
+ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195085-hyena">Hyena</a></td>
+<td>50 ft</td>
+<td><em>Bite</em> (+2, 1d6). Darkvision 60 ft. <strong>Pack
+Tactics</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195091-jackal">Jackal</a></td>
+<td>40 ft</td>
+<td><em>Bite</em> (+1, 1d4-1). Darkvision 90 ft.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775827-lizard">Lizard</a></td>
+<td>20 ft; climb 20 ft</td>
+<td><em>Bite</em> (+2, 1). Darkvision 30 ft. <strong>Spider
+Climb</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775830-octopus">Octopus</a></td>
+<td>5 ft; swim 30 ft</td>
+<td><em>Tentacles</em> (+4, 1). <strong>Compression</strong> (squeezes
+through 1-inch space). Darkvision 30 ft. <strong>Ink Cloud</strong>
+reaction (1/Day) underwater. Water Breathing.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195160-piranha">Piranha</a></td>
+<td>5 ft; swim 40 ft</td>
+<td><em>Bite</em> (+5, Adv vs. damaged target, 1). Darkvision 60 ft.
+Water Breathing.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775836-rat">Rat</a></td>
+<td>20 ft; climb 20 ft</td>
+<td><em>Bite</em> (+2, 1). Darkvision 30 ft. <strong>Agile</strong> (no
+OA when leaving reach).</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775840-scorpion">Scorpion</a></td>
+<td>10 ft</td>
+<td><em>Sting</em> (+2, 1 plus 1d6 poison). <strong>Blindsight 10
+ft.</strong></td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/5195199-seahorse">Seahorse</a></td>
+<td>5 ft; swim 20 ft</td>
+<td><strong>Bubble Dash</strong>: Action full Swim Speed without OAs.
+Water Breathing.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775844-spider">Spider</a></td>
+<td>20 ft; climb 20 ft</td>
+<td><em>Bite</em> (+4, 1 plus 1d4 poison). Darkvision 30 ft.
+<strong>Spider Climb</strong>, <strong>Web Walker</strong>.</td>
+</tr>
+<tr>
+<td><a
+href="https://www.dndbeyond.com/monsters/4775849-weasel">Weasel</a></td>
+<td>30 ft; climb 30 ft</td>
+<td><em>Bite</em> (+5, 1). Darkvision 60 ft.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+</body>
+</html>
