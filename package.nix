@@ -20,6 +20,7 @@ let
     ./dng1
     ./dng2
     ./wyrmlings
+    ./wildshape
   ];
 
   pages = uiop.flattenAreas (toString ./.) siteareas;
