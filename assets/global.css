@@ -2,7 +2,7 @@ html {
   font-family: var(--font-family);
   background-color: var(--HB_Color_Background);
   background-image: var(--background-image);
-  font-size: clamp(1rem, 3vw, 5rem);
+  font-size: clamp(1rem, 3vw, 1.75rem);
   margin-left: 5vw;
   margin-right: 5vw;
 }
