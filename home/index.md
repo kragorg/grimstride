@@ -7,7 +7,7 @@
 :::index
 - [Dungeons & Gardens I](dng1--index.html)
 - [Dungeons & Gardens II](dng2--index.html)
-- [Adventurers League](https://www.icloud.com/numbers/043vvzI4GBlPf5W0ifQOJiIHw)
+- [Adventurers League](ddal--index.html)
 - [Wyrmlings](wyrmlings--index.html)
 - [Wild Shape Forms](wildshape--index.html)
 - [Model in STL](kragor-stl.zip)

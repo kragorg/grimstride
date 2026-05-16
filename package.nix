@@ -14,13 +14,14 @@
 
 let
   uiop = import ./uiop.nix { inherit pkgs; };
-  assetExtensions = [ "css" "jpg" "png" "woff2" "zip" ];
+  assetExtensions = [ "beancount" "css" "jpg" "png" "woff2" "zip" ];
   siteareas = [
     ./home
     ./dng1
     ./dng2
     ./wyrmlings
     ./wildshape
+    ./ddal
   ];
 
   pages = uiop.flattenAreas (toString ./.) siteareas;

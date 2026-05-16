@@ -1,0 +1,184 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("global.css");
+@import url("nav.css");
+@import url("fonts.css");
+@import url("figures.css");
+
+/* ============================================================
+   Spacing rhythm
+   The page repeats two block patterns:
+     A. Summary cards (character → magic items → story awards → events)
+     B. Adventure entries (h3 → adventure card → narrative → events → notes)
+   Use one consistent gap between blocks (2.5rem) and a tight gap (0.75rem)
+   between a block and its directly-related caption/notes.
+   ============================================================ */
+
+hr {
+  visibility: visible;
+  border: 0;
+  height: 1px;
+  margin: 2.5rem auto;
+  width: 60%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--HB_Color_HeaderUnderline) 20%,
+    var(--HB_Color_HeaderUnderline) 80%,
+    transparent
+  );
+}
+
+/* An <hr> right before an h3 section is redundant — the h3 already has its
+   own underline. Hide the line but keep the spacing. */
+hr:has(+ section.level3),
+section.level3 > hr:last-child {
+  background: none;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+table th,
+table td {
+  vertical-align: top;
+}
+
+/* Wrapper divs are passthroughs for tables — give them the standard
+   between-block gap. */
+div.character,
+div.magic-items,
+div.story-awards,
+div.events,
+div.adventure {
+  margin-bottom: 2.5rem;
+}
+
+/* A bullet list right after events, or a paragraph right after an adventure
+   card, is associated notes/summary — tighten the gap. */
+div.events:has(+ ul),
+div.adventure:has(+ p) {
+  margin-bottom: 0.75rem;
+}
+
+/* Notes/narrative cling to their related block, then take a full break
+   before the next section. */
+p + hr,
+ul + hr {
+  margin-top: 2.5rem;
+}
+
+/* ============================================================
+   Summary cards: Character, Magic Items, Story Awards.
+   These three give the at-a-glance picture and should read as a
+   unit distinct from the per-adventure log entries below. Frame
+   each with accent borders.
+   ============================================================ */
+div.character,
+div.magic-items,
+div.story-awards {
+  border-top: 2px solid var(--HB_Color_HeaderText);
+  border-bottom: 2px solid var(--HB_Color_HeaderText);
+  padding: 0.6rem 0;
+  background-color: rgba(192, 173, 106, 0.15);
+}
+
+/* Character: key/value sheet with no header row. Style the keys like
+   labels so the table reads as a definition list, not a data grid. */
+div.character table {
+  width: auto;
+  max-width: 100%;
+}
+div.character table td:first-child {
+  font-family: var(--font-family-headers);
+  color: var(--HB_Color_HeaderText);
+  padding-right: 2.5rem;
+  white-space: nowrap;
+}
+div.character table td:last-child {
+  padding-left: 0;
+}
+
+/* Story awards: a single column of single-cell rows. Drop the striping
+   (one column doesn't need a guide) and tighten width. */
+div.story-awards table {
+  width: auto;
+}
+div.story-awards table tbody tr:nth-child(odd) {
+  background: none;
+}
+div.story-awards th {
+  text-align: left;
+}
+
+/* ============================================================
+   Magic Items table
+   ============================================================ */
+/* # and Count are numeric. */
+div.magic-items th:nth-child(2),
+div.magic-items td:nth-child(2),
+div.magic-items th:nth-child(4),
+div.magic-items td:nth-child(4) {
+  text-align: right;
+}
+
+/* ============================================================
+   Per-session content (adventure cards, narrative, notes, events).
+   These sit one step below the top-of-page summary cards in scale —
+   the bullet notes and narrative paragraphs that hang off a table
+   shrink to match it. Use ~ (general sibling) so additional notes
+   after the first paragraph/list also pick up the smaller size. */
+div.adventure table,
+div.events table,
+div.adventure ~ p,
+div.adventure ~ ul,
+div.events ~ p,
+div.events ~ ul {
+  font-size: 0.8em;
+}
+div.adventure ~ p,
+div.adventure ~ ul,
+div.events ~ p,
+div.events ~ ul {
+  line-height: 1.25em;
+}
+
+/* Stats table (2nd inside the card): Starting / +/- / Ending are numeric. */
+div.adventure table:nth-of-type(2) th:nth-child(n + 2),
+div.adventure table:nth-of-type(2) td:nth-child(n + 2) {
+  text-align: right;
+}
+
+/* The two tables inside an adventure card belong together — tighten. */
+div.adventure table + table {
+  margin-top: 0.75rem;
+}
+
+/* ============================================================
+   Events table (dense bookkeeping log)
+   ============================================================ */
+div.events table {
+  font-size: 0.8em;
+  line-height: 1.15em;
+}
+div.events table th,
+div.events table td {
+  padding: 0.15rem 0.6rem;
+}
+/* Pandoc emits <col style="width: 25%"> when content is wide; override. */
+div.events colgroup col {
+  width: auto !important;
+}
+div.events th:nth-child(1),
+div.events td:nth-child(1) {
+  white-space: nowrap;
+  width: 1%;
+}
+div.events th:nth-child(3),
+div.events td:nth-child(3),
+div.events th:nth-child(4),
+div.events td:nth-child(4) {
+  text-align: right;
+  white-space: nowrap;
+  width: 1%;
+}
