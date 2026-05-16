@@ -40,12 +40,33 @@ h1, h2 {
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
 
-a, a:visited {
-    text-decoration: none;
-    font-weight: 700;
+hr {
+  border: 0;
+  height: 1px;
+  margin: 2.5rem auto;
+  width: 60%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--HB_Color_HeaderUnderline) 20%,
+    var(--HB_Color_HeaderUnderline) 80%,
+    transparent
+  );
 }
-a:hover {
-    text-decoration: underline;
+
+a,
+a:visited {
+  color: var(--HB_Color_HeaderText);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--HB_Color_HeaderUnderline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+a:hover,
+a:focus {
+  text-decoration-color: var(--HB_Color_HeaderText);
+  text-decoration-thickness: 2px;
 }
 
 div.index > ul {

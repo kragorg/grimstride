@@ -40,6 +40,19 @@ strong {
   font-weight: bold;
   letter-spacing: -0.02em;
 }
+a,
+a:visited {
+  color: var(--HB_Color_HeaderText);
+  text-decoration: underline;
+  text-decoration-color: var(--HB_Color_HeaderUnderline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+a:hover,
+a:focus {
+  text-decoration-color: var(--HB_Color_HeaderText);
+  text-decoration-thickness: 2px;
+}
 h1,
 h2,
 h3,
