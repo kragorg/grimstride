@@ -8,7 +8,7 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 136.21 GP |
+| Gold | 138.71 GP |
 | Downtime | 17 DT |
 | Soul Coins | 1 |
 
@@ -52,7 +52,7 @@
 | Date | Activity | GP | DT |
 | --- | --- | --- | --- |
 | 2025-11-15 | Character Creation — Great Old One Warlock | +500 | +40 |
-|  | Purchase Equipment — Adventuring gear | -117.04 |  |
+|  | Purchase Equipment — Adventuring gear | -114.54 |  |
 |  | Scribe Spell Scrolls — Inked 1x Hex | -25 | -1 |
 |  | Bastion — Creation |  |  |
 |  | Bastion — Turn |  | -7 |
@@ -76,7 +76,7 @@
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 5 | Y | 6 |
-| Gold (GP) | 37.96 | +233 | 270.96 |
+| Gold (GP) | 40.46 | +233 | 273.46 |
 | Downtime (DT) | 32 | +10 | 42 |
 | Soul Coins Carried | 0 | | 0 |
 
@@ -113,7 +113,7 @@ Rescued the Frostbite Platoon from an ogre troop.
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 6 | Y | 7 |
-| Gold (GP) | 601.71 | +200 | 801.71 |
+| Gold (GP) | 604.21 | +200 | 804.21 |
 | Downtime (DT) | 34 | +10 | 44 |
 | Soul Coins Carried | 0 | | 1 |
 
@@ -154,7 +154,7 @@ We saved Fai Chen and his clones and brought them back to Mahadi’s Wandering E
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 8 | Y | 9 |
-| Gold (GP) | 36.71 | +107.5 | 144.21 |
+| Gold (GP) | 39.21 | +107.5 | 146.71 |
 | Downtime (DT) | 21 | +10 | 31 |
 | Soul Coins Carried | 1 | | 1 |
 
@@ -199,7 +199,7 @@ Incomplete: Received mission from the illithid Glor to hunt down Rogue Thought, 
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 9 | Y | 10 |
-| Gold (GP) | 316.21 | +1070 | 1386.21 |
+| Gold (GP) | 318.71 | +1070 | 1388.71 |
 | Downtime (DT) | 19 | +10 | 29 |
 | Soul Coins Carried | 1 | | 1 |
 

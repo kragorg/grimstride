@@ -10,33 +10,7 @@ plugin "ddal_log"
 2025-01-01 custom "ddal" "faction" "Harpers"
 2025-01-01 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/161063983"
 
-2025-01-01 commodity GP
-  precision: 2
-
-2025-01-01 commodity WARHAMMER_1
-  name: "Warhammer +1"
-2025-01-01 commodity MITHRAL_SPLINT
-  name: "Mithral Splint Mail"
-2025-01-01 commodity SHIELD_1
-  name: "Shield +1"
-2025-01-01 commodity POTION_COMPREHENSION
-  name: "Potion of Comprehension"
-2025-01-01 commodity CLOCKWORK_AMULET
-  name: "Clockwork Amulet"
-2025-01-01 commodity STAFF_CHARMING
-  name: "Staff of Charming"
-2025-01-01 commodity ROD_PACT_KEEPER_2
-  name: "Rod of the Pact Keeper +2"
-2025-01-01 commodity PORTABLE_HOLE
-  name: "Portable Hole"
-2025-01-01 commodity SCROLL_HEX
-  name: "Tattoo: Hex"
-2025-01-01 commodity POTION_CLIMBING
-  name: "Potion of Climbing"
-2025-01-01 commodity POTION_GREATER_HEALING
-  name: "Potion of Greater Healing"
-2025-01-01 commodity POTION_POISON
-  name: "Potion of Poison"
+include "includes/commodities-and-prices.beancount"
 
 2025-11-15 * "Character Creation" "Great Old One Warlock" #character-creation
   Assets:Gold                                     500 GP
@@ -46,8 +20,8 @@ plugin "ddal_log"
   Equity:Opening-Balances
 
 2025-11-15 * "Purchase Equipment" "Adventuring gear" #trade
-  Assets:Gold                                 -117.04 GP
-  Assets:Inventory                                  1 STUDDED_LEATHER_ARMOR {{45 GP}}
+  Assets:Gold                                 -114.54 GP
+  Assets:Inventory                                  1 STUDDED_LEATHER {{45 GP}}
   Assets:Inventory                                  1 AMULET_TEMPUS {{1 GP}}
   Assets:Inventory                                  1 BATTLEAXE {{10 GP}}
   Assets:Inventory                                  1 BEDROLL {{1 GP}}
@@ -59,34 +33,14 @@ plugin "ddal_log"
   Assets:Inventory                                  1 CALTROPS {{1 GP}}
   Assets:Inventory                                  1 CROWBAR {{2 GP}}
   Assets:Inventory                                  1 FLASK {{0.04 GP}}
-  Assets:Inventory                                  1 OIL {{0.2 GP}}
+  Assets:Inventory                                  2 OIL {{0.2 GP}}
   Assets:Inventory                                  1 TORCH {{0.1 GP}}
   Assets:Inventory                                  1 WATERSKIN {{0.2 GP}}
   Assets:Inventory                                  1 BLOCK_TACKLE {{1 GP}}
-  Assets:Inventory                                  1 RATIONS {{5 GP}}
+  Assets:Inventory                                  5 RATIONS {{2.5 GP}}
   Assets:Inventory                                  1 ROPE {{1 GP}}
   Assets:Inventory                                  1 TINDERBOX {{0.5 GP}}
   Assets:Inventory                                  2 POUCH {{1 GP}}
-
-2025-11-15 price STUDDED_LEATHER_ARMOR 45 GP
-2025-11-15 price BATTLEAXE 10 GP
-2025-11-15 price BEDROLL 1 GP
-2025-11-15 price DAGGER 2 GP
-2025-11-15 price RAPIER 25 GP
-2025-11-15 price TRAVELERS_CLOTHES 2 GP
-2025-11-15 price WARHAMMER 15 GP
-2025-11-15 price BACKPACK 2 GP
-2025-11-15 price CALTROPS 1 GP
-2025-11-15 price CROWBAR 2 GP
-2025-11-15 price FLASK 0.04 GP
-2025-11-15 price OIL 0.2 GP
-2025-11-15 price TORCH 0.1 GP
-2025-11-15 price WATERSKIN 0.2 GP
-2025-11-15 price BLOCK_TACKLE 1 GP
-2025-11-15 price RATIONS 5 GP
-2025-11-15 price ROPE 1 GP
-2025-11-15 price TINDERBOX 0.5 GP
-2025-11-15 price POUCH 0.5 GP
 
 2025-11-15 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
   Assets:Gold                                     -25 GP
@@ -102,7 +56,7 @@ plugin "ddal_log"
           Roomy Storehouse,
           Roomy Arcane Study."
   Assets:Miscellaneous                              1 BASTION {{0 GP}}
-  Equity:Opening-Balance
+  Equity:Opening-Balances
 
 2025-11-15 * "Bastion" "Turn" #bastion
   Assets:Downtime                                  -7 DT
@@ -115,8 +69,6 @@ plugin "ddal_log"
 2025-11-15 * "Bastion - Arcane Study: Craft" "Arcane Focus Orb" #bastion
   Assets:Bastion:Storehouse                         1 ARCANE_FOCUS_ORB {{0 GP}}
   Income:Bastion:Crafting
-
-2025-11-15 price ARCANE_FOCUS_ORB 20 GP
 
 2025-11-20 open Assets:Story-Awards:SeersDeliveryService STORY_AWARD
   name: "SEER’s Delivery Service"
@@ -158,8 +110,6 @@ plugin "ddal_log"
   Assets:Gold                                     -10 GP
   Assets:Bastion:Storehouse                         1 BOOK {{10 GP}}  ; 7 days = 1 Bastion Turn
 
-2025-11-21 price BOOK 25 GP
-
 2025-11-21 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
   Assets:Gold                                     -25 GP
   Expenses:Scribing                                25 GP
@@ -198,8 +148,6 @@ plugin "ddal_log"
 2025-11-26 * "Purchase Equipment" "An undead eyeball encased in a gem worth 150gp" #trade
   Assets:Gold                                    -150 GP
   Assets:Inventory                                  1 UNDEAD_EYEBALL {{150 GP}}
-
-2025-11-26 price UNDEAD_EYEBALL 150 GP
 
 2025-11-26 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
   Assets:Gold                                     -25 GP
@@ -250,8 +198,6 @@ plugin "ddal_log"
   Assets:Gold                                    -300 GP
   Assets:Inventory                                  1 GILDED_FLOWER {{300 GP}}
 
-2026-03-12 price GILDED_FLOWER 300 GP
-
 2026-03-12 * "Rebuild" "Fighter 1 / Warlock 8" #rebuild
 
 2026-03-12 * "Bastion" "Special Facility Acquisition" #bastion
@@ -279,7 +225,7 @@ plugin "ddal_log"
 
 2026-03-12 * "Bastion - Storehouse: Sell" "Studded Leather Armor" #bastion
   Assets:Gold                              (45/2)*1.2 GP  ;  Storehouse +20%
-  Assets:Inventory                                 -1 STUDDED_LEATHER_ARMOR {}
+  Assets:Inventory                                 -1 STUDDED_LEATHER {}
   Income:Bastion:Sales
 
 2026-03-12 * "Bastion - Storehouse: Sell" "Breastplate" #bastion
@@ -296,8 +242,6 @@ plugin "ddal_log"
 2026-03-12 * "Bastion - Greenhouse: Harvest" "Poison: Malice" #bastion
   Assets:Bastion:Storehouse                         1 POISON_MALICE {{0 GP}}
   Income:Bastion:Harvest
-
-2026-03-12 price POISON_MALICE 250 GP
 
 2026-03-12 * "Bastion - Workshop: Maintain" "Heroic Inspiration" #bastion
 
@@ -323,8 +267,6 @@ plugin "ddal_log"
 2026-04-15 * "Bastion - Greenhouse: Harvest" "Poison: Pale Tincture" #bastion
   Assets:Bastion:Storehouse                         1 POISON_PALE_TINCTURE {{0 GP}}
   Income:Bastion:Harvest
-
-2026-04-15 price POISON_PALE_TINCTURE 250 GP
 
 2026-04-15 * "Bastion - Workshop: Craft" "Clockwork Amulet" #bastion
   Assets:Gold                                     -50 GP
