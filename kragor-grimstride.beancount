@@ -1,0 +1,337 @@
+option "title" "Kragor Grimstride Character Log"
+option "operating_currency" "GP"
+plugin "beancount.plugins.auto_accounts"
+plugin "ddal_log"
+
+2025-01-01 custom "fava-option" "show-closed-accounts" "true"
+
+2025-01-01 custom "ddal" "character" "Kragor Grimstride"
+2025-01-01 custom "ddal" "race-classes" "Orc Fighter 1 / Great Old One Warlock 9"
+2025-01-01 custom "ddal" "faction" "Harpers"
+2025-01-01 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/161063983"
+
+2025-01-01 commodity GP
+  precision: 2
+
+2025-01-01 commodity WARHAMMER_1
+  name: "Warhammer +1"
+2025-01-01 commodity MITHRAL_SPLINT
+  name: "Mithral Splint Mail"
+2025-01-01 commodity SHIELD_1
+  name: "Shield +1"
+2025-01-01 commodity POTION_COMPREHENSION
+  name: "Potion of Comprehension"
+2025-01-01 commodity CLOCKWORK_AMULET
+  name: "Clockwork Amulet"
+2025-01-01 commodity STAFF_CHARMING
+  name: "Staff of Charming"
+2025-01-01 commodity ROD_PACT_KEEPER_2
+  name: "Rod of the Pact Keeper +2"
+2025-01-01 commodity PORTABLE_HOLE
+  name: "Portable Hole"
+2025-01-01 commodity SCROLL_HEX
+  name: "Tattoo: Hex"
+2025-01-01 commodity POTION_CLIMBING
+  name: "Potion of Climbing"
+2025-01-01 commodity POTION_GREATER_HEALING
+  name: "Potion of Greater Healing"
+2025-01-01 commodity POTION_POISON
+  name: "Potion of Poison"
+
+2025-11-15 * "Character Creation" "Great Old One Warlock" #character-creation
+  Assets:Gold                                     500 GP
+  Assets:Downtime                                  40 DT
+  Assets:Level                                      5 LEVEL
+  Assets:Magic:Uncommon                             1 WARHAMMER_1 {{0 GP}}
+  Equity:Opening-Balances
+
+2025-11-15 * "Purchase Equipment" "Adventuring gear" #trade
+  Assets:Gold                                 -117.04 GP
+  Assets:Inventory                                  1 STUDDED_LEATHER_ARMOR {{45 GP}}
+  Assets:Inventory                                  1 AMULET_TEMPUS {{1 GP}}
+  Assets:Inventory                                  1 BATTLEAXE {{10 GP}}
+  Assets:Inventory                                  1 BEDROLL {{1 GP}}
+  Assets:Inventory                                  2 DAGGER {{4 GP}}
+  Assets:Inventory                                  1 RAPIER {{25 GP}}
+  Assets:Inventory                                  1 TRAVELERS_CLOTHES {{2 GP}}
+  Assets:Inventory                                  1 WARHAMMER {{15 GP}}
+  Assets:Inventory                                  1 BACKPACK {{2 GP}}
+  Assets:Inventory                                  1 CALTROPS {{1 GP}}
+  Assets:Inventory                                  1 CROWBAR {{2 GP}}
+  Assets:Inventory                                  1 FLASK {{0.04 GP}}
+  Assets:Inventory                                  1 OIL {{0.2 GP}}
+  Assets:Inventory                                  1 TORCH {{0.1 GP}}
+  Assets:Inventory                                  1 WATERSKIN {{0.2 GP}}
+  Assets:Inventory                                  1 BLOCK_TACKLE {{1 GP}}
+  Assets:Inventory                                  1 RATIONS {{5 GP}}
+  Assets:Inventory                                  1 ROPE {{1 GP}}
+  Assets:Inventory                                  1 TINDERBOX {{0.5 GP}}
+  Assets:Inventory                                  2 POUCH {{1 GP}}
+
+2025-11-15 price STUDDED_LEATHER_ARMOR 45 GP
+2025-11-15 price BATTLEAXE 10 GP
+2025-11-15 price BEDROLL 1 GP
+2025-11-15 price DAGGER 2 GP
+2025-11-15 price RAPIER 25 GP
+2025-11-15 price TRAVELERS_CLOTHES 2 GP
+2025-11-15 price WARHAMMER 15 GP
+2025-11-15 price BACKPACK 2 GP
+2025-11-15 price CALTROPS 1 GP
+2025-11-15 price CROWBAR 2 GP
+2025-11-15 price FLASK 0.04 GP
+2025-11-15 price OIL 0.2 GP
+2025-11-15 price TORCH 0.1 GP
+2025-11-15 price WATERSKIN 0.2 GP
+2025-11-15 price BLOCK_TACKLE 1 GP
+2025-11-15 price RATIONS 5 GP
+2025-11-15 price ROPE 1 GP
+2025-11-15 price TINDERBOX 0.5 GP
+2025-11-15 price POUCH 0.5 GP
+
+2025-11-15 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
+  Assets:Gold                                     -25 GP
+  Expenses:Scribing                                25 GP
+  Assets:Downtime                                  -1 DT
+  Expenses:Scribing                                 1 DT
+  Assets:Magic:Consumable                           1 SCROLL_HEX
+  Income:Crafting
+
+2025-11-15 * "Bastion" "Creation" #bastion
+  notes: "Cramped Kitchen,
+          Roomy Dining Room,
+          Roomy Storehouse,
+          Roomy Arcane Study."
+  Assets:Miscellaneous                              1 BASTION {{0 GP}}
+  Equity:Opening-Balance
+
+2025-11-15 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2025-11-15 * "Bastion - Storehouse: Procure" "Goods" #bastion
+  Assets:Bastion:Storehouse                       320 GOODS {{320 GP}}
+  Assets:Gold
+
+2025-11-15 * "Bastion - Arcane Study: Craft" "Arcane Focus Orb" #bastion
+  Assets:Bastion:Storehouse                         1 ARCANE_FOCUS_ORB {{0 GP}}
+  Income:Bastion:Crafting
+
+2025-11-15 price ARCANE_FOCUS_ORB 20 GP
+
+2025-11-20 open Assets:Story-Awards:SeersDeliveryService STORY_AWARD
+  name: "SEER’s Delivery Service"
+2025-11-20 open Assets:Story-Awards:HeroesOfCitadelAdbar STORY_AWARD
+  name: "Heroes of Citadel Adbar"
+2025-11-20 open Assets:Story-Awards:IreOfTheFrostGiants STORY_AWARD
+  name: "Ire of the Frost Giants"
+
+2025-11-20 * "Adventure" "In Dire Need" #adventure
+  module: "DDAL-05-04"
+  dm: "Jay Africa"
+  notes: "Rescued the Frostbite Platoon from an ogre troop."
+  Assets:Gold                                     233 GP
+  Assets:Downtime                                  10 DT
+  Assets:Level                                      1 LEVEL
+  Assets:Magic:Uncommon                             1 MITHRAL_SPLINT {{0 GP}}
+  Assets:Magic:Consumable                           1 POTION_CLIMBING {{0 GP}}
+  Assets:Magic:Consumable                           2 POTION_GREATER_HEALING {{0 GP}}
+  Assets:Story-Awards:SeersDeliveryService           1 STORY_AWARD {{0 GP}}
+  Assets:Story-Awards:HeroesOfCitadelAdbar           1 STORY_AWARD {{0 GP}}
+  Assets:Story-Awards:IreOfTheFrostGiants            1 STORY_AWARD {{0 GP}}
+  Income:Adventure
+
+2025-11-21 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2025-11-21 * "Bastion - Storehouse: Sell" "Arcane Focus Orb" #bastion
+  Assets:Gold                              (25/2)*1.1 GP  ; Storehouse +10%
+  Assets:Bastion:Storehouse                        -1 ARCANE_FOCUS_ORB {}
+  Income:Bastion:Sales
+
+2025-11-21 * "Bastion - Storehouse: Sell" "Goods" #bastion
+  Assets:Gold                                 320*1.1 GP  ; Storehouse +10%
+  Assets:Bastion:Storehouse                      -320 GOODS {}
+  Income:Bastion:Sales
+
+2025-11-21 * "Bastion - Arcane Study: Craft" "Book" #bastion
+  Assets:Gold                                     -10 GP
+  Assets:Bastion:Storehouse                         1 BOOK {{10 GP}}  ; 7 days = 1 Bastion Turn
+
+2025-11-21 price BOOK 25 GP
+
+2025-11-21 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
+  Assets:Gold                                     -25 GP
+  Expenses:Scribing                                25 GP
+  Assets:Downtime                                  -1 DT
+  Expenses:Scribing                                 1 DT
+  Assets:Magic:Consumable                           1 SCROLL_HEX
+  Income:Crafting
+
+2025-11-25 * "Adventure" "Losing Fai" #adventure
+  module: "DDAL-09-11"
+  dm: "Orion Renard"
+  notes: "We saved Fai Chen and his clones and brought them back to
+          Mahadi’s Wandering Emporium, and told Mahadi about Su Zhen Kang’s betrayal."
+  Assets:Gold                                     200 GP
+  Assets:Downtime                                  10 DT
+  Assets:Level                                      1 LEVEL
+  Assets:Magic:Consumable                           1 POTION_GREATER_HEALING {{0 GP}}
+  Assets:Magic:Rare                                 1 STAFF_CHARMING {{0 GP}}
+  Assets:Magic:Consumable                           1 POTION_POISON
+  Assets:Inventory                                  1 SOUL_COIN {{0 GP}}
+  Income:Adventure
+
+2025-11-26 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion:Maintenance
+
+2025-11-26 * "Bastion - Storehouse: Procure" "Goods" #bastion
+  Assets:Bastion:Storehouse                       190 GOODS {{190 GP}}
+  Assets:Gold
+
+2025-11-26 * "Bastion - Arcane Study: Craft" "Arcane Focus Orb" #bastion
+  Assets:Bastion:Storehouse                         1 ARCANE_FOCUS_ORB {{0 GP}}
+  Income:Bastion:Crafting
+
+
+2025-11-26 * "Purchase Equipment" "An undead eyeball encased in a gem worth 150gp" #trade
+  Assets:Gold                                    -150 GP
+  Assets:Inventory                                  1 UNDEAD_EYEBALL {{150 GP}}
+
+2025-11-26 price UNDEAD_EYEBALL 150 GP
+
+2025-11-26 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
+  Assets:Gold                                     -25 GP
+  Expenses:Scribing                                25 GP
+  Assets:Downtime                                  -1 DT
+  Expenses:Scribing                                 1 DT
+  Assets:Magic:Consumable                           1 SCROLL_HEX
+  Income:Crafting
+
+2026-01-08 * "Trading Post" "Staff of Charming -> Rod of the Pact Keeper +2." #trading-post
+  Assets:Downtime                                  -5 DT
+  Expenses:Trading                                  5 DT
+  Assets:Magic:Rare                                -1 STAFF_CHARMING {}
+  Assets:Magic:Rare                                 1 ROD_PACT_KEEPER_2 {{0 GP}}
+
+2026-02-07 * "Rebuild" "Warlock 7/Fighter 1" #rebuild
+  Assets:Magic:Uncommon                            -1 WARHAMMER_1 {}
+  Assets:Magic:Uncommon                             1 SHIELD_1 {{0 GP}}
+
+2026-02-07 * "Catching Up" "1 Level" #catching-up
+  Assets:Downtime                                 -10 DT
+  Expenses:Catching-Up                             10 DT
+  Assets:Level                                      1 LEVEL
+  Income:Catching-Up
+
+2026-02-07 * "Purchase Equipment" "Breastplate" #trade
+  Assets:Gold                                    -400 GP
+  Assets:Inventory                                  1 BREASTPLATE {{400 GP}}
+
+2026-03-05 * "Adventure" "Writhing in the Dark" #adventure
+  module: "DDEX-03-13"
+  dm: "Owen Salsbury"
+  notes: "Incomplete: Received mission from the illithid Glor to hunt
+          down Rogue Thought, another illithid considered dangerous.
+          Discovered RT’s lair. Encountered and defeated four Githyanki,
+          rescuing Arriz. Encountered a duergar in some sort of
+          abattoir; she immediately attacked and was killed before we
+          could obtain any information from her. After 3.5h of play,
+          we did not reach Rogue Thought."
+  Assets:Gold                                   107.5 GP
+  Assets:Downtime                                  10 DT
+  Assets:Level                                      1 LEVEL
+  Assets:Magic:Consumable                          -1 POTION_GREATER_HEALING {2025-11-20} ;  Consumed
+  Expenses:Adventure                                1 POTION_GREATER_HEALING {{0 GP}}
+  Income:Adventure
+
+2026-03-12 * "Purchase Equipment" "A gilded flower worth 300gp" #trade
+  Assets:Gold                                    -300 GP
+  Assets:Inventory                                  1 GILDED_FLOWER {{300 GP}}
+
+2026-03-12 price GILDED_FLOWER 300 GP
+
+2026-03-12 * "Rebuild" "Fighter 1 / Warlock 8" #rebuild
+
+2026-03-12 * "Bastion" "Special Facility Acquisition" #bastion
+  notes: "Roomy Greenhouse, Roomy Workshop"
+  images: "Kragor-Bastion-1.jpg; Kragor-Bastion-2.jpg"
+
+2026-03-12 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2026-03-12 * "Bastion - Storehouse: Sell" "Goods" #bastion
+  Assets:Gold                                     228 GP
+  Assets:Bastion:Storehouse                      -190 GOODS {}  ; Storehouse + 20%
+  Income:Bastion:Sales
+
+2026-03-12 * "Bastion - Storehouse: Sell" "Arcane Focus Orb" #bastion
+  Assets:Gold                              (20/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 ARCANE_FOCUS_ORB {}
+  Income:Bastion:Sales
+
+2026-03-12 * "Bastion - Storehouse: Sell" "Book" #bastion
+  Assets:Gold                              (25/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 BOOK {}
+  Income:Bastion:Sales
+
+2026-03-12 * "Bastion - Storehouse: Sell" "Studded Leather Armor" #bastion
+  Assets:Gold                              (45/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Inventory                                 -1 STUDDED_LEATHER_ARMOR {}
+  Income:Bastion:Sales
+
+2026-03-12 * "Bastion - Storehouse: Sell" "Breastplate" #bastion
+  Assets:Gold                             (400/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Inventory                                 -1 BREASTPLATE {}
+  Income:Bastion:Sales
+
+2026-03-12 * "Bastion - Arcane Study: Craft" "Potion of Comprehension" #bastion
+  Assets:Gold                                     -50 GP
+  Assets:Downtime                                  -5 DT
+  Assets:Magic:Consumable                           1 POTION_COMPREHENSION {{0 GP}}
+  Expenses:Bastion:Crafting
+
+2026-03-12 * "Bastion - Greenhouse: Harvest" "Poison: Malice" #bastion
+  Assets:Bastion:Storehouse                         1 POISON_MALICE {{0 GP}}
+  Income:Bastion:Harvest
+
+2026-03-12 price POISON_MALICE 250 GP
+
+2026-03-12 * "Bastion - Workshop: Maintain" "Heroic Inspiration" #bastion
+
+2026-04-08 * "Bastion - Rebuild" "Eldritch Invocations" #rebuild
+
+2026-04-09 * "Adventure" "Clever" #adventure
+  module: "CCC-NBDD01-01"
+  dm: "Owen Salsbury"
+  notes: "Protected Harkle in his haberdashery. Infiltrated Tyrex’s
+          hideout. Instead of ending him, we signed on to his gang…
+          at least for now."
+  Assets:Gold                                    1070 GP
+  Assets:Downtime                                  10 DT
+  Assets:Level                                      1 LEVEL
+  Assets:Magic:Consumable                           2 POTION_GREATER_HEALING {{0 GP}}
+  Assets:Magic:Rare                                 1 PORTABLE_HOLE {{0 GP}}
+  Income:Adventure
+
+2026-04-15 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion:Maintenance
+
+2026-04-15 * "Bastion - Greenhouse: Harvest" "Poison: Pale Tincture" #bastion
+  Assets:Bastion:Storehouse                         1 POISON_PALE_TINCTURE {{0 GP}}
+  Income:Bastion:Harvest
+
+2026-04-15 price POISON_PALE_TINCTURE 250 GP
+
+2026-04-15 * "Bastion - Workshop: Craft" "Clockwork Amulet" #bastion
+  Assets:Gold                                     -50 GP
+  Assets:Downtime                                  -5 DT
+  Assets:Magic:Common                               1 CLOCKWORK_AMULET {{0 GP}}
+  Expenses:Bastion:Crafting
+
+2026-04-15 * "Bastion - Storehouse: Procure" "Goods" #bastion
+  Assets:Bastion:Storehouse                      1200 GOODS {{1200 GP}}
+  Assets:Gold

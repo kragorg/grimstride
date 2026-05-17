@@ -1,0 +1,70 @@
+option "title" "Elara Starglimmer Character Log"
+option "operating_currency" "GP"
+plugin "beancount.plugins.auto_accounts"
+plugin "ddal_log"
+
+2026-01-01 custom "fava-option" "show-closed-accounts" "true"
+
+2026-01-01 custom "ddal" "character" "Elara Starglimmer"
+2026-01-01 custom "ddal" "race-classes" "Aasimar College of Glamour Bard 6"
+2026-01-01 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/160986955"
+
+2026-01-01 commodity GP
+  precision: 2
+
+2026-01-01 commodity RHYTHM_MAKERS_DRUM_1
+  name: "Rhythm-Maker's Drum +1"
+
+2026-05-16 * "Character Creation" "College of Glamour Bard" #character-creation
+  Assets:Gold                                     500 GP
+  Assets:Downtime                                  40 DT
+  Assets:Level                                      5 LEVEL
+  Assets:Magic:Uncommon                             1 RHYTHM_MAKERS_DRUM_1 {{0 GP}}
+  Equity:Opening-Balances
+
+2026-05-16 * "Purchase Equipment" "Adventuring gear" #trade
+  Assets:Gold                                    -151 GP
+  Assets:Inventory                                  6 ARROWS {1 GP}
+  Assets:Inventory                                  1 BEDROLL {{1 GP}}
+  Assets:Inventory                                  1 CARTOGRAPHERS_TOOLS {{15 GP}}
+  Assets:Inventory                                  1 DAGGER {{2 GP}}
+  Assets:Inventory                                  1 DRUM {{6 GP}}
+  Assets:Inventory                                  1 SHORTBOW {{25 GP}}
+  Assets:Inventory                                  1 SHORTSWORD {{10 GP}}
+  Assets:Inventory                                  1 STUDDED_LEATHER {{45 GP}}
+  Assets:Inventory                                  1 TENT {{2 GP}}
+  Assets:Inventory                                  1 TRAVELERS_CLOTHES {{2 GP}}
+  Assets:Inventory                                  1 BELL {{1 GP}}
+  Assets:Inventory                                  1 BULLSEYE_LANTERN {{10 GP}}
+  Assets:Inventory                                  3 COSTUME {5 GP}
+  Assets:Inventory                                  1 MIRROR {{5 GP}}
+  Assets:Inventory                                  8 OIL {0.1 GP}
+  Assets:Inventory                                  9 RATIONS {0.5 GP}
+  Assets:Inventory                                  1 TINDERBOX {{0.5 GP}}
+  Assets:Inventory                                  1 WATERSKIN {{0.2 GP}}
+
+2026-05-16 price ARROWS 1 GP
+2026-05-16 price BEDROLL 1 GP
+2026-05-16 price CARTOGRAPHERS_TOOLS 15 GP
+2026-05-16 price DAGGER 2 GP
+2026-05-16 price DRUM 6 GP
+2026-05-16 price SHORTBOW 25 GP
+2026-05-16 price SHORTSWORD 10 GP
+2026-05-16 price STUDDED_LEATHER 45 GP
+2026-05-16 price TENT 2 GP
+2026-05-16 price TRAVELERS_CLOTHES 2 GP
+2026-05-16 price BELL 1 GP
+2026-05-16 price BULLSEYE_LANTERN 10 GP
+2026-05-16 price COSTUME 5 GP
+2026-05-16 price MIRROR 5 GP
+2026-05-16 price OIL 0.1 GP
+2026-05-16 price RATIONS 0.5 GP
+2026-05-16 price TINDERBOX 0.5 GP
+2026-05-16 price WATERSKIN 0.2 GP
+
+2026-05-17 * "Catching Up" "1 Level" #catching-up
+  Assets:Downtime                                 -10 DT
+  Expenses:Catching-Up                             10 DT
+  Assets:Level                                      1 LEVEL
+  Income:Catching-Up
+
