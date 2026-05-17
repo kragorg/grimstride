@@ -1,4 +1,4 @@
-# Elara Starglimmer — [Log](elara-starglimmer.beancount)
+# Elara Starglimmer — [Log](elara-starglimmer.beancount.txt)
 
 ::: character
 

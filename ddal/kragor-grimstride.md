@@ -1,4 +1,4 @@
-# Kragor Grimstride — [Log](kragor-grimstride.beancount)
+# Kragor Grimstride — [Log](kragor-grimstride.beancount.txt)
 
 ::: character
 

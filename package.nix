@@ -14,7 +14,7 @@
 
 let
   uiop = import ./uiop.nix { inherit pkgs; };
-  assetExtensions = [ "beancount" "css" "jpg" "png" "woff2" "zip" ];
+  assetExtensions = [ "css" "jpg" "png" "txt" "woff2" "zip" ];
   siteareas = [
     ./home
     ./dng1
