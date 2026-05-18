@@ -157,7 +157,7 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Consumable                           1 SCROLL_HEX
   Income:Crafting
 
-2026-01-08 * "Trading Post" "Staff of Charming -> Rod of the Pact Keeper +2" #trading-post
+2026-01-08 * "Trading Post" "Staff of Charming → Rod of the Pact Keeper +2" #trading-post
   player: "Aadaon"
   character: "Landeep DMM"
   source: "DDHC-KGV-11"
@@ -281,7 +281,7 @@ include "includes/commodities-and-prices.beancount"
   Assets:Bastion:Storehouse                      1200 GOODS {{1200 GP}}
   Assets:Gold
 
-2026-05-17 * "Trading Post" "Portable Hole -> Do-Maru Half Plate +1" #trading-post
+2026-05-17 * "Trading Post" "Portable Hole → Do-Maru Half Plate +1" #trading-post
   player: "Lex W"
   character: "Hanako Makilien"
   source: "FR-DC-ONI-02"
