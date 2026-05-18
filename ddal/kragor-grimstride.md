@@ -9,7 +9,7 @@
 | Faction | Harpers |
 | Level | 10 |
 | Gold | 138.71 GP |
-| Downtime | 17 DT |
+| Downtime | 12 DT |
 | Soul Coins | 1 |
 
 :::
@@ -28,7 +28,7 @@
 | Common | 1 | Clockwork Amulet | 1 |
 | Uncommon | 2 | Mithral Splint Mail | 1 |
 |  |  | Shield +1 | 1 |
-| Rare | 2 | Portable Hole | 1 |
+| Rare | 2 | Do-Maru Half Plate +1 | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 
 :::
@@ -61,7 +61,7 @@
 
 :::
 
-- **2025-11-15 Bastion — Creation:** Cramped Kitchen, Roomy Dining Room, Roomy Storehouse, Roomy Arcane Study.
+- **2025-11-15 Bastion — Creation:** Cramped Kitchen, Roomy Dining Room, Roomy Storehouse, Roomy Arcane Study
 
 ---
 
@@ -134,12 +134,14 @@ We saved Fai Chen and his clones and brought them back to Mahadi’s Wandering E
 |  | Bastion · Arcane Study: Craft — Arcane Focus Orb |  |  |
 |  | Purchase Equipment — An undead eyeball encased in a gem worth 150gp | -150 |  |
 |  | Scribe Spell Scrolls — Inked 1x Hex | -25 | -1 |
-| 2026-01-08 | Trading Post — Staff of Charming -> Rod of the Pact Keeper +2. |  | -5 |
+| 2026-01-08 | Trading Post — Staff of Charming -> Rod of the Pact Keeper +2 |  | -5 |
 | 2026-02-07 | Rebuild — Warlock 7/Fighter 1 |  |  |
 |  | Catching Up — 1 Level |  | -10 |
 |  | Purchase Equipment — Breastplate | -400 |  |
 
 :::
+
+- **2026-01-08 Trading Post — Staff of Charming -> Rod of the Pact Keeper +2:** Peer: Aadaon / Landeep DMM. Source: DDHC-KGV-11.
 
 ---
 
@@ -219,6 +221,9 @@ Protected Harkle in his haberdashery. Infiltrated Tyrex’s hideout. Instead of 
 |  | Bastion · Greenhouse: Harvest — Poison: Pale Tincture |  |  |
 |  | Bastion · Workshop: Craft — Clockwork Amulet | -50 | -5 |
 |  | Bastion · Storehouse: Procure — Goods | -1200 |  |
+| 2026-05-17 | Trading Post — Portable Hole -> Do-Maru Half Plate +1 |  | -5 |
 
 :::
+
+- **2026-05-17 Trading Post — Portable Hole -> Do-Maru Half Plate +1:** Peer: Lex W / Hanako Makilien. Source: FR-DC-ONI-02.
 
