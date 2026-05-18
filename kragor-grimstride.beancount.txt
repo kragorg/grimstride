@@ -54,7 +54,7 @@ include "includes/commodities-and-prices.beancount"
   notes: "Cramped Kitchen,
           Roomy Dining Room,
           Roomy Storehouse,
-          Roomy Arcane Study."
+          Roomy Arcane Study"
   Assets:Miscellaneous                              1 BASTION {{0 GP}}
   Equity:Opening-Balances
 
@@ -157,7 +157,10 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Consumable                           1 SCROLL_HEX
   Income:Crafting
 
-2026-01-08 * "Trading Post" "Staff of Charming -> Rod of the Pact Keeper +2." #trading-post
+2026-01-08 * "Trading Post" "Staff of Charming -> Rod of the Pact Keeper +2" #trading-post
+  player: "Aadaon"
+  character: "Landeep DMM"
+  source: "DDHC-KGV-11"
   Assets:Downtime                                  -5 DT
   Expenses:Trading                                  5 DT
   Assets:Magic:Rare                                -1 STAFF_CHARMING {}
@@ -277,3 +280,12 @@ include "includes/commodities-and-prices.beancount"
 2026-04-15 * "Bastion - Storehouse: Procure" "Goods" #bastion
   Assets:Bastion:Storehouse                      1200 GOODS {{1200 GP}}
   Assets:Gold
+
+2026-05-17 * "Trading Post" "Portable Hole -> Do-Maru Half Plate +1" #trading-post
+  player: "Lex W"
+  character: "Hanako Makilien"
+  source: "FR-DC-ONI-02"
+  Assets:Downtime                                  -5 DT
+  Expenses:Trading                                  5 DT
+  Assets:Magic:Rare                                -1 PORTABLE_HOLE {}
+  Assets:Magic:Rare                                 1 DO_MARU {{0 GP}}
