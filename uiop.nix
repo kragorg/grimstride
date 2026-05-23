@@ -336,6 +336,7 @@ let
       // {
         name = "index";
         inherit source title;
+        epubSource = template;
       };
 
     # -- Area loading --
@@ -378,6 +379,7 @@ let
       "homelink"
       "srcAbsPath"
       "srcRelPath"
+      "epubSource"
     ];
 
     # Collect the union of all env-var names across all pages.

@@ -1,4 +1,4 @@
-# Dungeons & Gardens II
+# Dungeons & Gardens II {.area-title}
 
 ## Sessions
 

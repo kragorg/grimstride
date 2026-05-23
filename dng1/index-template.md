@@ -1,4 +1,4 @@
-# Dungeons & Gardens I
+# Dungeons & Gardens I {.area-title}
 
 ## Chapters
 

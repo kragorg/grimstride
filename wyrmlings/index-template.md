@@ -1,4 +1,4 @@
-# White Dragon Wyrmlings
+# White Dragon Wyrmlings {.area-title}
 
 <!-- INDEX:main -->
 
