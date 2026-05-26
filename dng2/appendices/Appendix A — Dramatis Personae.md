@@ -117,11 +117,6 @@ Faelan Duskwood
 He identified the distant winged silhouette
 as possibly being Gelidon, the Nightmare in Ivory.
 
-Former Adventurers
-: Gerhard departed in Syrinlya,
-reuniting with his searching brother
-and returning to Icehaven to rebuild his shattered life.
-
 Gelidon, the Nightmare in Ivory
 : A fabled ancient white dragon
 whose terrifying silhouette was spotted
@@ -130,6 +125,12 @@ of the Crystalsands Tundra.
 Faelan Duskwood warned
 that if she caught their scent,
 she would make a meal of the Flot goats.
+
+Gerhard Eisner
+: A former member of the party.
+He departed in Syrinlya,
+reuniting with his searching brother
+and returned to Icehaven to rebuild his shattered life.
 
 Halite the Goliath
 : A Goliath and former member of the party
