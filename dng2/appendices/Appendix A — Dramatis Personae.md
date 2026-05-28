@@ -32,6 +32,13 @@ A woman of wide shoulders and fine, long grey-green hair,
 she stocks rare magical items
 and has hinted at a willingness
 to hire the party for less-than-legitimate acquisitions.
+When asked about custom enchantments, she offered a rare Canaith Mandolin
+but ultimately advised the party to seek out the renowned Pumat Sol in Rexxentrum.
+
+Borant
+: The dwarven desk attendant at the Vellum Steeple.
+He provided Kragor with research regarding the flesh-eating Mawcotters,
+unwittingly serving as a distraction while Doctor Pepe infiltrated the restricted archives.
 
 Borric
 : A fastidious dwarven assistant at Padillia’s shop on the Liber Disk.
@@ -45,6 +52,8 @@ pulled from the wreckage of the lead wagon.
 His mentor was Sergeant Dolgrim Ashward,
 whose death in the ambush hit the young recruit hard.
 He lives on the Volition Disk near the copper mines.
+He has been officially assigned by the Glassblades, alongside Commander Hilda,
+to accompany the party on their expedition south to track the stolen purple worm.
 
 Caelynn Whisperwind
 : A hardy teamster and the sole surviving crew member
@@ -66,6 +75,13 @@ whose face resembled dry, stretched parchment.
 Riding a fearsome Moorbounder and wielding a cursed glaive,
 they led the ambush against the caravan
 and successfully stole the Aeorian artifact.
+
+Donald
+: An older dwarven patron at the Broken Stool tavern
+and a former caravan runner who traded between Uthodurn and Xhorhas.
+He warned the party about the terrifying prowess of the Kryn Echo Knights
+and strongly advised against traveling through the Savalirwood,
+recalling horrifying rumors of towering, demonic udaaks in the region.
 
 Deilin
 : A slender young elf who works the forge
@@ -100,6 +116,13 @@ of a powerful Aeorian artifact to Uthodurn.
 > sixty to ninety Glassblades at his command.
 >
 > -- _Explorer’s Guide to Wildemount_
+
+Echo Knights (Vornesh Kasathar and Adrec Olios)
+: The imposing drow guards assigned as personal security
+to Taskhand Serraf Mirimm.
+Clad in jagged, jet-black carapace armor bearing dodecahedron insignias,
+their title is a mark of high distinction in the Kryn Dynasty,
+signifying them as the most faithful and adept of the Aurora Watch.
 
 Ërethyn Galewing
 : Minister of the Diarchy of Uthodurn.
@@ -268,6 +291,11 @@ and Boutique of Bountiful Provisions on the Liber Disk.
 A tall, broad-shouldered Attalwen with copper-colored hair.
 Her assistant Borric handles fittings and measurements.
 
+Pumat Sol
+: A renowned enchanter based far south in the city of Rexxentrum.
+Ava Endlewood recommended seeking him out
+for high-end, custom magical enhancements.
+
 Quajath
 : An ancient and powerful entity,
 referred to as "the Worm",
@@ -334,10 +362,10 @@ Sparky
 Talindra Snowveil
 : A veteran Glassblade killed during the caravan ambush.
 
-The Taskhand
+Taskhand Serraf Mirimm
 : A male drow serving as ambassador
 from the Kryn Dynasty to Uthodurn,
-flanked by soldiers in jagged, chitinous armor.
+flanked by elite Echo Knights in jagged, chitinous armor.
 He initially bristled at Diarchy accusations
 regarding the caravan ambush,
 but the presence of undead among the attackers
@@ -349,14 +377,22 @@ via purple worm tunnel,
 and went silent shortly after;
 Kryn forces who followed found the scouts slaughtered
 and the worm gone.
-He agreed to accompany the party south
-to investigate the site.
+He formally hosted the party for a logistical summit at the Kryn Embassy,
+agreeing to accompany them south to investigate the site
+and gifting Kragor a metal medallion for safe passage.
 
 Thilda
 : A perpetually exhausted dwarven pelt-sharer
 in Palebank Village,
 who became the primary beneficiary
 of Doctor Pepe’s lavish spending and hedonism.
+
+Thornweaver Mosscord ("Moss")
+: The firbolg caretaker of the Wildmother’s hidden shrine in Uthodurn.
+Standing eight feet tall with moss growing through his hair and beard,
+he wears roughspun robes and walks barefoot.
+Originally from the Savalirwood,
+he gifted Scarlet a fine herbalism kit after she offered devotions at the altar.
 
 Tomás Veer
 : A teamster with the Palebank caravan.
@@ -387,6 +423,9 @@ bright-eyed with the confidence of those
 who have not yet encountered the things that will cost them.
 It was Torvin who wanted the green glow in the mines investigated
 so work could resume.
+He later argued fiercely against Brennik accompanying the party south
+until Kragor subtly used a *Suggestion* enchantment
+to convince him the expedition was the best path for his son's recovery.
 
 Umagorn Smeltborne
 : Master smith at the Anvil of Smeltborne on the Liber Disk.
