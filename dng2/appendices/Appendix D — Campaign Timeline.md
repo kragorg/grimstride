@@ -45,11 +45,13 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 ### Brussendar 835 PD
 
-- **1 Brussendar,** _Day 59_. The party is debriefed at the Vellum Steeple, gets invited to the palace to meet a Kryn Ambassador, and is assigned a quest to investigate the hijacking of a purple worm.
+- **3 Brussendar,** _Day 61_. The party completes their final preparations and readies to depart Uthodurn and set out onto the Rime Plains to track down signs of the missing purple worm.
+- **2 Brussendar,** _Day 60_. The party conducts a daring map heist at the Vellum Steeple, attends a logistical summit at the Kryn Embassy, and spends their final evening enjoying the subterranean nightlife at the Underrest.
+- **1 Brussendar,** _Day 59_. The party is debriefed at the Vellum Steeple, meets the Kryn ambassador at the palace, and is officially assigned the quest to investigate the missing purple worm.
 
 ### Unndilar 835 PD
 
-- **28 Unndilar,** _Day 58_. The party explores Uthodurn, shops, become Friends of the Court, and re-unite briefly with Halite and Whisper before encountering a demon and a lich.
+- **28 Unndilar,** _Day 58_. The party explores Uthodurn, shops, become Friends of the Court, and re-unite briefly with Halite and Whisper before encountering a demon and a lich. Kragor commissions an enchanted warhammer, mace, and chain shirt from Umagorn Smeltborne.
 - **27 Unndilar,** _Day 57_. The party arrives at Uthodurn late at night. Commander Tormund Ironfell sends them to the Broken Stool while he consults the palace.
 - **26 Unndilar,** _Day 56_. The party discovers a divine altar to Kord. Kragor receives a blessing.
 - **25 Unndilar,** _Day 55_. The caravan is ambushed in the foothills of the Flotket Alps and the artifact is taken.
