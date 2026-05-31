@@ -76,7 +76,7 @@ Riding a fearsome Moorbounder and wielding a cursed glaive,
 they led the ambush against the caravan
 and successfully stole the Aeorian artifact.
 
-Donald
+Donal
 : An older dwarven patron at the Broken Stool tavern
 and a former caravan runner who traded between Uthodurn and Xhorhas.
 He warned the party about the terrifying prowess of the Kryn Echo Knights
@@ -117,9 +117,9 @@ of a powerful Aeorian artifact to Uthodurn.
 >
 > -- _Explorer’s Guide to Wildemount_
 
-Echo Knights (Vornesh Kasathar and Adrec Olios)
+Echo Knights (Vornesh Kasathar and Aedric Olios)
 : The imposing drow guards assigned as personal security
-to Taskhand Serraf Mirimm.
+to Taskhand Serath Mirimm.
 Clad in jagged, jet-black carapace armor bearing dodecahedron insignias,
 their title is a mark of high distinction in the Kryn Dynasty,
 signifying them as the most faithful and adept of the Aurora Watch.
@@ -362,7 +362,7 @@ Sparky
 Talindra Snowveil
 : A veteran Glassblade killed during the caravan ambush.
 
-Taskhand Serraf Mirimm
+Taskhand Serath Mirimm
 : A male drow serving as ambassador
 from the Kryn Dynasty to Uthodurn,
 flanked by elite Echo Knights in jagged, chitinous armor.
