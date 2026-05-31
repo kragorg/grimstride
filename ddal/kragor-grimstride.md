@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 138.71 GP |
-| Downtime | 12 DT |
+| Gold | 2043.96 GP |
+| Downtime | 10 DT |
 | Soul Coins | 1 |
 
 :::
@@ -28,7 +28,8 @@
 | Common | 1 | Clockwork Amulet | 1 |
 | Uncommon | 2 | Mithral Splint Mail | 1 |
 |  |  | Shield +1 | 1 |
-| Rare | 2 | Do-Maru Half Plate +1 | 1 |
+| Rare | 3 | Do-Maru Half Plate +1 | 1 |
+|  |  | Mace of Smiting | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 
 :::
@@ -93,7 +94,7 @@ Rescued the Frostbite Platoon from an ogre troop.
 | Date | Activity | GP | DT |
 | --- | --- | --- | --- |
 | 2025-11-21 | Bastion — Turn |  | -7 |
-|  | Bastion · Storehouse: Sell — Arcane Focus Orb | +13.75 |  |
+|  | Bastion · Storehouse: Sell — Arcane Focus Orb | +22 |  |
 |  | Bastion · Storehouse: Sell — Goods | +352 |  |
 |  | Bastion · Arcane Study: Craft — Book | -10 |  |
 |  | Scribe Spell Scrolls — Inked 1x Hex | -25 | -1 |
@@ -113,7 +114,7 @@ Rescued the Frostbite Platoon from an ogre troop.
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 6 | Y | 7 |
-| Gold (GP) | 604.21 | +200 | 804.21 |
+| Gold (GP) | 612.46 | +200 | 812.46 |
 | Downtime (DT) | 34 | +10 | 44 |
 | Soul Coins Carried | 0 | | 1 |
 
@@ -156,7 +157,7 @@ We saved Fai Chen and his clones and brought them back to Mahadi’s Wandering E
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 8 | Y | 9 |
-| Gold (GP) | 39.21 | +107.5 | 146.71 |
+| Gold (GP) | 47.46 | +107.5 | 154.96 |
 | Downtime (DT) | 21 | +10 | 31 |
 | Soul Coins Carried | 1 | | 1 |
 
@@ -175,8 +176,8 @@ Incomplete: Received mission from the illithid Glor to hunt down Rogue Thought, 
 |  | Bastion — Special Facility Acquisition |  |  |
 |  | Bastion — Turn |  | -7 |
 |  | Bastion · Storehouse: Sell — Goods | +228 |  |
-|  | Bastion · Storehouse: Sell — Arcane Focus Orb | +12 |  |
-|  | Bastion · Storehouse: Sell — Book | +15 |  |
+|  | Bastion · Storehouse: Sell — Arcane Focus Orb | +24 |  |
+|  | Bastion · Storehouse: Sell — Book | +30 |  |
 |  | Bastion · Storehouse: Sell — Studded Leather Armor | +27 |  |
 |  | Bastion · Storehouse: Sell — Breastplate | +240 |  |
 |  | Bastion · Arcane Study: Craft — Potion of Comprehension | -50 | -5 |
@@ -186,7 +187,7 @@ Incomplete: Received mission from the illithid Glor to hunt down Rogue Thought, 
 
 :::
 
-- **2026-03-12 Bastion — Special Facility Acquisition:** Roomy Greenhouse, Roomy Workshop • [Image-1](Kragor-Bastion-1.jpg) [Image-2](Kragor-Bastion-2.jpg).
+- **2026-03-12 Bastion — Special Facility Acquisition:** Roomy Greenhouse, Roomy Workshop with Tinker's Tools, Carpenter's Tools, Glassblower's Tools, Leatherworker's Tools, Weaver's Tools, Woodcarver's Tools • [Image-1](Kragor-Bastion-1.jpg) [Image-2](Kragor-Bastion-2.jpg).
 
 ---
 
@@ -201,7 +202,7 @@ Incomplete: Received mission from the illithid Glor to hunt down Rogue Thought, 
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 9 | Y | 10 |
-| Gold (GP) | 318.71 | +1070 | 1388.71 |
+| Gold (GP) | 353.96 | +1070 | 1423.96 |
 | Downtime (DT) | 19 | +10 | 29 |
 | Soul Coins Carried | 1 | | 1 |
 
@@ -226,4 +227,46 @@ Protected Harkle in his haberdashery. Infiltrated Tyrex’s hideout. Instead of 
 :::
 
 - **2026-05-17 Trading Post — Portable Hole → Do-Maru Half Plate +1:** Peer: Lex W / Hanako Makilien. Source: FR-DC-ONI-02.
+
+---
+
+### 2026-05-28 — Fester and Burn
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDAL07-06 | Fester and Burn | Julien de Channes de Jouvancourt |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 10 | N | 10 |
+| Gold (GP) | 173.96 | +280 | 453.96 |
+| Downtime (DT) | 12 | +10 | 22 |
+| Soul Coins Carried | 1 | | 1 |
+
+:::
+
+Defeated the aarakocra proto-lich, destroyed the cyst, escaped the collapsing underground ziggurat with five of the seven prisoners (the other two had transformed into ghasts).
+
+**Magic Items:** Mace of Smiting (Rare)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-05-29 | Bastion — Turn |  | -7 |
+|  | Bastion · Storehouse: Sell — Goods | +1440 |  |
+|  | Bastion · Storehouse: Sell — Poison: Malice | +150 |  |
+|  | Bastion · Storehouse: Sell — Poison: Pale Tincture | +150 |  |
+|  | Bastion · Arcane Study: Craft — Arcane Focus Orb |  |  |
+|  | Bastion · Greenhouse: Harvest — Poison: Malice |  |  |
+|  | Bastion · Workshop: Craft — Studded Leather Armor |  |  |
+|  | Scribe Spell Scrolls — Inked 1x Summon Fey (III) | -150 | -5 |
+
+:::
+
+- **2026-05-29 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Needs 2 more DT on a future Bastion Turn.
 

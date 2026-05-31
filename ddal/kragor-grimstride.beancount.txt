@@ -97,7 +97,7 @@ include "includes/commodities-and-prices.beancount"
   Expenses:Bastion
 
 2025-11-21 * "Bastion - Storehouse: Sell" "Arcane Focus Orb" #bastion
-  Assets:Gold                              (25/2)*1.1 GP  ; Storehouse +10%
+  Assets:Gold                                  20*1.1 GP  ; Storehouse +10% (crafted, full price)
   Assets:Bastion:Storehouse                        -1 ARCANE_FOCUS_ORB {}
   Income:Bastion:Sales
 
@@ -204,7 +204,10 @@ include "includes/commodities-and-prices.beancount"
 2026-03-12 * "Rebuild" "Fighter 1 / Warlock 8" #rebuild
 
 2026-03-12 * "Bastion" "Special Facility Acquisition" #bastion
-  notes: "Roomy Greenhouse, Roomy Workshop"
+  notes: "Roomy Greenhouse,
+          Roomy Workshop with Tinker's Tools, Carpenter's Tools,
+          Glassblower's Tools, Leatherworker's Tools,
+          Weaver's Tools, Woodcarver's Tools"
   images: "Kragor-Bastion-1.jpg; Kragor-Bastion-2.jpg"
 
 2026-03-12 * "Bastion" "Turn" #bastion
@@ -217,12 +220,12 @@ include "includes/commodities-and-prices.beancount"
   Income:Bastion:Sales
 
 2026-03-12 * "Bastion - Storehouse: Sell" "Arcane Focus Orb" #bastion
-  Assets:Gold                              (20/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Gold                                  20*1.2 GP  ;  Storehouse +20% (crafted, full price)
   Assets:Bastion:Storehouse                        -1 ARCANE_FOCUS_ORB {}
   Income:Bastion:Sales
 
 2026-03-12 * "Bastion - Storehouse: Sell" "Book" #bastion
-  Assets:Gold                              (25/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Gold                                  25*1.2 GP  ;  Storehouse +20% (crafted, full price)
   Assets:Bastion:Storehouse                        -1 BOOK {}
   Income:Bastion:Sales
 
@@ -289,3 +292,55 @@ include "includes/commodities-and-prices.beancount"
   Expenses:Trading                                  5 DT
   Assets:Magic:Rare                                -1 PORTABLE_HOLE {}
   Assets:Magic:Rare                                 1 DO_MARU {{0 GP}}
+
+2026-05-28 * "Adventure" "Fester and Burn" #adventure
+  module: "DDAL07-06"
+  dm: "Julien de Channes de Jouvancourt"
+  notes: "Defeated the aarakocra proto-lich, destroyed the cyst,
+    escaped the collapsing underground ziggurat with
+    five of the seven prisoners (the other two had transformed
+    into ghasts)."
+  Assets:Gold                        (1000+200+200)/5 GP
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Rare                                 1 MACE_SMITING {{0 GP}}
+  Income:Adventure
+
+2026-05-29 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2026-05-29 * "Bastion - Storehouse: Sell" "Goods" #bastion
+  Assets:Gold                                1200*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                     -1200 GOODS {}
+  Income:Bastion:Sales
+
+2026-05-29 * "Bastion - Storehouse: Sell" "Poison: Malice" #bastion
+  Assets:Gold                             (250/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 POISON_MALICE {}
+  Income:Bastion:Sales
+
+2026-05-29 * "Bastion - Storehouse: Sell" "Poison: Pale Tincture" #bastion
+  Assets:Gold                             (250/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 POISON_PALE_TINCTURE {}
+  Income:Bastion:Sales
+
+2026-05-29 * "Bastion - Arcane Study: Craft" "Arcane Focus Orb" #bastion
+  Assets:Bastion:Storehouse                         1 ARCANE_FOCUS_ORB {{0 GP}}
+  Income:Bastion:Crafting
+
+2026-05-29 * "Bastion - Greenhouse: Harvest" "Poison: Malice" #bastion
+  Assets:Bastion:Storehouse                         1 POISON_MALICE {{0 GP}}
+  Income:Bastion:Harvest
+
+2026-05-29 * "Bastion - Workshop: Craft" "Studded Leather Armor" #bastion
+  Assets:Bastion:Storehouse                         1 STUDDED_LEATHER {{0 GP}}
+  Income:Bastion:Crafting
+
+
+2026-05-29 * "Scribe Spell Scrolls" "Inked 1x Summon Fey (III)" #scribe #in-progress
+  notes: "Needs 2 more DT on a future Bastion Turn."
+  Assets:Gold                                    -150 GP
+  Expenses:Scribing                               150 GP
+  Assets:Downtime                                  -5 DT
+  Expenses:Scribing                                 5 DT
+
