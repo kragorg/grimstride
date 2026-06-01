@@ -140,6 +140,19 @@ Faelan Duskwood
 He identified the distant winged silhouette
 as possibly being Gelidon, the Nightmare in Ivory.
 
+Frost Giants (The Mountain Pass)
+: A pair of frost giants who ambushed the party
+on the slopes east of the Ivory Lake.
+The larger of the two, pale-eyed and unhurried,
+wielded a greataxe and a bow;
+he very nearly killed Doctor Pepe with a single blow.
+Hilda Brackmar felled him.
+The smaller, broad-shouldered and pale-skinned
+with a fur cloak caked in frost,
+wielded a greatsword and a bow.
+Elara brought her down with unerring magic
+after forcing her to grovel.
+
 Gelidon, the Nightmare in Ivory
 : A fabled ancient white dragon
 whose terrifying silhouette was spotted
