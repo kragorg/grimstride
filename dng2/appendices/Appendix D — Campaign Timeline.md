@@ -45,7 +45,8 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 ### Brussendar 835 PD
 
-- **3 Brussendar,** _Day 61_. The party completes their final preparations and readies to depart Uthodurn and set out onto the Rime Plains to track down signs of the missing purple worm.
+- **4 Brussendar,** _Day 62_. Gelidon is sighted again. The party is ambushed by two frost giants.
+- **3 Brussendar,** _Day 61_. The party departs Uthodurn. The day's journey includes a wyvern pursuit and a failed attempt to befriend a herd of white bison.
 - **2 Brussendar,** _Day 60_. The party conducts a daring map heist at the Vellum Steeple, attends a logistical summit at the Kryn Embassy, and spends their final evening enjoying the subterranean nightlife at the Underrest.
 - **1 Brussendar,** _Day 59_. The party is debriefed at the Vellum Steeple, meets the Kryn ambassador at the palace, and is officially assigned the quest to investigate the missing purple worm.
 
@@ -55,6 +56,7 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 - **27 Unndilar,** _Day 57_. The party arrives at Uthodurn late at night. Commander Tormund Ironfell sends them to the Broken Stool while he consults the palace.
 - **26 Unndilar,** _Day 56_. The party discovers a divine altar to Kord. Kragor receives a blessing.
 - **25 Unndilar,** _Day 55_. The caravan is ambushed in the foothills of the Flotket Alps and the artifact is taken.
+- **20 Unndilar,** _Day 50._ Gelidon, the Nightmare in Ivory, is sighted on the horizon.
 - **19 Unndilar,** _Day 49_. The party departs with a caravan to Uthodurn, protecting the transport of a powerful Aeorian artifact.
 - **17 Unndilar,** _Day 47_. Rimeflake departs for the mountains to hunt on their own.
 - **14 Unndilar,** _Day 44_. The white dragon egg hatches. Kragor names the wyrmling “Rimeflake”.
