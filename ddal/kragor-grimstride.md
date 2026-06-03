@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 2043.96 GP |
-| Downtime | 10 DT |
+| Gold | 1833.96 GP |
+| Downtime | 0 DT |
 | Soul Coins | 1 |
 
 :::
@@ -28,7 +28,8 @@
 | Common | 1 | Clockwork Amulet | 1 |
 | Uncommon | 2 | Mithral Splint Mail | 1 |
 |  |  | Shield +1 | 1 |
-| Rare | 3 | Do-Maru Half Plate +1 | 1 |
+| Rare | 4 | Boots of Striding and Springing | 1 |
+|  |  | Do-Maru Half Plate +1 | 1 |
 |  |  | Mace of Smiting | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 
@@ -263,10 +264,14 @@ Defeated the aarakocra proto-lich, destroyed the cyst, escaped the collapsing un
 |  | Bastion · Storehouse: Sell — Poison: Pale Tincture | +150 |  |
 |  | Bastion · Arcane Study: Craft — Arcane Focus Orb |  |  |
 |  | Bastion · Greenhouse: Harvest — Poison: Malice |  |  |
-|  | Bastion · Workshop: Craft — Studded Leather Armor |  |  |
+|  | Bastion · Workshop: Craft — Cloak of Protection | -200 | -5 |
 |  | Scribe Spell Scrolls — Inked 1x Summon Fey (III) | -150 | -5 |
+| 2026-06-02 | Trading Post — Shield +1 → Boots of Striding and Springing |  | -5 |
+|  | Purchase Equipment — Shield | -10 |  |
 
 :::
 
+- **2026-05-29 Bastion · Workshop: Craft — Cloak of Protection:** Needs 5 more DT on a future Bastion Turn.
 - **2026-05-29 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Needs 2 more DT on a future Bastion Turn.
+- **2026-06-02 Trading Post — Shield +1 → Boots of Striding and Springing:** DDHC-TYP-04 is the 4th adventure in the hardcover compilation of Tales from the Yawning Portal. Peer: Dunstvangeet / Arathil Ilmanion. Source: DDHC-TYP-04.
 

@@ -332,8 +332,13 @@ include "includes/commodities-and-prices.beancount"
   Assets:Bastion:Storehouse                         1 POISON_MALICE {{0 GP}}
   Income:Bastion:Harvest
 
-2026-05-29 * "Bastion - Workshop: Craft" "Studded Leather Armor" #bastion
-  Assets:Bastion:Storehouse                         1 STUDDED_LEATHER {{0 GP}}
+2026-05-29 * "Bastion - Workshop: Craft" "Cloak of Protection" #bastion #in-progress
+  notes: "Needs 5 more DT on a future Bastion Turn."
+  Assets:Gold                                    -200 GP
+  Expenses:Crafting                               200 GP
+  Assets:Downtime                                  -5 DT
+  Expenses:Crafting                                 5 DT
+  Assets:Bastion:Storehouse                         1 CLOAK_PROTECTION {{0 GP}}
   Income:Bastion:Crafting
 
 
@@ -344,3 +349,16 @@ include "includes/commodities-and-prices.beancount"
   Assets:Downtime                                  -5 DT
   Expenses:Scribing                                 5 DT
 
+2026-06-02 * "Trading Post" "Shield +1 → Boots of Striding and Springing" #trading-post
+  player: "Dunstvangeet"
+  character: "Arathil Ilmanion"
+  source: "DDHC-TYP-04"
+  notes: "DDHC-TYP-04 is the 4th adventure in the hardcover compilation of Tales from the Yawning Portal."
+  Assets:Downtime                                  -5 DT
+  Expenses:Trading                                  5 DT
+  Assets:Magic:Rare                                -1 SHIELD_1 {}
+  Assets:Magic:Rare                                 1 BOOTS_STRIDING_SPRINGING {{0 GP}}
+
+2026-06-02 * "Purchase Equipment" "Shield" #trade
+  Assets:Gold                                     -10 GP
+  Assets:Inventory                                  1 SHIELD {{10 GP}}
