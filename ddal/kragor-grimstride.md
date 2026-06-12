@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 1833.96 GP |
-| Downtime | 0 DT |
+| Gold | 323.96 GP |
+| Downtime | 1 DT |
 | Soul Coins | 1 |
 
 :::
@@ -20,18 +20,18 @@
 
 | Rarity | # | Item | Count |
 | --- | --- | --- | --- |
-| Consumable | 10 | Potion of Climbing | 1 |
-|  |  | Potion of Comprehension | 1 |
+| Consumable | 8 | Potion of Comprehension | 1 |
 |  |  | Potion of Greater Healing | 4 |
 |  |  | Potion of Poison | 1 |
-|  |  | Tattoo: Hex | 3 |
+|  |  | Tattoo: Hex | 2 |
 | Common | 1 | Clockwork Amulet | 1 |
-| Uncommon | 2 | Mithral Splint Mail | 1 |
-|  |  | Shield +1 | 1 |
-| Rare | 4 | Boots of Striding and Springing | 1 |
-|  |  | Do-Maru Half Plate +1 | 1 |
+| Uncommon | 3 | Boots of Striding and Springing | 1 |
+|  |  | Cloak of Protection | 1 |
+|  |  | Mithral Splint Mail | 1 |
+| Rare | 4 | Do-Maru Half Plate +1 | 1 |
 |  |  | Mace of Smiting | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
+|  |  | Rope of Entanglement | 1 |
 
 :::
 
@@ -274,4 +274,41 @@ Defeated the aarakocra proto-lich, destroyed the cyst, escaped the collapsing un
 - **2026-05-29 Bastion · Workshop: Craft — Cloak of Protection:** Needs 5 more DT on a future Bastion Turn.
 - **2026-05-29 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Needs 2 more DT on a future Bastion Turn.
 - **2026-06-02 Trading Post — Shield +1 → Boots of Striding and Springing:** DDHC-TYP-04 is the 4th adventure in the hardcover compilation of Tales from the Yawning Portal. Peer: Dunstvangeet / Arathil Ilmanion. Source: DDHC-TYP-04.
+
+---
+
+### 2026-06-11 — Rotting Roots
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDAL07-07 | Rotting Roots | Julien de Channes de Jouvancourt |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 10 | N | 10 |
+| Gold (GP) | 1833.96 | +700 | 2533.96 |
+| Downtime (DT) | 0 | +10 | 10 |
+| Soul Coins Carried | 1 | | 1 |
+
+:::
+
+Defeated the Big One (the corrupted tyrannosaurus) and destroyed the Cyst in the Mistcliff Mountains, saving Port Nyanzaru from the undead horde.
+
+**Magic Items:** Rope of Entanglement (Rare)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-06-11 | Bastion — Turn |  | -7 |
+|  | Bastion · Storehouse: Procure — Goods | -2200 |  |
+|  | Bastion · Arcane Study: Craft — Book | -10 |  |
+|  | Bastion · Greenhouse: Harvest — Poison: Pale Tincture |  |  |
+|  | Bastion · Workshop: Craft — Cloak of Protection |  | -2 |
+
+:::
 
