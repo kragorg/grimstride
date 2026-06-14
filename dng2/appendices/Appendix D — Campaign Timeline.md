@@ -45,7 +45,9 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 ### Brussendar 835 PD
 
-- **4 Brussendar,** _Day 62_. Gelidon is sighted again. The party is ambushed by two frost giants.
+- **6 Brussendar,** _Day 64_. Hilda is sent back to Uthodurn with the horses. The rest of the party descends into the Underdark through a secret Kryn tunnel.
+- **5 Brussendar,** _Day 63_. An avalanche strikes the party in a narrow gorge, burying Therin and Vornesh. The party rescues them, abandons the blocked mountain route, and backtracks to the Kryn cache.
+- **4 Brussendar,** _Day 62_. Gelidon is sighted again. The party is ambushed by two frost giants. Afterward, they wrangle their spooked horses and find shelter in a secret Kryn cache.
 - **3 Brussendar,** _Day 61_. The party departs Uthodurn. The day's journey includes a wyvern pursuit and a failed attempt to befriend a herd of white bison.
 - **2 Brussendar,** _Day 60_. The party conducts a daring map heist at the Vellum Steeple, attends a logistical summit at the Kryn Embassy, and spends their final evening enjoying the subterranean nightlife at the Underrest.
 - **1 Brussendar,** _Day 59_. The party is debriefed at the Vellum Steeple, meets the Kryn ambassador at the palace, and is officially assigned the quest to investigate the missing purple worm.
