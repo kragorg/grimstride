@@ -108,7 +108,7 @@ include "includes/commodities-and-prices.beancount"
 
 2025-11-21 * "Bastion - Arcane Study: Craft" "Book" #bastion
   Assets:Gold                                     -10 GP
-  Assets:Bastion:Storehouse                         1 BOOK {{10 GP}}  ; 7 days = 1 Bastion Turn
+  Assets:Bastion:Storehouse                         1 BOOK {{10 GP}}
 
 2025-11-21 * "Scribe Spell Scrolls" "Inked 1x Hex" #scribe
   Assets:Gold                                     -25 GP
@@ -338,9 +338,6 @@ include "includes/commodities-and-prices.beancount"
   Expenses:Crafting                               200 GP
   Assets:Downtime                                  -5 DT
   Expenses:Crafting                                 5 DT
-  Assets:Bastion:Storehouse                         1 CLOAK_PROTECTION {{0 GP}}
-  Income:Bastion:Crafting
-
 
 2026-05-29 * "Scribe Spell Scrolls" "Inked 1x Summon Fey (III)" #scribe #in-progress
   notes: "Needs 2 more DT on a future Bastion Turn."
@@ -356,9 +353,46 @@ include "includes/commodities-and-prices.beancount"
   notes: "DDHC-TYP-04 is the 4th adventure in the hardcover compilation of Tales from the Yawning Portal."
   Assets:Downtime                                  -5 DT
   Expenses:Trading                                  5 DT
-  Assets:Magic:Rare                                -1 SHIELD_1 {}
-  Assets:Magic:Rare                                 1 BOOTS_STRIDING_SPRINGING {{0 GP}}
+  Assets:Magic:Uncommon                            -1 SHIELD_1 {}
+  Assets:Magic:Uncommon                             1 BOOTS_STRIDING_SPRINGING {{0 GP}}
 
 2026-06-02 * "Purchase Equipment" "Shield" #trade
   Assets:Gold                                     -10 GP
   Assets:Inventory                                  1 SHIELD {{10 GP}}
+
+2026-06-11 * "Adventure" "Rotting Roots" #adventure
+  module: "DDAL07-07"
+  dm: "Julien de Channes de Jouvancourt"
+  notes: "Defeated the Big One (the corrupted tyrannosaurus) and destroyed
+    the Cyst in the Mistcliff Mountains, saving Port Nyanzaru from the
+    undead horde."
+  Assets:Gold                                 500+200 GP
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Consumable                          -1 POTION_CLIMBING {2025-11-20}  ;  Consumed
+  Expenses:Adventure                                1 POTION_CLIMBING {{0 GP}}
+  Assets:Magic:Consumable                          -1 SCROLL_HEX                    ;  Consumed
+  Expenses:Adventure                                1 SCROLL_HEX {{0 GP}}
+  Assets:Magic:Rare                                 1 ROPE_ENTANGLEMENT {{0 GP}}
+  Income:Adventure
+
+2026-06-11 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2026-06-11 * "Bastion - Storehouse: Procure" "Goods" #bastion
+  Assets:Bastion:Storehouse                      2200 GOODS {{2200 GP}}
+  Assets:Gold
+
+2026-06-11 * "Bastion - Arcane Study: Craft" "Book" #bastion
+  Assets:Gold                                     -10 GP
+  Assets:Bastion:Storehouse                         1 BOOK {{10 GP}}
+
+2026-06-11 * "Bastion - Greenhouse: Harvest" "Poison: Pale Tincture" #bastion
+  Assets:Bastion:Storehouse                         1 POISON_PALE_TINCTURE {{0 GP}}
+  Income:Bastion:Harvest
+
+2026-06-11 * "Bastion - Workshop: Craft" "Cloak of Protection" #bastion
+  Assets:Downtime                                  -2 DT
+  Expenses:Crafting                                 2 DT
+  Assets:Magic:Uncommon                             1 CLOAK_PROTECTION {{0 GP}}
+  Income:Bastion:Crafting
