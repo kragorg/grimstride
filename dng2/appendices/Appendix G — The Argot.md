@@ -55,14 +55,14 @@ Hold Position / Wait
 
 Retreat / Fall Back
 : **Verbal:** “Zugh.” *(tide)*
-: **Signal:** Flat hand, palm facing away, arm sweeping backward over the shoulder in a repeated arc.
+: **Signal:** Execute a rhythmic, backward-sweeping or scooping motion with the forward-most limbs, drawing the physical momentum of the stance away from the target and toward the self. (Adopted for animal use)
 : **Meaning:** Organized withdrawal; fall back to a previous position or out of engagement range.
 
 ## Threat Identification
 
 Enemy Spotted
 : **Verbal:** “Gakh.” *(rot)*
-: **Signal:** Index finger pointing at the threat, thumb folded over.
+: **Signal:** Extend the primary forward-facing limb or digit directly toward the target, while pulling the adjacent interior digit or joint tightly inward toward the body. (Adapted for animal use)
 : **Meaning:** General hostile presence.
 
 Mage / Spellcaster
@@ -72,12 +72,12 @@ Mage / Spellcaster
 
 Trap / Hazard
 : **Verbal:** “Skrag.” *(snag)*
-: **Signal:** Index and middle finger crossed tightly.
+: **Signal:** Cross or overlap two adjacent forward limbs or digits, creating an 'X' or binding shape that disrupts normal stance. (Adapted for animal use)
 : **Meaning:** Environmental danger, tripwires, poison.
 
 Ambush / We Are Watched
 : **Verbal:** “Drath.” *(chill)*
-: **Signal:** Tapping the side of the nose repeatedly.
+: **Signal:** Perform a repetitive, rhythmic tapping or striking motion against the side of the primary facial sensory organs (muzzle, whiskers, or pedipalps). (Adapted for animal use)
 : **Meaning:** Something is wrong, be alert.
 
 Heavy
@@ -99,7 +99,7 @@ Valuables / Loot
 
 Strike / Attack Now
 : **Verbal:** “Krakh.” *(bite)*
-: **Signal:** An open hand sweeping the arm from back to front in a repeated throwing motion.
+: **Signal:** Rear the upper body back and execute a high-energy, repetitive forward-sweeping or throwing motion with the primary forward limbs toward the target. (Adapted for animal use)
 : **Meaning:** Initiate combat.
 
 Distract / Noise
@@ -126,7 +126,7 @@ Focus Fire
 
 Clear / Safe
 : **Verbal:** “Ursh.” *(washed)*
-: **Signal:** Open palm facing outward, fingers together, held steady.
+: **Signal:** Relax all tension from the primary limbs, exposing the soft inner pads or flattening the stance completely against a surface, held perfectly steady without movement. (Adopted for animal use) 
 : **Meaning:** Area is secure, threats neutralized.
 
 Ready / Affirmative
