@@ -396,3 +396,14 @@ include "includes/commodities-and-prices.beancount"
   Expenses:Crafting                                 2 DT
   Assets:Magic:Uncommon                             1 CLOAK_PROTECTION {{0 GP}}
   Income:Bastion:Crafting
+
+2026-06-25 * "Adventure" "Putting the Dead to Rest" #adventure
+  module: "DDAL07-08"
+  dm: "Julien de Channes de Jouvancourt"
+  notes: "Defeated Zuccass and destroyed the cyst."
+  Assets:Gold                                     400 GP
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Consumable                           1 POTION_GREATER_HEALING {{0 GP}}
+  Assets:Magic:Consumable                           1 HOLY_WATER {{0 GP}}
+  Assets:Magic:Rare                                 1 STAFF_WOODLANDS {{0 GP}}
+  Income:Adventure
