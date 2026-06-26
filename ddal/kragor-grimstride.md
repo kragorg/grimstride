@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 323.96 GP |
-| Downtime | 1 DT |
+| Gold | 723.96 GP |
+| Downtime | 11 DT |
 | Soul Coins | 1 |
 
 :::
@@ -20,18 +20,20 @@
 
 | Rarity | # | Item | Count |
 | --- | --- | --- | --- |
-| Consumable | 8 | Potion of Comprehension | 1 |
-|  |  | Potion of Greater Healing | 4 |
+| Consumable | 10 | Vial of Holy Water | 1 |
+|  |  | Potion of Comprehension | 1 |
+|  |  | Potion of Greater Healing | 5 |
 |  |  | Potion of Poison | 1 |
 |  |  | Tattoo: Hex | 2 |
 | Common | 1 | Clockwork Amulet | 1 |
 | Uncommon | 3 | Boots of Striding and Springing | 1 |
 |  |  | Cloak of Protection | 1 |
 |  |  | Mithral Splint Mail | 1 |
-| Rare | 4 | Do-Maru Half Plate +1 | 1 |
+| Rare | 5 | Do-Maru Half Plate +1 | 1 |
 |  |  | Mace of Smiting | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 |  |  | Rope of Entanglement | 1 |
+|  |  | Staff of the Woodlands | 1 |
 
 :::
 
@@ -311,4 +313,29 @@ Defeated the Big One (the corrupted tyrannosaurus) and destroyed the Cyst in the
 |  | Bastion · Workshop: Craft — Cloak of Protection |  | -2 |
 
 :::
+
+---
+
+### 2026-06-25 — Putting the Dead to Rest
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDAL07-08 | Putting the Dead to Rest | Julien de Channes de Jouvancourt |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 10 | N | 10 |
+| Gold (GP) | 323.96 | +400 | 723.96 |
+| Downtime (DT) | 1 | +10 | 11 |
+| Soul Coins Carried | 1 | | 1 |
+
+:::
+
+Defeated Zuccass and destroyed the cyst.
+
+**Magic Items:** Vial of Holy Water (Consumable), Potion of Greater Healing (Consumable), Staff of the Woodlands (Rare)
+
+---
 
