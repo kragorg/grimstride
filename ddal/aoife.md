@@ -1,14 +1,14 @@
-# Goro the Barely Serene — [Log](goro-the-barely-serene.beancount.txt)
+# Aoife — [Log](aoife.beancount.txt)
 
 ::: character
 
 | | |
 | --- | --- |
-| Character Name | [Goro the Barely Serene](https://www.dndbeyond.com/characters/165237018) |
-| Race, Classes and Levels | Tortle Druid 1 |
-| Faction | Emerald Enclave |
+| Character Name | [Aoife](https://www.dndbeyond.com/characters/167707407) |
+| Race, Classes and Levels | Fairy Sorcerer 1 |
+| Faction |  |
 | Level | 1 |
-| Gold | 87.8 GP |
+| Gold | 40 GP |
 | Downtime | 10 DT |
 | Soul Coins | 0 |
 
@@ -30,8 +30,9 @@
 
 | Date | Activity | GP | DT |
 | --- | --- | --- | --- |
-| 2026-06-24 | Character Creation — Druid | +100 |  |
-|  | Purchase Equipment — Adventuring gear | -52.2 |  |
+| 2026-07-06 | Character Creation — Sorcerer | +100 |  |
+|  | Purchase Equipment — Adventuring gear | -50 |  |
+|  | Purchase Magical Components — Chromatic Orb material | -50 |  |
 
 :::
 
@@ -48,7 +49,7 @@
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
 | Level | 1 | N | 1 |
-| Gold (GP) | 47.8 | +40 | 87.8 |
+| Gold (GP) | 0 | +40 | 40 |
 | Downtime (DT) | 0 | +10 | 10 |
 | Soul Coins Carried | 0 | | 0 |
 
