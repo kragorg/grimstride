@@ -1,38 +1,44 @@
-option "title" "Goro the Barely Serene Character Log"
+option "title" "Aoife Character Log"
 option "operating_currency" "GP"
 plugin "beancount.plugins.auto_accounts"
 plugin "ddal_log"
 
-2026-06-24 custom "fava-option" "show-closed-accounts" "true"
+2026-07-06 custom "fava-option" "show-closed-accounts" "true"
 
-2026-06-24 custom "ddal" "character" "Goro the Barely Serene"
-2026-06-24 custom "ddal" "race-classes" "Tortle Druid 1"
-2026-06-24 custom "ddal" "faction" "Emerald Enclave"
-2026-06-24 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/165237018"
+2026-07-06 custom "ddal" "character" "Aoife"
+2026-07-06 custom "ddal" "race-classes" "Fairy Sorcerer 1"
+2026-07-06 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/167707407"
 
 include "includes/commodities-and-prices.beancount"
 
-2026-06-24 * "Character Creation" "Druid" #character-creation
+2026-07-06 commodity COMPONENT_DIAMOND50
+  name: "Diamond (Chromatic Orb material component, 50 GP)"
+2026-07-06 price COMPONENT_DIAMOND50   50    GP
+
+2026-07-06 * "Character Creation" "Sorcerer" #character-creation
   Assets:Gold                                     100 GP
   Assets:Level                                      1 LEVEL
   Equity:Opening-Balances
 
-2026-06-24 * "Purchase Equipment" "Adventuring gear" #trade
-  Assets:Gold                                   -52.2 GP
+2026-07-06 * "Purchase Equipment" "Adventuring gear" #trade
+  Assets:Gold                                      -50 GP
   Assets:Inventory                                  1 LIGHT_CROSSBOW {{25 GP}}
-  Assets:Inventory                                  1 QUARTERSTAFF {{0.2 GP}}
-  Assets:Inventory                                  1 SHIELD {{10 GP}}
-  Assets:Inventory                                  1 BOLTS {{5 GP}}
-  Assets:Inventory                                  1 BALL_BEARINGS {{1 GP}}
+  Assets:Inventory                                  1 DAGGER {{2 GP}}
+  Assets:Inventory                                  1 SHORTSWORD {{10 GP}}
+  Assets:Inventory                                 40 ARROWS {{2 GP}}
   Assets:Inventory                                  1 BEDROLL {{1 GP}}
-  Assets:Inventory                                  1 CALTROPS {{1 GP}}
+  Assets:Inventory                                 20 CALTROPS {{1 GP}}
   Assets:Inventory                                  1 CROWBAR {{2 GP}}
   Assets:Inventory                                  2 OIL {{0.2 GP}}
   Assets:Inventory                                 10 RATIONS {{5 GP}}
   Assets:Inventory                                  1 ROPE {{1 GP}}
   Assets:Inventory                                  1 TINDERBOX {{0.5 GP}}
-  Assets:Inventory                                  1 TORCH {{0.1 GP}}
+  Assets:Inventory                                 10 TORCH {{0.1 GP}}
   Assets:Inventory                                  1 WATERSKIN {{0.2 GP}}
+
+2026-07-06 * "Purchase Magical Components" "Chromatic Orb material" #trade
+  Assets:Gold                                      -50 GP
+  Assets:Inventory                                  1 COMPONENT_DIAMOND50 {{50 GP}}
 
 2026-07-06 * "Adventure" "Defiance in Phlan" #adventure
   module: "DDEX1-01"
