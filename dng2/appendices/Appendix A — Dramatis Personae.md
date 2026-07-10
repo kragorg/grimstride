@@ -117,7 +117,7 @@ of a powerful Aeorian artifact to Uthodurn.
 >
 > -- _Explorer’s Guide to Wildemount_
 
-Echo Knights (Vornesh Kasathar and Aedric Olios)
+Echo Knights (Vornesh Tasithar and Aedric Olios)
 : The imposing drow guards assigned as personal security
 to Taskhand Serath Mirimm.
 Clad in jagged, jet-black carapace armor bearing dodecahedron insignias,

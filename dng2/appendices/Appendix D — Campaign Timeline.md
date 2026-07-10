@@ -45,7 +45,7 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 ### Brussendar 835 PD
 
-- **6 Brussendar,** _Day 64_. Hilda is sent back to Uthodurn with the horses. The rest of the party descends into the Underdark through a secret Kryn tunnel.
+- **6 Brussendar,** _Day 64_. Hilda is sent back to Uthodurn with the horses. The rest of the party descends into the Underdark through a secret Kryn tunnel. They harvest fungi for food and water, salvage an old duergar-and-drow battlefield, and ford a cold underground river before pressing an extra shift into the Faerzress, where three ropers ambush the column and are cut down.
 - **5 Brussendar,** _Day 63_. An avalanche strikes the party in a narrow gorge, burying Therin and Vornesh. The party rescues them, abandons the blocked mountain route, and backtracks to the Kryn cache.
 - **4 Brussendar,** _Day 62_. Gelidon is sighted again. The party is ambushed by two frost giants. Afterward, they wrangle their spooked horses and find shelter in a secret Kryn cache.
 - **3 Brussendar,** _Day 61_. The party departs Uthodurn. The day's journey includes a wyvern pursuit and a failed attempt to befriend a herd of white bison.
