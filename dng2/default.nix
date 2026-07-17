@@ -3,7 +3,17 @@ let
   css = "dng.css";
   prefix = "dng2";
 
-  sessions = uiop.readPagesWithPrefix "Session" { inherit css; } ./sessions;
+  summariesPage = {
+    name = "summaries";
+    title = "Session Summaries";
+    source = "dng2--summaries.md";
+    css = "dng.css";
+    isGenerated = true;
+  };
+
+  rawSessions = uiop.readPagesWithPrefix "Session" { inherit css; } ./sessions;
+  sessions = [ summariesPage ] ++ rawSessions;
+
   appendices = uiop.readPages { inherit css; } ./appendices;
   characters = uiop.readPages { inherit css; } ./characters;
 

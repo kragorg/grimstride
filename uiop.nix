@@ -380,6 +380,7 @@ let
       "srcAbsPath"
       "srcRelPath"
       "epubSource"
+      "isGenerated"
     ];
 
     # Collect the union of all env-var names across all pages.
@@ -413,7 +414,9 @@ let
       let
         dollar = "$";
         sourceRef =
-          if page ? srcRelPath then
+          if page ? isGenerated && page.isGenerated then
+            "${dollar}{builddir}/${ninjaEscapePath page.source}"
+          else if page ? srcRelPath then
             "${dollar}{src}/${ninjaEscapePath page.srcRelPath}"
           else
             ninjaEscapePath "${page.source}";

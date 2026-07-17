@@ -14,7 +14,14 @@
 
 let
   uiop = import ./uiop.nix { inherit pkgs; };
-  assetExtensions = [ "css" "jpg" "png" "txt" "woff2" "zip" ];
+  assetExtensions = [
+    "css"
+    "jpg"
+    "png"
+    "txt"
+    "woff2"
+    "zip"
+  ];
   siteareas = [
     ./home
     ./dng1
@@ -27,11 +34,29 @@ let
   pages = uiop.flattenAreas (toString ./.) siteareas;
   assets = uiop.collectAssets assetExtensions (toString ./.) ([ ./assets ] ++ siteareas);
 
-  ninjaContent = uiop.mkNinjaBuildFile {
-    buildScript = ./buildPage.zsh;
-    shell = "${zsh}/bin/zsh";
-    inherit pages assets;
-  };
+  ninjaContent =
+    uiop.mkNinjaBuildFile {
+      buildScript = ./buildPage.zsh;
+      shell = "${zsh}/bin/zsh";
+      inherit pages assets;
+    }
+    + (
+      let
+        title = "Session Summaries";
+      in
+      ''
+
+        rule extract_summaries
+          command = (printf "# ${title}\n\n" && for f in $in; do pandoc --lua-filter=''${src}/scripts/extract-summary.lua $$f -t markdown; printf "\n"; done) > $out
+          description = Extracting summaries
+
+        build ''${builddir}/dng2--summaries.md: extract_summaries ${
+          lib.concatMapStringsSep " " (n: "\${src}/dng2/sessions/${n}") (
+            builtins.filter (n: lib.hasSuffix ".md" n) (builtins.attrNames (builtins.readDir ./dng2/sessions))
+          )
+        }
+      ''
+    );
 
   buildNinja = writeText "build.ninja" ninjaContent;
 
@@ -64,5 +89,8 @@ stdenvNoCC.mkDerivation rec {
 
   dontInstall = true;
 
-  passthru = { inherit buildNinja; mkBuildNinja = uiop.mkBuildNinja; };
+  passthru = {
+    inherit buildNinja;
+    mkBuildNinja = uiop.mkBuildNinja;
+  };
 }

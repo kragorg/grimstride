@@ -1,4 +1,6 @@
-include Makefile.local
+-include Makefile.local
+
+INSTALLDIR?= /tmp/grimstride.web
 
 all:
 	nix develop -c ninja

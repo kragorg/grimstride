@@ -47,6 +47,7 @@
               inherit (site) buildNinja;
               src = "$PWD";
               out = "$out";
+              builddir = "$PWD/outputs";
             }}
             export PROMPTPREFIX=grimstride
           '';
