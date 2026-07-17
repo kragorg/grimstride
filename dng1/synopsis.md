@@ -564,7 +564,7 @@ their steel singing a song of death
 that felled both Whisper and Doctor Pepe
 before the party could shatter the enchantments.
 In the wreckage, they discovered
-a pristine longsword of thunder-grey steel,
+a pristine longsword of thunder-gray steel,
 its blade veined with silver
 like a storm trapped in metal.
 Doctor Pepe, recognizing his own limitations,

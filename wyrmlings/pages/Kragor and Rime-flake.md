@@ -20,7 +20,7 @@ Kragor stood with arms crossed. For this he needed no book, no magic words, no m
 
 The air between them shimmered, and then the mist coalesced into an image. It was crude at first, then sharpened into the form of an orc, a specimen typical of the species. The illusionary orc stood tall, leaning on a greataxe, looking imperious.
 
-Kragor pointed a long, grey finger at his own chest, then at the illusion.
+Kragor pointed a long, gray finger at his own chest, then at the illusion.
 
 “_Nothok_,” Kragor enunciated, the Orcish word heavy and guttural.
 
@@ -76,7 +76,7 @@ Kragor tossed the jerky. Flake snatched it out of the air with a snap that could
 
 “Last one,” Kragor said, wiping meat dust on his trousers. “Then we hunt.”
 
-He altered the illusion of the chest, reshaping it back into the dragon. But this time, he animated it. The dragon beat its wings, lifting off the ground, circling higher and higher into the grey sky above the camp.
+He altered the illusion of the chest, reshaping it back into the dragon. But this time, he animated it. The dragon beat its wings, lifting off the ground, circling higher and higher into the gray sky above the camp.
 
 Kragor pointed at the soaring phantom, then looked at Flake. He made a sweeping gesture upward with his arms.
 

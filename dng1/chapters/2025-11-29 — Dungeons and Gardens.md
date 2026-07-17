@@ -90,7 +90,7 @@ It moves with impossible speed, a sideways lunge that ends with a pincer snappin
 The orc bellows as the shell bites deep and holds him fast, grappled.
 
 “An eye for an eye!” Kragor snarls, bringing his longsword down on the claw that holds him.
-The thunder-grey steel sings its dirge, shearing off a chunk of chitin.
+The thunder-gray steel sings its dirge, shearing off a chunk of chitin.
 A shimmering, spectral frost instantly coats his skin.
 “Hit me again, you overgrown appetizer!
 See what happens!”
@@ -208,7 +208,7 @@ The blow rings off Kragor’s ribs with the sound of a cracked bell. A spectral 
 
 “He’s been waiting a long time for a customer,” Gerhard notes. A ghostly, wavering sigil appears over the zombie’s heart, a hunter’s promise of a swift end. “Time to pay the bill.”
 
-Gerhard’s scimitar is a surgeon’s scalpel, tracing the sigil he has placed and biting deep into the undead flesh with cold economy. Kragor’s longsword is the executioner’s axe that follows. The thunder-grey steel warps the air around it as it descends, howling its one-note dirge of unmaking. The blade strikes home with the discordant shriek of unraveling necromancy. The zombie collapses inward, leaving only a drift of greasy ash and scorched splinters of bone that clatter against the far wall.
+Gerhard’s scimitar is a surgeon’s scalpel, tracing the sigil he has placed and biting deep into the undead flesh with cold economy. Kragor’s longsword is the executioner’s axe that follows. The thunder-gray steel warps the air around it as it descends, howling its one-note dirge of unmaking. The blade strikes home with the discordant shriek of unraveling necromancy. The zombie collapses inward, leaving only a drift of greasy ash and scorched splinters of bone that clatter against the far wall.
 
 The ash settles. Where the unhallowed smith fell, his tools lie scattered in the ruin. They are masterworks of mithral, or were. The same tonnage of rock and iron that entombed their wielder has taken its own toll upon his craft. A hammer’s head is split, its haft a splintered memory. Tongs are bent into a useless spiral. A set of fine chisels are snapped like winter twigs.
 
@@ -247,7 +247,7 @@ After a score of minutes, the mouth of their cavern appears out of the white. St
 
 Before they retreat fully into the cavern’s warmth, Kragor holds up a hand, a gesture for patience. “One last piece of business.” He turns away from the mouth of the cave, back into the Eiselcross night. The others watch him go, a green-skinned silhouette against a wall of absolute, predatory cold.
 
-The wind hits him like a mailed fist, a physical blow that sucks the breath from his lungs and replaces it with shards of ice. He squints against the blowing snow, a grey ghost in a grey world, and makes for a jagged outcrop of rock not fifty paces from the entrance. There, in a hollow scooped from the lee of the stone, lies the prize he had hidden before their descent into Salsvault: the white dragon’s egg.
+The wind hits him like a mailed fist, a physical blow that sucks the breath from his lungs and replaces it with shards of ice. He squints against the blowing snow, a gray ghost in a gray world, and makes for a jagged outcrop of rock not fifty paces from the entrance. There, in a hollow scooped from the lee of the stone, lies the prize he had hidden before their descent into Salsvault: the white dragon’s egg.
 
 It lies nestled in the snow, unmolested. Ice kisses its pearlescent surface, a fine tracery of frost on a shell that seems to drink the faint, ambient light. He lays a gauntleted hand upon it. The egg is cold, of course—everything here is cold—but it holds a deeper, resonant chill that speaks not of death, but of a vast and slumbering winter. Satisfied, he gives it a few pats. This, too, will go to Syrinlya. One more secret to carry out of this frozen hell.
 
@@ -271,11 +271,11 @@ With that, she plucks the choicest piece of crab from the pile. The feast and th
 
 ## The Worm's Embrace
 
-The feast is a ghost on their tongues, a memory of warmth and savory meat already fading into the all-consuming cold. Dawn on Eiselcross is not a promise but a threat, a slow, merciless bleeding of grey light into the world. They pack in grim silence, the camaraderie of the firelight replaced by the stark calculus of survival. Kragor, his face a mask of grim determination, straps the white dragon’s egg to his own back, a preposterous, pearlescent burden. Halite watches him, a single eyebrow raised in silent judgment, but says nothing. The time for argument is a luxury they left behind in Salsvault’s dead halls.
+The feast is a ghost on their tongues, a memory of warmth and savory meat already fading into the all-consuming cold. Dawn on Eiselcross is not a promise but a threat, a slow, merciless bleeding of gray light into the world. They pack in grim silence, the camaraderie of the firelight replaced by the stark calculus of survival. Kragor, his face a mask of grim determination, straps the white dragon’s egg to his own back, a preposterous, pearlescent burden. Halite watches him, a single eyebrow raised in silent judgment, but says nothing. The time for argument is a luxury they left behind in Salsvault’s dead halls.
 
 They march.
 
-The first six days are a waking nightmare painted in shades of white and grey. A howling wind is their constant companion, a banshee that scours the warmth from their bones and whispers madness in their ears. Snow falls in thick, wet sheets, then in blinding, crystalline flurries, reducing the world to an arm’s length of swirling chaos. Elara, her celestial resilience worn thin by the ceaseless cold, stumbles, her breath catching in her throat—the first tendrils of exhaustion coiling in her marrow. The next day, it is Whisper who falters, her usual feline grace lost in a weary, trudging gait.
+The first six days are a waking nightmare painted in shades of white and gray. A howling wind is their constant companion, a banshee that scours the warmth from their bones and whispers madness in their ears. Snow falls in thick, wet sheets, then in blinding, crystalline flurries, reducing the world to an arm’s length of swirling chaos. Elara, her celestial resilience worn thin by the ceaseless cold, stumbles, her breath catching in her throat—the first tendrils of exhaustion coiling in her marrow. The next day, it is Whisper who falters, her usual feline grace lost in a weary, trudging gait.
 
 “Still think that glorified omelet is worth it?” Gerhard mutters to Kragor on the third day, the words snatched away by the wind.
 
@@ -291,7 +291,7 @@ On the seventh day, the sun breaks through, a weak, watery eye in a bruised sky.
 
 The valley offers a direct path, a shortcut on their agonizing trek. To go around would cost them two days, a lifetime in this cold.
 
-“I’ll have a look,” Doctor Pepe volunteers, his confidence a fragile, rebuilt thing. He cinches his pack and slips away, a grey shape against the grey snow.
+“I’ll have a look,” Doctor Pepe volunteers, his confidence a fragile, rebuilt thing. He cinches his pack and slips away, a gray shape against the gray snow.
 
 “I give him ten minutes before he trips over a monster or gets adopted by one,” Kragor says, settling his weight against a rock.
 

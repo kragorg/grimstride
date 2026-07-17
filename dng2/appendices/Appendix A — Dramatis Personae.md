@@ -28,7 +28,7 @@ by their client’s death in Eiselcross.
 Ava Endlewood
 : Proprietress of the Plexus Post, an antique and curiosity shop
 on the Liber Disk of Uthodurn.
-A woman of wide shoulders and fine, long grey-green hair,
+A woman of wide shoulders and fine, long gray-green hair,
 she stocks rare magical items
 and has hinted at a willingness
 to hire the party for less-than-legitimate acquisitions.
@@ -181,7 +181,7 @@ on the Auger Trail in Uthodurn.
 Hilda
 : Proprietress of the Softer Stone Forge,
 a bakery on the Liber Disk two blocks from Padillia’s Boutiques.
-A stout female dwarf with grey hair pulled into a tight bun
+A stout female dwarf with gray hair pulled into a tight bun
 and wide, capable hands.
 Her black moss cupcake—
 earthy and mineral on the outside,
@@ -256,7 +256,7 @@ at an ancient mountain shrine dedicated to the god.
 Luda
 : Proprietress of the Broken Stool,
 a tavern on the Volition Disk of Uthodurn.
-An older female dwarf with grey-brown hair,
+An older female dwarf with gray-brown hair,
 mutton-chop sideburns, and old scars on her chin and clavicle.
 She provided the party lodging and meals on their arrival
 and proved a useful source of local gossip and shopping recommendations.
@@ -430,7 +430,7 @@ Tormund Ironfell
 : Commander of the Uthodurn gate garrison
 and Minister of the Privy Purse.
 A broad dwarf of late middle age
-with an iron-grey beard trimmed short and deep-set eyes.
+with an iron-gray beard trimmed short and deep-set eyes.
 He received the battered caravan survivors at the gate
 and sent the party to the Broken Stool
 while he consulted with the palace.

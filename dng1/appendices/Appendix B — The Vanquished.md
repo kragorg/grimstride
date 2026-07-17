@@ -102,7 +102,7 @@
 
 52. **Sixth Flying Longsword (Salsvault, Hallway)** — Felled by *Elara’s* silver-tipped arrow after being slashed by *Gerhard’s* scimitar.
 
-53. **Ferol Sal (Salsvault, Laboratory)** — Decapitated by *Kragor’s* new thunder-grey longsword, which sang a dirge as it unmade the creature’s evil. The killing blow came after the party had grievously wounded it with arrows from *Gerhard* and *Elara*, a slash from *Doctor Pepe*, and an initial grapple and pummelling from *Whisper*.
+53. **Ferol Sal (Salsvault, Laboratory)** — Decapitated by *Kragor’s* new thunder-gray longsword, which sang a dirge as it unmade the creature’s evil. The killing blow came after the party had grievously wounded it with arrows from *Gerhard* and *Elara*, a slash from *Doctor Pepe*, and an initial grapple and pummelling from *Whisper*.
 
 54. **Third Animated Armor (Salsvault, Laboratory)** — Destroyed when *Halite* drove his trident deep into its chest, collapsing the construct into a heap of scrap. The armor had previously been damaged by a heavy blow from *Kragor’s* longsword and primal flames from *Scarlet*.
 
