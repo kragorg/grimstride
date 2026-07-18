@@ -81,7 +81,7 @@ stdenvNoCC.mkDerivation rec {
     mkdir -p "$out"
     ${uiop.mkBuildNinja {
       inherit buildNinja src;
-      builddir = "$PWD";
+      builddir = "$PWD/outputs";
       out = "$out";
     }}
     ninja -C "${src}" -f "$PWD/build.ninja" -v
