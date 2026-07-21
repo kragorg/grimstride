@@ -6,7 +6,7 @@ plugin "ddal_log"
 2026-06-24 custom "fava-option" "show-closed-accounts" "true"
 
 2026-06-24 custom "ddal" "character" "Goro the Barely Serene"
-2026-06-24 custom "ddal" "race-classes" "Tortle Druid 1"
+2026-06-24 custom "ddal" "race-classes" "Tortle Druid 2"
 2026-06-24 custom "ddal" "faction" "Emerald Enclave"
 2026-06-24 custom "ddal" "dndbeyond" "https://www.dndbeyond.com/characters/165237018"
 
@@ -41,4 +41,15 @@ include "includes/commodities-and-prices.beancount"
   Assets:Gold                                      40 GP
   Assets:Downtime                                  10 DT
   Assets:Magic:Consumable                           1 POTION_HEALING {{0 GP}}
+  Income:Adventure
+
+2026-07-20 * "Adventure" "Secrets of Sokol Keep" #adventure
+  module: "DDEX1-02"
+  dm: "Jay Africa"
+  notes: "Discovered the mystery behind the lighthouse outage on Thorn Island atop Sokol Keep. Destroyed an evil idol of Dagon and the undead it animated. Recovered Igan Sokol's murdered corpse, arrested the murderer, and rescued trapped Black Fist guards."
+  Assets:Gold                                      50 GP
+  Assets:Downtime                                  10 DT
+  Assets:Level                                      1 LEVEL
+  Assets:Magic:Consumable                           1 POTION_HEALING {{0 GP}}
+  Assets:Magic:Uncommon                             1 WAND_MAGIC_DETECTION {{0 GP}}
   Income:Adventure

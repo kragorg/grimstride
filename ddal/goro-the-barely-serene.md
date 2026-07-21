@@ -5,11 +5,11 @@
 | | |
 | --- | --- |
 | Character Name | [Goro the Barely Serene](https://www.dndbeyond.com/characters/165237018) |
-| Race, Classes and Levels | Tortle Druid 1 |
+| Race, Classes and Levels | Tortle Druid 2 |
 | Faction | Emerald Enclave |
-| Level | 1 |
-| Gold | 87.8 GP |
-| Downtime | 10 DT |
+| Level | 2 |
+| Gold | 137.8 GP |
+| Downtime | 20 DT |
 | Soul Coins | 0 |
 
 :::
@@ -20,7 +20,8 @@
 
 | Rarity | # | Item | Count |
 | --- | --- | --- | --- |
-| Consumable | 1 | Potion of Healing | 1 |
+| Consumable | 2 | Potion of Healing | 2 |
+| Uncommon | 1 | Wand of Magic Detection | 1 |
 
 :::
 
@@ -57,6 +58,31 @@
 Intercepted the sale of a red dragon egg, marking the merchant for tracking by the Harpers, and defeating a gang known as "the Welcomers".
 
 **Magic Items:** Potion of Healing (Consumable)
+
+---
+
+---
+
+### 2026-07-20 — Secrets of Sokol Keep
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDEX1-02 | Secrets of Sokol Keep | Jay Africa |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 1 | Y | 2 |
+| Gold (GP) | 87.8 | +50 | 137.8 |
+| Downtime (DT) | 10 | +10 | 20 |
+| Soul Coins Carried | 0 | | 0 |
+
+:::
+
+Discovered the mystery behind the lighthouse outage on Thorn Island atop Sokol Keep. Destroyed an evil idol of Dagon and the undead it animated. Recovered Igan Sokol's murdered corpse, arrested the murderer, and rescued trapped Black Fist guards.
+
+**Magic Items:** Potion of Healing (Consumable), Wand of Magic Detection (Uncommon)
 
 ---
 
