@@ -8,7 +8,7 @@
 | Race, Classes and Levels | Tortle Druid 2 |
 | Faction | Emerald Enclave |
 | Level | 2 |
-| Gold | 137.8 GP |
+| Gold | 136.8 GP |
 | Downtime | 20 DT |
 | Soul Coins | 0 |
 
@@ -85,4 +85,12 @@ Discovered the mystery behind the lighthouse outage on Thorn Island atop Sokol K
 **Magic Items:** Potion of Healing (Consumable), Wand of Magic Detection (Uncommon)
 
 ---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-07-21 | Purchase Equipment — Adventuring gear | -1 |  |
+
+:::
 

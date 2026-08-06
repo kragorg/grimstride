@@ -53,3 +53,7 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Consumable                           1 POTION_HEALING {{0 GP}}
   Assets:Magic:Uncommon                             1 WAND_MAGIC_DETECTION {{0 GP}}
   Income:Adventure
+
+2026-07-21 * "Purchase Equipment" "Adventuring gear" #trade
+  Assets:Gold                                      -1 GP
+  Assets:Inventory                                  1 YKLWA {{1 GP}}
