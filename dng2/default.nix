@@ -14,7 +14,14 @@ let
   rawSessions = uiop.readPagesWithPrefix "Session" { inherit css; } ./sessions;
   sessions = [ summariesPage ] ++ rawSessions;
 
-  appendices = uiop.readPages { inherit css; } ./appendices;
+  spellsPath = toString (./appendices + "/Appendix H — Psychic Spells.md");
+  appendices = map (
+    p:
+    if p ? srcAbsPath && p.srcAbsPath == spellsPath then
+      p // { css = "spells.css"; }
+    else
+      p
+  ) (uiop.readPages { inherit css; } ./appendices);
   characters = uiop.readPages { inherit css; } ./characters;
 
   indexPage = uiop.mkIndexPage {
