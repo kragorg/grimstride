@@ -45,6 +45,7 @@ include "includes/commodities-and-prices.beancount"
   dm: "Jay Africa"
   notes: "Intercepted the sale of a red dragon egg, marking the merchant for tracking by the Harpers, and defeating a gang known as \"the Welcomers\"."
   Assets:Gold                                      40 GP
+  Assets:Level                                      1 LEVEL
   Assets:Downtime                                  10 DT
   Assets:Magic:Consumable                           1 POTION_HEALING {{0 GP}}
   Income:Adventure

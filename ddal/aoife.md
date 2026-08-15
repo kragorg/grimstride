@@ -7,7 +7,7 @@
 | Character Name | [Aoife](https://www.dndbeyond.com/characters/167707407) |
 | Race, Classes and Levels | Fairy Sorcerer 1 |
 | Faction |  |
-| Level | 1 |
+| Level | 2 |
 | Gold | 40 GP |
 | Downtime | 10 DT |
 | Soul Coins | 0 |
@@ -48,7 +48,7 @@
 
 | | Starting | +/– | Ending |
 | --- | --- | --- | --- |
-| Level | 1 | N | 1 |
+| Level | 1 | Y | 2 |
 | Gold (GP) | 0 | +40 | 40 |
 | Downtime (DT) | 0 | +10 | 10 |
 | Soul Coins Carried | 0 | | 0 |
