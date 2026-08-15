@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 723.96 GP |
-| Downtime | 11 DT |
+| Gold | 3717.96 GP |
+| Downtime | 12 DT |
 | Soul Coins | 1 |
 
 :::
@@ -24,7 +24,8 @@
 |  |  | Potion of Comprehension | 1 |
 |  |  | Potion of Greater Healing | 5 |
 |  |  | Potion of Poison | 1 |
-|  |  | Tattoo: Hex | 2 |
+|  |  | Tattoo: Hex | 1 |
+|  |  | Tattoo: Summon Fey (III) | 1 |
 | Common | 1 | Clockwork Amulet | 1 |
 | Uncommon | 3 | Boots of Striding and Springing | 1 |
 |  |  | Cloak of Protection | 1 |
@@ -34,6 +35,18 @@
 |  |  | Rod of the Pact Keeper +2 | 1 |
 |  |  | Rope of Entanglement | 1 |
 |  |  | Staff of the Woodlands | 1 |
+| Very Rare | 1 | Ring of Shooting Stars | 1 |
+
+:::
+
+## Supernatural Gifts
+
+::: supernatural-gifts
+
+| Type | # | Gift | Count |
+| --- | --- | --- | --- |
+| Charms | 2 | Charm of Animal Conjuring | 1 |
+|  |  | Charm of Identification | 1 |
 
 :::
 
@@ -274,7 +287,7 @@ Defeated the aarakocra proto-lich, destroyed the cyst, escaped the collapsing un
 :::
 
 - **2026-05-29 Bastion · Workshop: Craft — Cloak of Protection:** Needs 5 more DT on a future Bastion Turn.
-- **2026-05-29 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Needs 2 more DT on a future Bastion Turn.
+- **2026-05-29 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Needs 2 more DT.
 - **2026-06-02 Trading Post — Shield +1 → Boots of Striding and Springing:** DDHC-TYP-04 is the 4th adventure in the hardcover compilation of Tales from the Yawning Portal. Peer: Dunstvangeet / Arathil Ilmanion. Source: DDHC-TYP-04.
 
 ---
@@ -314,6 +327,8 @@ Defeated the Big One (the corrupted tyrannosaurus) and destroyed the Cyst in the
 
 :::
 
+- **2026-06-11 Bastion · Workshop: Craft — Cloak of Protection:** Completed crafting.
+
 ---
 
 ### 2026-06-25 — Putting the Dead to Rest
@@ -336,6 +351,50 @@ Defeated the Big One (the corrupted tyrannosaurus) and destroyed the Cyst in the
 Defeated Zuccass and destroyed the cyst.
 
 **Magic Items:** Vial of Holy Water (Consumable), Potion of Greater Healing (Consumable), Staff of the Woodlands (Rare)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-06-26 | Scribe Spell Scrolls — Inked 1x Summon Fey (III) |  | -2 |
+| 2026-08-11 | Bastion — Turn |  | -7 |
+|  | Bastion · Storehouse: Sell — Goods | +2640 |  |
+|  | Bastion · Storehouse: Sell — Poison: Malice, Poison: Pale Tincture, Arcane Focus Orb, Book | +354 |  |
+|  | Bastion · Arcane Study: Craft — Arcane Focus Orb |  |  |
+|  | Bastion · Greenhouse: Harvest — Poison: Malice |  |  |
+|  | Bastion · Long Rest — Arcane Study Charm |  |  |
+|  | Bastion · Workshop — Maintain |  |  |
+
+:::
+
+- **2026-06-26 Scribe Spell Scrolls — Inked 1x Summon Fey (III):** Completed scribing.
+
+---
+
+### 2026-08-13 — Lore of Lurue
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDHC-CM-09 | Lore of Lurue | Christian Kolibri |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 10 | N | 10 |
+| Gold (GP) | 3717.96 | 0 | 3717.96 |
+| Downtime (DT) | 2 | +10 | 12 |
+| Soul Coins Carried | 1 | | 1 |
+
+:::
+
+Drawn into an enchanted book’s demiplane, the adventurers forged an alliance rescuing satyrs from harassing ravens. Escorting the fey, they fought off Beast Lord berserkers, won the satyrs’ wine, and befriended the sprite Wheeldoli and the treant Feynor, who gifted a potion of hill giant strength. Kragor’s arcane eye spied a slumbering grick and captive dryads; Asha drank the potion, became a juggernaut, and pummeled the grick, ettercaps, and a hag. A freed dryad’s vision of the Cult of Malar led to the Pool of Eternal Spring, where Cass’s hypnotic pattern left the berserkers for Wheeldoli’s wolves; the trio slew the cultists and the Corrupted Avatar of Lurue to save the demiplane.
+
+**Magic Items:** Ring of Shooting Stars (Very Rare)
+
+**Supernatural Gifts:** Charm of Animal Conjuring (Charms)
 
 ---
 

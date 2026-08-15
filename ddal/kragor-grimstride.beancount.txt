@@ -340,7 +340,7 @@ include "includes/commodities-and-prices.beancount"
   Expenses:Crafting                                 5 DT
 
 2026-05-29 * "Scribe Spell Scrolls" "Inked 1x Summon Fey (III)" #scribe #in-progress
-  notes: "Needs 2 more DT on a future Bastion Turn."
+  notes: "Needs 2 more DT."
   Assets:Gold                                    -150 GP
   Expenses:Scribing                               150 GP
   Assets:Downtime                                  -5 DT
@@ -392,6 +392,7 @@ include "includes/commodities-and-prices.beancount"
   Income:Bastion:Harvest
 
 2026-06-11 * "Bastion - Workshop: Craft" "Cloak of Protection" #bastion
+  notes: "Completed crafting."
   Assets:Downtime                                  -2 DT
   Expenses:Crafting                                 2 DT
   Assets:Magic:Uncommon                             1 CLOAK_PROTECTION {{0 GP}}
@@ -406,4 +407,65 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Consumable                           1 POTION_GREATER_HEALING {{0 GP}}
   Assets:Magic:Consumable                           1 HOLY_WATER {{0 GP}}
   Assets:Magic:Rare                                 1 STAFF_WOODLANDS {{0 GP}}
+  Income:Adventure
+
+2026-06-26 * "Scribe Spell Scrolls" "Inked 1x Summon Fey (III)" #scribe
+  notes: "Completed scribing."
+  Assets:Downtime                                  -2 DT
+  Assets:Magic:Consumable                           1 SCROLL_SUMMON_FEY_3
+  Expenses:Scribing
+
+2026-08-11 * "Bastion" "Turn" #bastion
+  Assets:Downtime                                  -7 DT
+  Expenses:Bastion
+
+2026-08-11 * "Bastion - Storehouse: Sell" "Goods" #bastion
+  Assets:Gold                                2200*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                     -2200 GOODS {}
+  Income:Bastion:Sales
+
+2026-08-11 * "Bastion - Storehouse: Sell" "Poison: Malice, Poison: Pale Tincture, Arcane Focus Orb, Book" #bastion
+  Assets:Gold                             (250/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 POISON_MALICE {}
+  Assets:Gold                             (250/2)*1.2 GP  ;  Storehouse +20%
+  Assets:Bastion:Storehouse                        -1 POISON_PALE_TINCTURE {}
+  Assets:Gold                                  20*1.2 GP  ;  Storehouse +20% (crafted, full price)
+  Assets:Bastion:Storehouse                        -1 ARCANE_FOCUS_ORB {}
+  Assets:Gold                                  25*1.2 GP  ;  Storehouse +20% (crafted, full price)
+  Assets:Bastion:Storehouse                        -1 BOOK {}
+  Income:Bastion:Sales
+
+2026-08-11 * "Bastion - Arcane Study: Craft" "Arcane Focus Orb" #bastion
+  Assets:Bastion:Storehouse                         1 ARCANE_FOCUS_ORB {{0 GP}}
+  Income:Bastion:Crafting
+
+2026-08-11 * "Bastion - Greenhouse: Harvest" "Poison: Malice" #bastion
+  Assets:Bastion:Storehouse                         1 POISON_MALICE {{0 GP}}
+  Income:Bastion:Harvest
+
+2026-08-11 * "Bastion - Long Rest" "Arcane Study Charm" #bastion
+  Assets:Supernatural-Gifts:Charms                  1 CHARM_IDENTIFICATION {{0 GP}}
+  Income:Bastion:Miscellaneous
+
+2026-08-11 * "Bastion - Workshop" "Maintain" #bastion
+
+2026-08-13 * "Adventure" "Lore of Lurue" #adventure
+  module: "DDHC-CM-09"
+  dm: "Christian Kolibri"
+  notes: "Drawn into an enchanted book’s demiplane, the adventurers
+          forged an alliance rescuing satyrs from harassing
+          ravens. Escorting the fey, they fought off Beast Lord
+          berserkers, won the satyrs’ wine, and befriended the sprite
+          Wheeldoli and the treant Feynor, who gifted a potion of hill
+          giant strength. Kragor’s arcane eye spied a slumbering grick and
+          captive dryads; Asha drank the potion, became a juggernaut, and
+          pummeled the grick, ettercaps, and a hag. A freed dryad’s
+          vision of the Cult of Malar led to the Pool of Eternal Spring,
+          where Cass’s hypnotic pattern left the berserkers for
+          Wheeldoli’s wolves; the trio slew the cultists and the
+          Corrupted Avatar of Lurue to save the demiplane."
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Very-Rare                            1 RING_SHOOTING_STARS {{0 GP}}
+  Assets:Supernatural-Gifts:Charms                  1 CHARM_ANIMAL_CONJURING {{0 GP}}
+  Assets:Magic:Consumable                          -1 SCROLL_HEX
   Income:Adventure
