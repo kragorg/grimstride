@@ -45,7 +45,8 @@ The adventure began in 835 Post-Divergence (PD). This timeline refers to the day
 
 ### Brussendar 835 PD
 
-- **6 Brussendar,** _Day 64_. Hilda is sent back to Uthodurn with the horses. The rest of the party descends into the Underdark through a secret Kryn tunnel. They harvest fungi for food and water, salvage an old duergar-and-drow battlefield, and ford a cold underground river before pressing an extra shift into the Faerzress, where three ropers ambush the column and are cut down.
+- **7 Brussendar,** _Day 65_. Serath pledges the party to investigate the derro before departing for Xhorhas with Aedric, leaving Vornesh Tasithar to guide them. The Sovereign bestows provisions, spore gourds, and a psychic map of derro attacks; after making mushroom-lanterns and persuading Sprout to stay, the party retakes the dark fork and survives an ambush by five splitting oozes.
+- **6 Brussendar,** _Day 64_. Hilda returns to Uthodurn with the horses while the rest of the party descends into the Underdark via a secret Kryn tunnel, defeating three ropers. Afterward, they discover a myconid sporeling named Sprout, experience a telepathic vision of derro attacks, and detour to the myconid colony to meet the Sovereign and rest overnight.
 - **5 Brussendar,** _Day 63_. An avalanche strikes the party in a narrow gorge, burying Therin and Vornesh. The party rescues them, abandons the blocked mountain route, and backtracks to the Kryn cache.
 - **4 Brussendar,** _Day 62_. Gelidon is sighted again. The party is ambushed by two frost giants. Afterward, they wrangle their spooked horses and find shelter in a secret Kryn cache.
 - **3 Brussendar,** _Day 61_. The party departs Uthodurn. The day's journey includes a wyvern pursuit and a failed attempt to befriend a herd of white bison.

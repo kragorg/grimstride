@@ -123,6 +123,9 @@ to Taskhand Serath Mirimm.
 Clad in jagged, jet-black carapace armor bearing dodecahedron insignias,
 their title is a mark of high distinction in the Kryn Dynasty,
 signifying them as the most faithful and adept of the Aurora Watch.
+Following the audience at the myconid colony, Aedric returned to Xhorhas
+alongside Taskhand Serath, while Vornesh remained behind
+to accompany the party south into the Underdark.
 
 Ërethyn Galewing
 : Minister of the Diarchy of Uthodurn.
@@ -373,8 +376,10 @@ The Sovereign
 : The towering, telepathic leader of the myconid circle,
 whose presence radiates a profound weight of emotion and thought.
 Grateful for Sprout’s return, the Sovereign welcomed the party
-as “Flesh Talkers,” easing their physical exhaustion with a gift
-of uplifting spores while preparing to speak of the circle’s besetting difficulties.
+as “Flesh Talkers,” revealing that derro attacks had severed communication
+with southern circles. It accepted the party as the Dynasty’s pledged aid,
+bestowing four gourds of spore-dust, ten days’ provisions,
+and a rapid mental map of Underdark paths and attacked circles.
 
 Sparky
 : Scarlet’s owl wild companion. A loyal and effective scout, Sparky provides aerial reconnaissance for the party.
@@ -383,8 +388,10 @@ Sprout
 : A small myconid sporeling rescued by the party near the ropers’ cavern.
 Sharing a warm, wordless spore-bond with the company,
 they rode on Kragor’s shoulders to guide the travelers
-safely back to their subterranean village,
-where their return helped replenish the colony’s recent losses.
+safely back to their subterranean village.
+Before the companions ventured further into the Underdark,
+Kragor persuaded Sprout to remain at the colony
+to help protect it and grow into their role.
 
 Talindra Snowveil
 : A veteran Glassblade killed during the caravan ambush.
@@ -404,9 +411,12 @@ via purple worm tunnel,
 and went silent shortly after;
 Kryn forces who followed found the scouts slaughtered
 and the worm gone.
-He formally hosted the party for a logistical summit at the Kryn Embassy,
-agreeing to accompany them south to investigate the site
-and gifting Kragor a metal medallion for safe passage.
+He hosted the party for a summit at the Kryn Embassy,
+accompanying them into the Underdark before being urgently summoned
+back to Xhorhas by the Bright Queen. Before departing with Aedric,
+he pledged the adventurers to the myconid Sovereign as the Dynasty’s aid,
+left Vornesh Tasithar to guide them, and entrusted Kragor
+with a sealed letter of passage bearing the dodecahedron seal.
 
 Thilda
 : A perpetually exhausted dwarven pelt-sharer
