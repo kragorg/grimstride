@@ -9,7 +9,7 @@
 | Faction | Harpers |
 | Level | 10 |
 | Gold | 3717.96 GP |
-| Downtime | 12 DT |
+| Downtime | 7 DT |
 | Soul Coins | 1 |
 
 :::
@@ -32,9 +32,9 @@
 |  |  | Mithral Splint Mail | 1 |
 | Rare | 5 | Do-Maru Half Plate +1 | 1 |
 |  |  | Mace of Smiting | 1 |
+|  |  | Ring of Evasion | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 |  |  | Rope of Entanglement | 1 |
-|  |  | Staff of the Woodlands | 1 |
 | Very Rare | 1 | Ring of Shooting Stars | 1 |
 
 :::
@@ -397,4 +397,14 @@ Drawn into an enchanted book’s demiplane, the adventurers forged an alliance r
 **Supernatural Gifts:** Charm of Animal Conjuring (Charms)
 
 ---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-08-19 | Trading Post — Staff of the Woodlands → Ring of Evasion |  | -5 |
+
+:::
+
+- **2026-08-19 Trading Post — Staff of the Woodlands → Ring of Evasion:** Peer: Self / Goro the Barely Serene. Source: DDEX1-03.
 

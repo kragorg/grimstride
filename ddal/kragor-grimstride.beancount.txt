@@ -469,3 +469,12 @@ include "includes/commodities-and-prices.beancount"
   Assets:Supernatural-Gifts:Charms                  1 CHARM_ANIMAL_CONJURING {{0 GP}}
   Assets:Magic:Consumable                          -1 SCROLL_HEX
   Income:Adventure
+
+2026-08-19 * "Trading Post" "Staff of the Woodlands → Ring of Evasion" #trading-post
+  player: "Self"
+  character: "Goro the Barely Serene"
+  source: "DDEX1-03"
+  Assets:Downtime                                  -5 DT
+  Assets:Magic:Rare                                -1 STAFF_WOODLANDS {}
+  Assets:Magic:Rare                                 1 RING_EVASION {{0 GP}}
+  Expenses:Downtime

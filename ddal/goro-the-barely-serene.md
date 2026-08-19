@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Tortle Druid 2 |
 | Faction | Emerald Enclave |
 | Level | 2 |
-| Gold | 136.8 GP |
-| Downtime | 20 DT |
+| Gold | 211.8 GP |
+| Downtime | 25 DT |
 | Soul Coins | 0 |
 
 :::
@@ -22,6 +22,7 @@
 | --- | --- | --- | --- |
 | Consumable | 2 | Potion of Healing | 2 |
 | Uncommon | 1 | Wand of Magic Detection | 1 |
+| Rare | 1 | Staff of the Woodlands | 1 |
 
 :::
 
@@ -93,4 +94,39 @@ Discovered the mystery behind the lighthouse outage on Thorn Island atop Sokol K
 | 2026-07-21 | Purchase Equipment — Adventuring gear | -1 |  |
 
 :::
+
+---
+
+### 2026-08-17 — Shadows over Moonsea
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDEX1-03 | Shadows over Moonsea | Jay Africa |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 2 | N | 2 |
+| Gold (GP) | 136.8 | +75 | 211.8 |
+| Downtime (DT) | 20 | +10 | 30 |
+| Soul Coins Carried | 0 | | 0 |
+
+:::
+
+Investigated coastal attacks and a rumoured ghost ship, tracking clues from Phlan's leaders to a secluded island village. A little girl and her blind goat led the party to the island's "forest spirit"—actually a lemure guarding a pact in which the villagers traded their souls to Tiamat. After dispatching the fiend, the party faced a black ghost ship crewed by disguised kobolds of the Cult of the Dragon, led by Master Ixas, and defeated them in battle.
+
+**Magic Items:** Ring of Evasion (Rare)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-08-19 | Trading Post — Ring of Evasion → Staff of the Woodlands |  | -5 |
+
+:::
+
+- **2026-08-19 Trading Post — Ring of Evasion → Staff of the Woodlands:** Peer: Self / Kragor Grimstride. Source: DDAL07-08.
 
