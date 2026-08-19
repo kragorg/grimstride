@@ -57,3 +57,21 @@ include "includes/commodities-and-prices.beancount"
 2026-07-21 * "Purchase Equipment" "Adventuring gear" #trade
   Assets:Gold                                      -1 GP
   Assets:Inventory                                  1 YKLWA {{1 GP}}
+
+2026-08-17 * "Adventure" "Shadows over Moonsea" #adventure
+  module: "DDEX1-03"
+  dm: "Jay Africa"
+  notes: "Investigated coastal attacks and a rumoured ghost ship, tracking clues from Phlan's leaders to a secluded island village. A little girl and her blind goat led the party to the island's \"forest spirit\"—actually a lemure guarding a pact in which the villagers traded their souls to Tiamat. After dispatching the fiend, the party faced a black ghost ship crewed by disguised kobolds of the Cult of the Dragon, led by Master Ixas, and defeated them in battle."
+  Assets:Gold                                      75 GP
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Rare                                 1 RING_EVASION {{0 GP}}
+  Income:Adventure
+
+2026-08-19 * "Trading Post" "Ring of Evasion → Staff of the Woodlands" #trading-post
+  player: "Self"
+  character: "Kragor Grimstride"
+  source: "DDAL07-08"
+  Assets:Downtime                                  -5 DT
+  Assets:Magic:Rare                                -1 RING_EVASION {}
+  Assets:Magic:Rare                                 1 STAFF_WOODLANDS {{0 GP}}
+  Expenses:Downtime
