@@ -2,7 +2,7 @@
   description = "Markdown to HTML static site generator";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-26.05";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
