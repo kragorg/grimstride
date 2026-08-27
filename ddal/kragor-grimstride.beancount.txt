@@ -478,3 +478,13 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Rare                                -1 STAFF_WOODLANDS {}
   Assets:Magic:Rare                                 1 RING_EVASION {{0 GP}}
   Expenses:Downtime
+
+2026-08-27 * "Trading Post" "Ring of Shooting Stars → Ring of Telekinesis" #trading-post
+  player: "Furrybeasty"  ; Discord furrybeasty_95552
+  character: "Oekse Bloodymane"
+  dm: "Skippy is eepy"
+  source: "DDEP00-01"
+  Assets:Downtime                                  -5 DT
+  Assets:Magic:Very-Rare                           -1 RING_SHOOTING_STARS {}
+  Assets:Magic:Very-Rare                            1 RING_TELEKINESIS {{0 GP}}
+  Expenses:Downtime

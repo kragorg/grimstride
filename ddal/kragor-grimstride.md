@@ -9,7 +9,7 @@
 | Faction | Harpers |
 | Level | 10 |
 | Gold | 3717.96 GP |
-| Downtime | 7 DT |
+| Downtime | 2 DT |
 | Soul Coins | 1 |
 
 :::
@@ -35,7 +35,7 @@
 |  |  | Ring of Evasion | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 |  |  | Rope of Entanglement | 1 |
-| Very Rare | 1 | Ring of Shooting Stars | 1 |
+| Very Rare | 1 | Ring of Telekinesis | 1 |
 
 :::
 
@@ -403,8 +403,10 @@ Drawn into an enchanted book’s demiplane, the adventurers forged an alliance r
 | Date | Activity | GP | DT |
 | --- | --- | --- | --- |
 | 2026-08-19 | Trading Post — Staff of the Woodlands → Ring of Evasion |  | -5 |
+| 2026-08-27 | Trading Post — Ring of Shooting Stars → Ring of Telekinesis |  | -5 |
 
 :::
 
 - **2026-08-19 Trading Post — Staff of the Woodlands → Ring of Evasion:** Peer: Self / Goro the Barely Serene. Source: DDEX1-03.
+- **2026-08-27 Trading Post — Ring of Shooting Stars → Ring of Telekinesis:** Peer: Furrybeasty / Oekse Bloodymane. Source: DDEP00-01.
 
