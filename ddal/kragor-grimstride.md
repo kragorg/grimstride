@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Orc Fighter 1 / Great Old One Warlock 9 |
 | Faction | Harpers |
 | Level | 10 |
-| Gold | 3717.96 GP |
-| Downtime | 2 DT |
+| Gold | 3010.46 GP |
+| Downtime | 12 DT |
 | Soul Coins | 1 |
 
 :::
@@ -35,7 +35,7 @@
 |  |  | Ring of Evasion | 1 |
 |  |  | Rod of the Pact Keeper +2 | 1 |
 |  |  | Rope of Entanglement | 1 |
-| Very Rare | 1 | Ring of Telekinesis | 1 |
+| Very Rare | 2 | Ring of Telekinesis | 2 |
 
 :::
 
@@ -409,4 +409,37 @@ Drawn into an enchanted book’s demiplane, the adventurers forged an alliance r
 
 - **2026-08-19 Trading Post — Staff of the Woodlands → Ring of Evasion:** Peer: Self / Goro the Barely Serene. Source: DDEX1-03.
 - **2026-08-27 Trading Post — Ring of Shooting Stars → Ring of Telekinesis:** Peer: Furrybeasty / Oekse Bloodymane. Source: DDEP00-01.
+
+---
+
+### 2026-08-27 — Kandlekeep Dekonstruktion
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDHC-CM-10 | Kandlekeep Dekonstruktion | Christian Kolibri |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 10 | N | 10 |
+| Gold (GP) | 3717.96 | +292.5 | 4010.46 |
+| Downtime (DT) | 2 | +10 | 12 |
+| Soul Coins Carried | 1 | | 1 |
+
+:::
+
+Stopped Stonky J. Nobtopper’s plans to lauch the Barn Door and many of the most important volumes of Candlekeep into space. Reported the amazing discovery of the skitterwidgets and kiddywidgets to the Avowed.
+
+**Magic Items:** Ring of Telekinesis (Very Rare)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-08-29 | Purchase Equipment — a beautiful mirror | -1000 |  |
+
+:::
 
