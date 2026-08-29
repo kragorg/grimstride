@@ -452,6 +452,7 @@ include "includes/commodities-and-prices.beancount"
 2026-08-13 * "Adventure" "Lore of Lurue" #adventure
   module: "DDHC-CM-09"
   dm: "Christian Kolibri"
+  ; Asha (goliath Monk), Cass (human Bard)
   notes: "Drawn into an enchanted book’s demiplane, the adventurers
           forged an alliance rescuing satyrs from harassing
           ravens. Escorting the fey, they fought off Beast Lord
@@ -488,3 +489,21 @@ include "includes/commodities-and-prices.beancount"
   Assets:Magic:Very-Rare                           -1 RING_SHOOTING_STARS {}
   Assets:Magic:Very-Rare                            1 RING_TELEKINESIS {{0 GP}}
   Expenses:Downtime
+
+2026-08-27 * "Adventure" "Kandlekeep Dekonstruktion" #adventure
+  module: "DDHC-CM-10"
+  dm: "Christian Kolibri"
+  ; Asha (goliath Monk/Druid), Cass (human Bard),
+  ; Dame Áine (fairy Fighter), Hellektra (triton Warlock/Fighter),
+  ; Maeve (dhampir Gloomstalker)
+  notes: "Stopped Stonky J. Nobtopper’s plans to lauch the
+    Barn Door and many of the most important volumes of Candlekeep
+    into space. Reported the amazing discovery of the skitterwidgets
+    and kiddywidgets to the Avowed."
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Very-Rare                            1 RING_TELEKINESIS {{0 GP}}
+  Income:Adventure
+
+2026-08-29 * "Purchase Equipment" "a beautiful mirror" #trade
+  Assets:Gold                                   -1000 GP
+  Assets:Inventory                                  1 BEAUTIFUL_MIRROR {{1000 GP}}
