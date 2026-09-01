@@ -502,6 +502,7 @@ include "includes/commodities-and-prices.beancount"
     and kiddywidgets to the Avowed."
   Assets:Downtime                                  10 DT
   Assets:Magic:Very-Rare                            1 RING_TELEKINESIS {{0 GP}}
+  Assets:Gold                                  1755/6 GP
   Income:Adventure
 
 2026-08-29 * "Purchase Equipment" "a beautiful mirror" #trade
