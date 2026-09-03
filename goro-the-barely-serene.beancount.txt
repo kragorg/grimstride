@@ -93,6 +93,7 @@ include "includes/commodities-and-prices.beancount"
   Assets:Gold                                   200/5 GP
   Assets:Downtime                                  10 DT
   Assets:Magic:Uncommon                             1 GOGGLES_NIGHT {{0 GP}}
+  Assets:Magic:Consumable                          -1 POTION_HEALING
   Income:Adventure
 
 2026-09-01 * "Purchase Equipment" "Adventuring gear" #trade
