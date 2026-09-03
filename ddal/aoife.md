@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Fairy Sorcerer 1 |
 | Faction |  |
 | Level | 2 |
-| Gold | 40 GP |
-| Downtime | 10 DT |
+| Gold | 80 GP |
+| Downtime | 20 DT |
 | Soul Coins | 0 |
 
 :::
@@ -21,6 +21,7 @@
 | Rarity | # | Item | Count |
 | --- | --- | --- | --- |
 | Consumable | 1 | Potion of Healing | 1 |
+| Uncommon | 1 | Goggles of Night | 1 |
 
 :::
 
@@ -58,6 +59,31 @@
 Intercepted the sale of a red dragon egg, marking the merchant for tracking by the Harpers, and defeating a gang known as "the Welcomers".
 
 **Magic Items:** Potion of Healing (Consumable)
+
+---
+
+---
+
+### 2026-08-31 — Dues for the Dead
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDEX1-03 | Dues for the Dead | Jay Africa |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 2 | N | 2 |
+| Gold (GP) | 40 | +40 | 80 |
+| Downtime (DT) | 10 | +10 | 20 |
+| Soul Coins Carried | 0 | | 0 |
+
+:::
+
+Entered the catacombs underneath Valhingen Graveyard at the behest of Doomguide Yovir, cleric of Kelemvor. Found and destroyed several ghouls and zombies. Permitted a gang of the Welcomers to escape after returning their ill-gotten loot. Discovered the lab of Rorreth, Red Wizard of Thay. Defeated his retinue of kobolds, skeletons, and Thayan Knight. Uncovered Rorreth’s ambitions to overcome Phlan with undead in order to locate something known as the “Pool of Radiance”.
+
+**Magic Items:** Goggles of Night (Uncommon)
 
 ---
 

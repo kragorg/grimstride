@@ -8,8 +8,8 @@
 | Race, Classes and Levels | Tortle Druid 2 |
 | Faction | Emerald Enclave |
 | Level | 2 |
-| Gold | 211.8 GP |
-| Downtime | 25 DT |
+| Gold | 226.8 GP |
+| Downtime | 35 DT |
 | Soul Coins | 0 |
 
 :::
@@ -20,8 +20,9 @@
 
 | Rarity | # | Item | Count |
 | --- | --- | --- | --- |
-| Consumable | 2 | Potion of Healing | 2 |
-| Uncommon | 1 | Wand of Magic Detection | 1 |
+| Consumable | 1 | Potion of Healing | 1 |
+| Uncommon | 2 | Goggles of Night | 1 |
+|  |  | Wand of Magic Detection | 1 |
 | Rare | 1 | Staff of the Woodlands | 1 |
 
 :::
@@ -129,4 +130,37 @@ Investigated coastal attacks and a rumoured ghost ship, tracking clues from Phla
 :::
 
 - **2026-08-19 Trading Post — Ring of Evasion → Staff of the Woodlands:** Peer: Self / Kragor Grimstride. Source: DDAL07-08.
+
+---
+
+### 2026-08-31 — Dues for the Dead
+
+::: adventure
+
+| Adventure Code | Adventure Name | DM |
+| --- | --- | --- |
+| DDEX1-03 | Dues for the Dead | Jay Africa |
+
+| | Starting | +/– | Ending |
+| --- | --- | --- | --- |
+| Level | 2 | N | 2 |
+| Gold (GP) | 211.8 | +40 | 251.8 |
+| Downtime (DT) | 25 | +10 | 35 |
+| Soul Coins Carried | 0 | | 0 |
+
+:::
+
+Entered the catacombs underneath Valhingen Graveyard at the behest of Doomguide Yovir, cleric of Kelemvor. Found and destroyed several ghouls and zombies. Permitted a gang of the Welcomers to escape after returning their ill-gotten loot. Discovered the lab of Rorreth, Red Wizard of Thay. Defeated his retinue of kobolds, skeletons, and Thayan Knight. Uncovered Rorreth’s ambitions to overcome Phlan with undead in order to locate something known as the “Pool of Radiance”.
+
+**Magic Items:** Goggles of Night (Uncommon)
+
+---
+
+::: events
+
+| Date | Activity | GP | DT |
+| --- | --- | --- | --- |
+| 2026-09-01 | Purchase Equipment — Adventuring gear | -25 |  |
+
+:::
 

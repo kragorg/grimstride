@@ -49,3 +49,22 @@ include "includes/commodities-and-prices.beancount"
   Assets:Downtime                                  10 DT
   Assets:Magic:Consumable                           1 POTION_HEALING {{0 GP}}
   Income:Adventure
+
+2026-08-31 * "Adventure" "Dues for the Dead" #adventure
+  module: "DDEX1-03"
+  dm: "Jay Africa"
+  ; Bryn (halfling Barbarian), Goro (tortle Druid),
+  ; Pelber (deep gnome Druid), Sir Nose (gnome Bard)
+  notes: "Entered the catacombs underneath Valhingen Graveyard
+    at the behest of Doomguide Yovir, cleric of Kelemvor.
+    Found and destroyed several ghouls and zombies. Permitted
+    a gang of the Welcomers to escape after returning their
+    ill-gotten loot. Discovered the lab of Rorreth, Red Wizard
+    of Thay. Defeated his retinue of kobolds, skeletons,
+    and Thayan Knight. Uncovered Rorreth’s ambitions to
+    overcome Phlan with undead in order to locate something
+    known as the “Pool of Radiance”."
+  Assets:Gold                                   200/5 GP
+  Assets:Downtime                                  10 DT
+  Assets:Magic:Uncommon                             1 GOGGLES_NIGHT {{0 GP}}
+  Income:Adventure
