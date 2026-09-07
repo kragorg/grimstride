@@ -35,7 +35,7 @@ nix build .#epub  # Build EPUB into the Nix store only
 
 ### Content areas
 
-Areas: `home/`, `dng1/`, `dng2/`, `wyrmlings/`, `wildshape/`, `ddal/`.
+Areas: `home/`, `dng1/`, `dng2/`, `wyrmlings/`, `wildshape/`.
 
 Each area contains:
 - **`default.nix`** — lists pages with metadata (title, CSS, order). This is the file to edit when adding/reordering pages.
@@ -46,8 +46,6 @@ Each area contains:
 `home/` is special: it has no URL prefix. All other areas use their directory name as prefix.
 
 **`wildshape/`** — single-page reference area (`index.md`) listing Wild Shape forms in a Markdown table.
-
-**`ddal/`** — D&D Adventurers League character logs for Kragor and Elara. Unlike other areas, `default.nix` auto-generates page titles from filenames (hyphen-separated words → Title Case) rather than listing them manually. Also contains `.beancount.txt` files tracking each character's gold/item ledger.
 
 ### Adding a new page
 

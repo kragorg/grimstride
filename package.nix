@@ -28,7 +28,6 @@ let
     ./dng2
     ./wyrmlings
     ./wildshape
-    ./ddal
   ];
 
   pages = uiop.flattenAreas (toString ./.) siteareas;
