@@ -37,11 +37,14 @@
 
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
+            curl
             ninja
             pandoc
+            wrangler
             zsh
           ];
           shellHook = ''
+            out="''${out:-$PWD/outputs/out}"
             mkdir -p "$out"
             ${site.mkBuildNinja {
               inherit (site) buildNinja;
