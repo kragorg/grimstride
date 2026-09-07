@@ -35,6 +35,16 @@ to hire the party for less-than-legitimate acquisitions.
 When asked about custom enchantments, she offered a rare Canaith Mandolin
 but ultimately advised the party to seek out the renowned Pumat Sol in Rexxentrum.
 
+The Bat-Winged Creature
+: Eleven feet tall, with a bat’s wings folded at its back,
+standing at the center of the derro war camp beneath Ivory Lake
+as though the camp belonged to it.
+It presided over bundled weapons, piled stone,
+and derro in their dozens and dozens.
+When Doctor Pepe’s footing gave and left him hanging over the cavern
+by a wrenched shoulder, it was this creature that said _“Kill him!”_
+and the place filled with the noise of wings and running feet.
+
 Borant
 : The dwarven desk attendant at the Vellum Steeple.
 He provided Kragor with research regarding the flesh-eating Mawcotters,
@@ -92,6 +102,18 @@ Demid Sunlash
 : A diminutive dwarven scholar visiting from the Cobalt Soul,
 invited to sit in on the Vellum Steeple's debriefing
 of the party following their discovery of Kaspien's laboratory.
+
+The Derro
+: The small, pale folk the Kryn pledged the party to investigate,
+and the reason the Sovereign’s circle can no longer reach its southern neighbors.
+Vornesh and Brennik needed only a single description to name them:
+small, humanoid, with white hair standing up in spikes,
+and a habit of muttering and giggling to themselves in the dark.
+They have been working the myconid veins as they go—
+scraped, struck, and broken in places.
+Beneath Ivory Lake the party found one combing a tunnel floor
+and grumbling about something it could not find,
+and, further down, a war camp holding dozens and dozens of them.
 
 Dolgrim Ashward
 : Sergeant of the Palebank caravan escort
@@ -327,6 +349,9 @@ The party recently learned these fanatic wildlings
 are locally known as "Mawcotters",
 an obsessive cult that undertakes dark pilgrimages
 to harvest and consume the frozen worm’s flesh.
+The name is known far south of Eiselcross.
+Beneath Ivory Lake, something winged passed the party in the dark
+and identified them by smell alone: _“Smell wormkin, no worm.”_
 
 Reani
 : An aasimar who lives near the Anvil of Smeltborne
@@ -488,3 +513,11 @@ with the unhurried ease of someone
 accustomed to being the most dangerous person
 in any crowd they care to enter.
 They rejoined the party on the Auger Trail in Uthodurn.
+
+The Winged Speakers
+: Fliers that share the derro war camp beneath Ivory Lake,
+crossing back and forth above it and holding conversations as they go.
+They speak Abyssal, and at least one of them speaks serviceable Common.
+That one passed Doctor Pepe in a wide stretch of the dark,
+close enough to move the air, and muttered _“Smell wormkin, no worm”_ as it went.
+The party has yet to see one clearly.
