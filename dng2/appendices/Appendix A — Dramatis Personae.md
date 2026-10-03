@@ -25,6 +25,16 @@ Halite and Whisper recently rejoined the group in Uthodurn
 following a guiding contract cut short
 by their client’s death in Eiselcross.
 
+Aedric Olios
+: A drow Echo Knight
+and one of Taskhand Serath Mirimm’s two personal guards,
+in jagged, jet-black carapace armor bearing dodecahedron insignias.
+The title of Echo Knight is a mark of high distinction in the Kryn Dynasty,
+signifying the most faithful and adept of the Aurora Watch.
+Following the audience at the myconid colony,
+Aedric returned to Xhorhas alongside Serath,
+while Vornesh Tasithar remained with the party.
+
 Ava Endlewood
 : Proprietress of the Plexus Post, an antique and curiosity shop
 on the Liber Disk of Uthodurn.
@@ -112,8 +122,19 @@ and a habit of muttering and giggling to themselves in the dark.
 They have been working the myconid veins as they go—
 scraped, struck, and broken in places.
 Beneath Ivory Lake the party found one combing a tunnel floor
-and grumbling about something it could not find,
-and, further down, a war camp holding dozens and dozens of them.
+and grumbling about something it could not find.
+
+The Derro (war camp)
+: The derro of the war camp beneath Ivory Lake,
+where the bat-winged creature presided
+over bundled weapons and piled stone.
+Scarlet counted at least fifteen of them.
+
+The Derro (hunting party)
+: Eight derro—four guards and four explorers—
+who followed the company’s trail after its flight from the war camp.
+The company lay in wait for them
+and killed all eight.
 
 Dolgrim Ashward
 : Sergeant of the Palebank caravan escort
@@ -138,16 +159,6 @@ of a powerful Aeorian artifact to Uthodurn.
 > sixty to ninety Glassblades at his command.
 >
 > -- _Explorer’s Guide to Wildemount_
-
-Echo Knights (Vornesh Tasithar and Aedric Olios)
-: The imposing drow guards assigned as personal security
-to Taskhand Serath Mirimm.
-Clad in jagged, jet-black carapace armor bearing dodecahedron insignias,
-their title is a mark of high distinction in the Kryn Dynasty,
-signifying them as the most faithful and adept of the Aurora Watch.
-Following the audience at the myconid colony, Aedric returned to Xhorhas
-alongside Taskhand Serath, while Vornesh remained behind
-to accompany the party south into the Underdark.
 
 Ërethyn Galewing
 : Minister of the Diarchy of Uthodurn.
@@ -352,6 +363,13 @@ to harvest and consume the frozen worm’s flesh.
 The name is known far south of Eiselcross.
 Beneath Ivory Lake, something winged passed the party in the dark
 and identified them by smell alone: _“Smell wormkin, no worm.”_
+After the flight from the derro war camp,
+Kragor dreamed for the first time in months
+that he was buried alive under earth and ice.
+Words in no language he knew formed in his head,
+and he understood them, or thought he did:
+_“You flee. No matter. I may transact.”_
+He woke feeling dirt in his throat.
 
 Reani
 : An aasimar who lives near the Anvil of Smeltborne
@@ -417,6 +435,11 @@ safely back to their subterranean village.
 Before the companions ventured further into the Underdark,
 Kragor persuaded Sprout to remain at the colony
 to help protect it and grow into their role.
+
+The Syndicate
+: The people who tortured Doctor Pepe’s family
+and stole from them.
+He learned his trade picking them off in the forest.
 
 Talindra Snowveil
 : A veteran Glassblade killed during the caravan ambush.
@@ -498,6 +521,30 @@ courtesy of a local aasimar named Reani.
 He accepted commissions from the party
 for enchanted weapons and elven chain.
 
+Umber Hulks
+: Tall, bipedal burrowers with a hard carapace like an insect’s,
+which lurk inside the stone and tunnel through the wall to attack.
+Vornesh suspects them of boring the fresh tunnels
+the party ran past while fleeing the derro war camp.
+Brennik has seen them before,
+but has never run into one.
+
+Vornesh Tasithar
+: A drow Echo Knight
+and one of Taskhand Serath Mirimm’s two personal guards,
+in jagged, jet-black carapace armor bearing dodecahedron insignias.
+The title of Echo Knight is a mark of high distinction in the Kryn Dynasty,
+signifying the most faithful and adept of the Aurora Watch.
+Following the audience at the myconid colony,
+she remained behind to accompany the party south into the Underdark,
+while Aedric Olios returned to Xhorhas with Serath.
+After the flight from the derro war camp,
+she reported what the party had seen to Serath.
+Her orders are to finish the mission as quickly as possible
+and then return to learn more about the camp’s creatures;
+once the party reaches its destination
+she will leave them, unless they choose to come with her.
+
 Waffles
 : Kragor’s bat familiar.
 
@@ -520,4 +567,5 @@ crossing back and forth above it and holding conversations as they go.
 They speak Abyssal, and at least one of them speaks serviceable Common.
 That one passed Doctor Pepe in a wide stretch of the dark,
 close enough to move the air, and muttered _“Smell wormkin, no worm”_ as it went.
-The party has yet to see one clearly.
+Scarlet, watching from the ridge, counted at least two,
+each about two feet tall, with greenish skin.
