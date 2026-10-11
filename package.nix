@@ -31,7 +31,20 @@ let
   ];
 
   pages = uiop.flattenAreas (toString ./.) siteareas;
-  assets = uiop.collectAssets assetExtensions (toString ./.) ([ ./assets ] ++ siteareas);
+  # Subscribable calendar: cal/calendar.ics → /calendar, with Content-Type set
+  # by the Cloudflare Pages `_headers` file. Skipped until calendar.ics exists.
+  calendarAssets = lib.optionals (builtins.pathExists ./cal/calendar.ics) [
+    {
+      srcRelPath = "cal/calendar.ics";
+      outputName = "calendar";
+    }
+    {
+      srcRelPath = "cal/_headers";
+      outputName = "_headers";
+    }
+  ];
+  assets =
+    uiop.collectAssets assetExtensions (toString ./.) ([ ./assets ] ++ siteareas) ++ calendarAssets;
 
   ninjaContent =
     uiop.mkNinjaBuildFile {

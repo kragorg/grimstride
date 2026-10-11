@@ -66,6 +66,8 @@ Each area contains:
 
 **`wildshape/`** — single-page reference area (`index.md`) listing Wild Shape forms in a Markdown table.
 
+**`cal/`** — not a page area. `cal/calendar.ics` (if it exists and is git-tracked) is copied to `/calendar`. `cal/_headers` is copied to the site root as the Cloudflare Pages `_headers` file, which serves it as `text/calendar; charset=utf-8` so calendar apps can subscribe to it.
+
 ### Adding a new page
 
 1. Create the Markdown file in the appropriate area subdirectory.
